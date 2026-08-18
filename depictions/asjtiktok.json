@@ -1,0 +1,90 @@
+{
+ "minVersion": "0.1",
+ "headerImage": "https://asjrx.github.io/depictions/icon.png",
+ "tintColor": "#7aa2f7",
+ "tabs": [
+  {
+   "class": "DepictionStackView",
+   "tabname": "Details",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**Privacy, download and playback options for TikTok** — without changing how the app looks.\n\nSettings live in two places: a button inside your profile menu, and a row inside TikTok's own Settings. Everything is off after a fresh install."
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Feed"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useRawFormat": true,
+     "markdown": "<ul><li>Content country — watch another region's For You</li><li>Remove ads</li><li>Skip suggested accounts</li><li>Hide LIVE</li><li>Open on Following</li><li>Hide safety and sensitive content warnings</li></ul>"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Playback"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useRawFormat": true,
+     "markdown": "<ul><li>Auto scroll to the next video</li><li>Prevent video loop</li><li>Play sound in muted videos</li><li>Always show progress bar</li><li>Show country, like count and upload date on the video</li></ul>"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Messages"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useRawFormat": true,
+     "markdown": "<ul><li>Hide message views — read without telling the sender</li><li>Always show read receipts — keep seeing theirs while yours stay hidden</li><li>Alert when read</li><li>Hide typing indicator and active status</li><li>Full last seen time</li><li>Keep deleted messages in the chat</li><li>Save DM GIFs</li></ul>"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Profile"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useRawFormat": true,
+     "markdown": "<ul><li>Anonymous viewing — no entry in their visitor list</li><li>Hide my story views</li><li>Save stories — they stay after they expire or are deleted</li><li>Show \"Follows you\" and video count</li><li>Sort any profile by most liked</li><li>Open links in Safari</li><li>Longer bio</li></ul>"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Comments, LIVE and downloads"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useRawFormat": true,
+     "markdown": "<ul><li>View disabled comments, longer comments, save comment media</li><li>Auto like button for LIVE, with a count limit</li><li>Remove watermark, clean copied links</li><li>Save profile picture, copy username, copy bio</li></ul>"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Extras"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useRawFormat": true,
+     "markdown": "<ul><li>Clear Display — hide the interface while watching</li><li>Brings the Community tab back when TikTok drops it at launch</li></ul>"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Notes"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useRawFormat": true,
+     "markdown": "<ul><li>Built against TikTok 46.3.0</li><li>Not jailbroken? A dylib you can inject yourself is on the releases page.</li></ul>"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 20
+    }
+   ]
+  }
+ ]
+}

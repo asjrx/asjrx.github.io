@@ -1,0 +1,31 @@
+Package: com.ahmad.asjtiktok
+Name: ASJTikTok
+Author: ASJRX
+Description: Tweak for TikTok
+Depends: mobilesubstrate
+Maintainer: Ahmad
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 1452
+Filename: debs/com.ahmad.asjtiktok_1.0_iphoneos-arm64.deb
+Size: 343510
+MD5sum: a45fc460a329ead285e6eb8b196f94e0
+SHA1: 375d54c64631fb718dbe29797a1828dd9db69520
+SHA256: df52f46e1fe6fe8afc9da7bc7a1f46749c2e30bab14814a3b9a4562b8f03096e
+
+Package: com.ahmad.asjtiktok
+Name: ASJTikTok
+Author: ASJRX
+Description: Tweak for TikTok
+Depends: mobilesubstrate
+Maintainer: Ahmad
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 1452
+Filename: debs/com.ahmad.asjtiktok_1.0_iphoneos-arm64e.deb
+Size: 342250
+MD5sum: 88b50555ad614e53c5ac2968afdba8d9
+SHA1: 5d088a7bb7ca101a28605fd0d4a26995c5e1ddbd
+SHA256: 34569b151a1192e87264063b353f93ffbcd8e4d0dc95bdf176573c6d264243cc

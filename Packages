@@ -1,3 +1,21 @@
+Package: com.ahmad.asjtiktok.roothide
+Name: ASJTikTok (roothide)
+Author: ASJRX
+Description: Tweak for TikTok
+Depends: mobilesubstrate
+Maintainer: Ahmad
+Section: Tweaks
+Conflicts: com.ahmad.asjtiktok
+Replaces: com.ahmad.asjtiktok
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 1452
+Filename: debs/com.ahmad.asjtiktok.roothide_1.0_iphoneos-arm64e.deb
+Size: 342056
+MD5sum: 2ff0bfdc9d779495698258851dbc0ea5
+SHA1: 31e716dc33e90231d3fc1040fbf203bd2d7dccff
+SHA256: 77ba1c1a0b453b34cd9bba6688e1456dec00140d370c030d81627fe031a74de7
+
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
 Author: ASJRX

@@ -66,7 +66,7 @@
     {
      "class": "DepictionMarkdownView",
      "useRawFormat": true,
-     "markdown": "<ul><li>Clear Display — hide the interface while watching</li><li>Brings the Community tab back when TikTok drops it at launch</li></ul>"
+     "markdown": "<ul><li>English and Arabic — follows TikTok's own language, with a row to override it</li><li>Clear Display — hide the interface while watching</li><li>Brings the Community tab back when TikTok drops it at launch</li></ul>"
     },
     {
      "class": "DepictionSeparatorView"

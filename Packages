@@ -15,10 +15,10 @@ Architecture: iphoneos-arm64e
 Version: 1.1.2
 Installed-Size: 1532
 Filename: debs/com.ahmad.asjtiktok.roothide_1.1.2_iphoneos-arm64e.deb
-Size: 353678
-MD5sum: 1f56caa69a7aaabef884d3c08cfba7b9
-SHA1: 540c20507d1c33a2b2c678bab5cc11c409bce0a3
-SHA256: a2510cc33b8dfe06d9d30647276eefe91bf7a9453a73cf757e6e573ab8930cfe
+Size: 352946
+MD5sum: d86128b1eb2b9f67bfe26f27ce81f327
+SHA1: 4dae760cab12c1674fc38c23c5e5407d42f406ff
+SHA256: 23131640ca1fab7ce7a8eff0bccf05cb2f8b9306c939dc8daec90b79c5c58022
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -35,10 +35,10 @@ Architecture: iphoneos-arm
 Version: 1.1.2
 Installed-Size: 1532
 Filename: debs/com.ahmad.asjtiktok_1.1.2_iphoneos-arm.deb
-Size: 353304
-MD5sum: 515ab7415ca4f62825d58203522a722b
-SHA1: f24f85f1dbd1feee9f4c8415fc7f4bb705bf5a4d
-SHA256: 2fd3c1192d9cb0870ff7bfd18495d53a0ad3a609216acc05554f1128c8bd1133
+Size: 353324
+MD5sum: 857c09d71d1b26231637e1f487fd556e
+SHA1: 90a06acbd4b858b7a45e31e54d6c7fc4fae9cee2
+SHA256: bd0eaac2fbf5e9a499f97622a7f12cc2d1d5f30fd8710c61154c8cfecc9f2b6f
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -55,7 +55,7 @@ Architecture: iphoneos-arm64
 Version: 1.1.2
 Installed-Size: 1532
 Filename: debs/com.ahmad.asjtiktok_1.1.2_iphoneos-arm64.deb
-Size: 353474
-MD5sum: 7f6e84102570059ab8d8ea056f0c9c85
-SHA1: 6991b045d5baa47e8688178a8a30b3672142faf7
-SHA256: e449e5808685c9a6c45344479abcbd36c7eee5c260d8e8b4897104c24db601c5
+Size: 353550
+MD5sum: efc72259c2f929c4aaa6c37a17f575ed
+SHA1: f61b118d69ff9cada8810d60859d0dd6b66874c9
+SHA256: c31d9cdc345c5ed22a9ce9a9748db24ee95ee966ce24c7caad4735650c0fb04f

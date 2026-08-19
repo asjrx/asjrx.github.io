@@ -1,6 +1,6 @@
 {
  "minVersion": "0.1",
- "headerImage": "https://asjrx.github.io/depictions/icon.png",
+ "headerImage": "https://asjrx.github.io/depictions/banner.png",
  "tintColor": "#7aa2f7",
  "tabs": [
   {
@@ -22,6 +22,57 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "**Privacy, download and playback options for TikTok** — without changing how the app looks.\n\nSettings live in two places: a button inside your profile menu, and a row inside TikTok's own Settings. Everything is off after a fresh install."
+    },
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 8,
+     "itemSize": "{160, 346}",
+     "screenshots": [
+      {
+       "url": "https://asjrx.github.io/screenshots/entry.png",
+       "accessibilityText": "The ASJTikTok button in your profile menu"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/settings.png",
+       "accessibilityText": "The settings panel"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/feed.png",
+       "accessibilityText": "Feed options — region, ads, LIVE"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/playback.png",
+       "accessibilityText": "Playback options"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/messages.png",
+       "accessibilityText": "Message privacy options"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/profile.png",
+       "accessibilityText": "Profile options"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/stories.png",
+       "accessibilityText": "Saved stories"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/downloads.png",
+       "accessibilityText": "The download menu"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/comments.png",
+       "accessibilityText": "Comment options"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/live.png",
+       "accessibilityText": "LIVE options"
+      },
+      {
+       "url": "https://asjrx.github.io/screenshots/menu.png",
+       "accessibilityText": "The in-video menu"
+      }
+     ]
     },
     {
      "class": "DepictionSeparatorView"

@@ -13,16 +13,21 @@
        margin:2.2rem 0 .5rem; font-weight:600; }
   ul { margin:0; padding-left:1.15rem; color:#c8c8ce; }
   li { margin:.15rem 0; }
+  .banner { width:100%; border-radius:10px; display:block; margin:0 0 1.5rem; }
+  .shots { display:flex; gap:.6rem; overflow-x:auto; padding:.2rem 0 1rem;
+           scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; }
+  .shots img { height:340px; border-radius:8px; flex:0 0 auto; scroll-snap-align:start;
+               border:1px solid #23232a; }
   .note { color:#9a9aa2; font-size:.9rem; border-left:2px solid #2a2a32; padding-left:.9rem; }
 </style>
 <main>
-  <h1>ASJTikTok</h1>
+  <img class="banner" src="banner.png" alt="ASJTikTok">\n  <h1>ASJTikTok</h1>
   <p class="sub">Privacy, download and playback options for TikTok — without changing how the app looks.</p>
 
   <p class="note">Settings live in two places: a button inside your profile menu, and a row inside
   TikTok's own Settings. Everything is off after a fresh install.</p>
 
-  <h2>What's new in 1.1.3</h2>
+  <div class="shots">\n    <img src="../screenshots/entry.png" alt="The ASJTikTok button in your profile menu" loading="lazy">\n    <img src="../screenshots/settings.png" alt="The settings panel" loading="lazy">\n    <img src="../screenshots/feed.png" alt="Feed options — region, ads, LIVE" loading="lazy">\n    <img src="../screenshots/playback.png" alt="Playback options" loading="lazy">\n    <img src="../screenshots/messages.png" alt="Message privacy options" loading="lazy">\n    <img src="../screenshots/profile.png" alt="Profile options" loading="lazy">\n    <img src="../screenshots/stories.png" alt="Saved stories" loading="lazy">\n    <img src="../screenshots/downloads.png" alt="The download menu" loading="lazy">\n    <img src="../screenshots/comments.png" alt="Comment options" loading="lazy">\n    <img src="../screenshots/live.png" alt="LIVE options" loading="lazy">\n    <img src="../screenshots/menu.png" alt="The in-video menu" loading="lazy">\n  </div>\n\n  <h2>What's new in 1.1.3</h2>
   <ul>
     <li>Fixed a crash that could hit while the Stories screen was open — stories arriving in the background were being added from a different thread than the one drawing the screen</li>
     <li>A story you delete no longer comes back. One path still let a deleted story reappear the next time TikTok happened to send it again</li>

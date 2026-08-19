@@ -12,13 +12,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.1
+Version: 1.1.1
 Installed-Size: 1516
-Filename: debs/com.ahmad.asjtiktok.roothide_1.1_iphoneos-arm64e.deb
-Size: 352312
-MD5sum: dd1c4ba15ab547cecb539d71455f7647
-SHA1: 1f624a3a7631f6d2f5d49af0c2e8f7fa19455504
-SHA256: 5b94682eabf4230b425b524aa97a522b95a6047a0a404f03344ba8bd6756ce47
+Filename: debs/com.ahmad.asjtiktok.roothide_1.1.1_iphoneos-arm64e.deb
+Size: 352810
+MD5sum: f1f954a620e0fd17c25d9307e670e9f5
+SHA1: 6bfb9e8151ca8ff19aad01c156da59965fba5016
+SHA256: bf69a0104f4f703401944cc6157c06bc85554be1c75fbb7845c44dcfcd72fe8c
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -32,13 +32,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.1
+Version: 1.1.1
 Installed-Size: 1516
-Filename: debs/com.ahmad.asjtiktok_1.1_iphoneos-arm.deb
-Size: 352560
-MD5sum: 2f0d322954da830ab39027377fa15f17
-SHA1: f1c60ee354be229dc08088bbf37701773597f8a8
-SHA256: 64027f585b20e0d0b83241aa596d50debf5a62e39be25106de039882151df82e
+Filename: debs/com.ahmad.asjtiktok_1.1.1_iphoneos-arm.deb
+Size: 352476
+MD5sum: 68f1c3b51e8d2f5276294afd8220f95c
+SHA1: 8cb0f8d37c7b6592069a7886be1b36faa1b9b67d
+SHA256: 3ce13c306afcd0124a63e4324fd1ef4091c3376ac28e640eae6fa3291f9f7bfd
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -52,10 +52,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.1
+Version: 1.1.1
 Installed-Size: 1516
-Filename: debs/com.ahmad.asjtiktok_1.1_iphoneos-arm64.deb
-Size: 351588
-MD5sum: a64637146c5ff8cb5199293b76f9f6d0
-SHA1: e1bddbdd743a1afaed4772feec2798afd7bb7967
-SHA256: 6370113a7fd8ea18fee725eb00cc2dcc5f8e8165b1171248fb34c13a85d75be7
+Filename: debs/com.ahmad.asjtiktok_1.1.1_iphoneos-arm64.deb
+Size: 354794
+MD5sum: 8953ed6d1f8d626858808095cfb4f71b
+SHA1: 12647f04ecf61c4fa6312bad70861c5b50f2dfd0
+SHA256: d4b7c0425fd4f8b0202f07899197f220190cc554b5a27d18c04cfbee1e21077d

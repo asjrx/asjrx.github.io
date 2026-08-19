@@ -11,6 +11,7 @@
   .sub { color:#9a9aa2; margin:0 0 2rem; }
   h2 { font-size:.8rem; text-transform:uppercase; letter-spacing:.08em; color:#9a9aa2;
        margin:2.2rem 0 .5rem; font-weight:600; }
+  h3 { font-size:1rem; margin:1.4rem 0 .3rem; color:#e8e8ea; }
   ul { margin:0; padding-left:1.15rem; color:#c8c8ce; }
   li { margin:.15rem 0; }
   .banner { width:100%; border-radius:10px; display:block; margin:0 0 1.5rem; }
@@ -27,19 +28,7 @@
   <p class="note">Settings live in two places: a button inside your profile menu, and a row inside
   TikTok's own Settings. Everything is off after a fresh install.</p>
 
-  <div class="shots">\n    <img src="../screenshots/entry.png" alt="The ASJTikTok button in your profile menu" loading="lazy">\n    <img src="../screenshots/settings.png" alt="The settings panel" loading="lazy">\n    <img src="../screenshots/feed.png" alt="Feed options — region, ads, LIVE" loading="lazy">\n    <img src="../screenshots/playback.png" alt="Playback options" loading="lazy">\n    <img src="../screenshots/messages.png" alt="Message privacy options" loading="lazy">\n    <img src="../screenshots/profile.png" alt="Profile options" loading="lazy">\n    <img src="../screenshots/stories.png" alt="Saved stories" loading="lazy">\n    <img src="../screenshots/downloads.png" alt="The download menu" loading="lazy">\n    <img src="../screenshots/comments.png" alt="Comment options" loading="lazy">\n    <img src="../screenshots/live.png" alt="LIVE options" loading="lazy">\n    <img src="../screenshots/menu.png" alt="The in-video menu" loading="lazy">\n  </div>\n\n  <h2>What's new in 1.1.3</h2>
-  <ul>
-    <li>Fixed a crash that could hit while the Stories screen was open — stories arriving in the background were being added from a different thread than the one drawing the screen</li>
-    <li>A story you delete no longer comes back. One path still let a deleted story reappear the next time TikTok happened to send it again</li>
-    <li>The ASJTikTok button no longer appears inside the story viewer, where it never belonged</li>
-    <li>Text stories — the ones people write instead of posting a clip — now get the save and seen buttons like any other story</li>
-    <li>Quiet stories are lifted to a normal level when you save them to Photos. TikTok raises the volume during playback, so a quietly recorded story used to sound fine in the app and weak in your album. Stories already at a normal level are saved untouched</li>
-    <li>Stories are downloaded at the best quality TikTok offers instead of the first one it lists</li>
-    <li>The Stories grid is lighter while scrolling, and a story whose cover will not load no longer holds things up</li>
-    <li>The settings panel shows both versions together, like v1.1.3 · 46.4</li>
-  </ul>
-
-  <h2>Feed</h2>
+  <div class="shots">\n    <img src="../screenshots/entry.png" alt="The ASJTikTok button in your profile menu" loading="lazy">\n    <img src="../screenshots/settings.png" alt="The settings panel" loading="lazy">\n    <img src="../screenshots/feed.png" alt="Feed options — region, ads, LIVE" loading="lazy">\n    <img src="../screenshots/playback.png" alt="Playback options" loading="lazy">\n    <img src="../screenshots/messages.png" alt="Message privacy options" loading="lazy">\n    <img src="../screenshots/profile.png" alt="Profile options" loading="lazy">\n    <img src="../screenshots/stories.png" alt="Saved stories" loading="lazy">\n    <img src="../screenshots/downloads.png" alt="The download menu" loading="lazy">\n    <img src="../screenshots/comments.png" alt="Comment options" loading="lazy">\n    <img src="../screenshots/live.png" alt="LIVE options" loading="lazy">\n    <img src="../screenshots/menu.png" alt="The in-video menu" loading="lazy">\n  </div>\n\n  <h2>Feed</h2>
   <ul>
     <li>Content country — watch another region's For You</li>
     <li>Remove ads</li>
@@ -100,5 +89,39 @@
     <li>Built against TikTok 46.3.0, and checked against 46.4.0 — every part it hooks is present in both</li>
     <li>Not jailbroken? A dylib you can inject yourself is on the
         <a href="https://github.com/asjrx/asjrx.github.io/releases" style="color:#7aa2f7">releases page</a>.</li>
+  </ul>
+
+  <h2>Changelog</h2>
+  <h3>1.1.3</h3>
+  <ul>
+    <li>Fixed a crash that could hit while the Stories screen was open — stories arriving in the background were being added from a different thread than the one drawing the screen. This one was present in every earlier version.</li>
+    <li>A story you delete no longer comes back. One path still let a deleted story reappear the next time TikTok sent it again.</li>
+    <li>The ASJTikTok button no longer appears inside the story viewer, where it never belonged.</li>
+    <li>Text stories — the ones people write instead of posting a clip — now get the save and seen buttons like any other story.</li>
+    <li>Quiet stories are lifted to a normal level when you save them to Photos. TikTok raises the volume during playback, so a quietly recorded story sounded fine in the app and weak in your album. Stories already at a normal level are saved untouched.</li>
+    <li>Stories download at the best quality TikTok offers instead of the first one it lists.</li>
+    <li>The Stories grid is lighter while scrolling, and a story whose cover will not load no longer holds everything up.</li>
+    <li>The settings panel shows both versions together, like v1.1.3 · 46.4.</li>
+  </ul>
+  <h3>1.1.2</h3>
+  <ul>
+    <li>Downloads are checked before they are kept — the response, the file's own header, and for video whether it actually plays. TikTok answers an expired story link with an error page, and that error page used to be saved as the story. It is what a grey thumbnail with a wrong duration was.</li>
+    <li>A failed story download is retried instead of costing that story its only attempt — the reason a folder could list 500 stories and save around 400.</li>
+    <li>Stories already saved as broken files are found on launch, cleared, and downloaded again.</li>
+  </ul>
+  <h3>1.1.1</h3>
+  <ul>
+    <li>Deleting a story is permanent. One deleted while it was still downloading could come back on the next launch.</li>
+    <li>A bulk save can be stopped part-way — tap the card while it works.</li>
+  </ul>
+  <h3>1.1</h3>
+  <ul>
+    <li>Arabic. The whole tweak follows TikTok's own language, with a Language row in settings to override it.</li>
+    <li>Fixed: selecting many stories and tapping Save could crash TikTok. Bulk save now runs one story at a time, with a counter and a summary. There is no limit on how many you can pick.</li>
+    <li>Fixed: bulk save in Stories saved nothing when the media was not already downloaded. It now fetches what is missing.</li>
+  </ul>
+  <h3>1.0</h3>
+  <ul>
+    <li>First release.</li>
   </ul>
 </main>

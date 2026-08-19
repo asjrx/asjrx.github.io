@@ -141,7 +141,7 @@
     {
      "class": "DepictionMarkdownView",
      "useRawFormat": true,
-     "markdown": "<ul><li>Built against TikTok 46.3.0</li><li>Not jailbroken? A dylib you can inject yourself is on the releases page.</li></ul>"
+     "markdown": "<ul><li>Built against TikTok 46.3.0, and checked against 46.4.0 — every part it hooks is present in both</li><li>Not jailbroken? A dylib you can inject yourself is on the releases page.</li></ul>"
     },
     {
      "class": "DepictionSpacerView",

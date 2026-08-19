@@ -9,12 +9,12 @@
    "views": [
     {
      "class": "DepictionHeaderView",
-     "title": "What's new in 1.1.2"
+     "title": "What's new in 1.1.3"
     },
     {
      "class": "DepictionMarkdownView",
      "useRawFormat": true,
-     "markdown": "<ul><li>Downloads are checked before they are kept — HTTP status, the file's own header, and for video whether it actually decodes. A refused or half-finished download used to be saved as a story, which is what a grey thumbnail with a wrong duration was</li><li>A failed story download is retried instead of costing that story its only attempt — the reason a folder could report 500 stories and save around 400</li><li>Stories already saved as broken files are detected on launch, cleared, and queued to download again</li></ul>"
+     "markdown": "<ul><li>Fixed a crash that could hit while the Stories screen was open — stories arriving in the background were being added from a different thread than the one drawing the screen</li><li>A story you delete no longer comes back. One path still let a deleted story reappear the next time TikTok happened to send it again</li><li>The ASJTikTok button no longer appears inside the story viewer, where it never belonged</li><li>Text stories — the ones people write instead of posting a clip — now get the save and seen buttons like any other story</li><li>Quiet stories are lifted to a normal level when you save them to Photos. TikTok raises the volume during playback, so a quietly recorded story used to sound fine in the app and weak in your album. Stories already at a normal level are saved untouched</li><li>Stories are downloaded at the best quality TikTok offers instead of the first one it lists</li><li>The Stories grid is lighter while scrolling, and a story whose cover will not load no longer holds things up</li><li>The settings panel shows both versions together, like v1.1.3 · 46.4</li></ul>"
     },
     {
      "class": "DepictionSeparatorView"

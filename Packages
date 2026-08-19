@@ -13,12 +13,12 @@ Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
 Version: 1.0
-Installed-Size: 1452
+Installed-Size: 1500
 Filename: debs/com.ahmad.asjtiktok.roothide_1.0_iphoneos-arm64e.deb
-Size: 342692
-MD5sum: f5df6923129bda0c07d5664838a9bc03
-SHA1: 6c7d0c27ce1f5e78f8a47a4f0ce524367fbca067
-SHA256: 3ee244269442396299fd263f0b79a6846cf4cf0eafe411fd884424036b6611e1
+Size: 347026
+MD5sum: 3c3c3f4eab1d24f402145394f41f352b
+SHA1: cd5422bf3e843980e14a80e18de4f3022a0ad501
+SHA256: 591b505fd19e0ae3d7877a0181dbfe3978d8cf7a51b9d202fde9c0f192773b70
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -33,12 +33,12 @@ Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Version: 1.0
-Installed-Size: 1452
+Installed-Size: 1500
 Filename: debs/com.ahmad.asjtiktok_1.0_iphoneos-arm.deb
-Size: 342542
-MD5sum: 08d91ee2ab8f2ca600b895567346b492
-SHA1: ebf310db0aa48f651f953da3a14d36015773596b
-SHA256: 66c8ce8c89627cec5d54d3995098e14968737dd45d25c126a884bada74270867
+Size: 347104
+MD5sum: bdc151a0654580ec7091957bd3eb3e60
+SHA1: 8a1828efd2ef39f3466db5527cbf4c2ea8b6085a
+SHA256: 7b688d67b66f69e626b5ee928259da4fa6dc1af77eff034e8c5f083d681fff50
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -53,9 +53,9 @@ Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
 Version: 1.0
-Installed-Size: 1452
+Installed-Size: 1500
 Filename: debs/com.ahmad.asjtiktok_1.0_iphoneos-arm64.deb
-Size: 342280
-MD5sum: f5cb94c8a22d1a50c7085a95f44503c0
-SHA1: 0c16f674ba232dc2d04b96736a26a1ddf0a226c8
-SHA256: 7d04b21f3fb162cd7cd9542af0d1fce128653433839c7186d3e1b1d129accd4e
+Size: 347582
+MD5sum: 251463ebcf466293d3bb077278071145
+SHA1: 68c787da429d7e0ce69b58373a99f03bbce199b3
+SHA256: aac30d1ec3a1e5ceb7019d41f0e762bcae49d20b005ca680de26642260f6238e

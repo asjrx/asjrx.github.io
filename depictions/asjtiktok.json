@@ -63,6 +63,15 @@
      ]
     },
     {
+     "class": "DepictionTableButtonView",
+     "title": "Join ASJ Tweaks on Telegram",
+     "action": "https://t.me/ASJTweaks",
+     "openExternal": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
      "class": "DepictionSeparatorView"
     },
     {

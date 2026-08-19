@@ -3,6 +3,16 @@ Label: ASJRX
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Tweaks by ASJRX
+Date: Wed, 19 Aug 2026 14:57:28 GMT
+MD5Sum:
+ d71c7cbe638010d49b836587e4cda4e9 2376 Packages
+ 2dd30497d18fb4243d2a189ddc488cdb 728 Packages.gz
+SHA1:
+ 9ef347c2b084340fb593a2ef8ca4c6eed916da28 2376 Packages
+ 7715a9a02d4e605734e94302f17cfc9ecaca5bf6 728 Packages.gz
+SHA256:
+ ccb22ed1fd8cc85e10bb157078a26a5b80062dc0c9fb243f2ceb8c8b3224c85e 2376 Packages
+ b9d3a6ce4177f6b2b4a728c5fec450d798949d18cad2ffc6cc0d485380f917f8 728 Packages.gz

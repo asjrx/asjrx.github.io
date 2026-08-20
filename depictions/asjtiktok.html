@@ -89,11 +89,21 @@
   <h2>Notes</h2>
   <ul>
     <li>Built and checked against TikTok 46.4.0 — every class and method it hooks was confirmed present in that build</li>
-    <li>Not jailbroken? A dylib you can inject yourself is on the
-        <a href="https://github.com/asjrx/asjrx.github.io/releases" style="color:#7aa2f7">releases page</a>.</li>
+    <li><b>Not jailbroken?</b> The ready-made build for <b>TrollStore</b> is at
+        <a href="https://asjrx.github.io/trollstore" style="color:#7aa2f7">asjrx.github.io/trollstore</a>
+        &mdash; iOS 14.0&ndash;16.6.1, notifications work. Or inject the dylib yourself from the
+        <a href="https://github.com/asjrx/ASJTikTok/releases" style="color:#7aa2f7">releases page</a>.</li>
+    <li>Installing over a copy signed differently keeps stale registration data and breaks
+        notifications &mdash; delete the old one first.</li>
   </ul>
 
   <h2>Changelog</h2>
+  <h3>1.1.5</h3>
+  <ul>
+    <li><b>A launch crash, if you had both halves installed.</b> A jailbroken device that also has the sideloaded build ends up with the tweak in the process twice, and the second copy crashed TikTok before it drew anything. It stands down now instead. This was not new to 1.1.4 &mdash; it has been there since the tweak grew its row inside TikTok's own Settings; it just took having both to hit it.</li>
+    <li>The bulk-save summary stays as long as it needs to &mdash; about three and a half seconds for one line, up to nine for three. A flat eight was too long for &ldquo;Saved 12&rdquo; and a flat three and a half cut off a tester reading <i>641 saved / 368 expired / 1 failed</i> after a thousand stories. A tap still closes it early.</li>
+    <li>Leaving the Stories folder takes the summary with it, instead of leaving it over the feed.</li>
+  </ul>
   <h3>1.1.4</h3>
   <ul>
     <li><b>Photo stories are saved.</b> They never were — a photo story arrives in a different format than a video, and the check that keeps broken downloads out was rejecting every single one. A profile whose stories are photos saved nothing at all; a mixed one saved only its videos. Measured on a real folder: 15 of 15 photo stories had a live link and no file, and all of them have their file now.</li>

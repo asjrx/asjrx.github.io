@@ -12,13 +12,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.1.4
+Version: 1.1.5
 Installed-Size: 1616
-Filename: debs/com.ahmad.asjtiktok.roothide_1.1.4_iphoneos-arm64e.deb
-Size: 385830
-MD5sum: 5bf7fa00dc27b03cdc9437cd1a256f69
-SHA1: 16ddc051059c958a72ce3dca26e84868a5275133
-SHA256: 310edaf05338770e5aca0447e39a234655720846e14a57af4d8f0177198d2ca5
+Filename: debs/com.ahmad.asjtiktok.roothide_1.1.5_iphoneos-arm64e.deb
+Size: 384586
+MD5sum: 8119d4b144616dcd0e3a54ca8c2c85cd
+SHA1: 743615834e0ae540848562e381f3c542fd17f0e6
+SHA256: b6830a700b35b794abe88e17619ae6c58b42cc5649ebd056e11075af54acbdaa
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -32,13 +32,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.1.4
+Version: 1.1.5
 Installed-Size: 1616
-Filename: debs/com.ahmad.asjtiktok_1.1.4_iphoneos-arm.deb
-Size: 384792
-MD5sum: 29d41f3bc52696b042306ae9884751b3
-SHA1: ab15aed66ffb64b86dc8f1f54c414f5430122a2e
-SHA256: 1f346ac41108d0813c6c5701c15005a37b1abd9b201af71a9241192eb0c3a0fa
+Filename: debs/com.ahmad.asjtiktok_1.1.5_iphoneos-arm.deb
+Size: 384282
+MD5sum: bb4ac459e889d7482ccc00f4b9b48948
+SHA1: 227665dca9094041f11edb67bd05cad5aaab489b
+SHA256: 73a5ad35744c8290ccddfeeed8324c60d658a25b89737ab5c81cace351c4e8d0
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -52,10 +52,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.1.4
+Version: 1.1.5
 Installed-Size: 1616
-Filename: debs/com.ahmad.asjtiktok_1.1.4_iphoneos-arm64.deb
-Size: 384820
-MD5sum: a0e6b140b45c0e88076584fd283c639e
-SHA1: a898aaea230f4efc7525e8c807e337075898b874
-SHA256: 1c3d02843a895c682659603ad237f1751b5edf52b524d24ad19a8f81c838b5f6
+Filename: debs/com.ahmad.asjtiktok_1.1.5_iphoneos-arm64.deb
+Size: 384366
+MD5sum: 04df48bfb7621542cd6684f7be18264f
+SHA1: f95f0d344d0d9ec750ee072d261745951b368888
+SHA256: 60d2c02fa32e978b328d609c5534f40f84d02d1e1d8ac9be70cad9971cb9d884

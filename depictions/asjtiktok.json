@@ -9,6 +9,18 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "What's new in 1.1.5"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<ul><li><b>Fixes a launch crash</b> for anyone who has both the jailbreak package and the sideloaded build on one device.</li><li>The bulk-save summary now stays long enough to read, and leaves when you leave the folder.</li></ul>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "What's new in 1.1.4"
         },
         {
@@ -78,6 +90,12 @@
           "class": "DepictionTableButtonView",
           "title": "Join ASJ Tweaks on Telegram",
           "action": "https://t.me/ASJTweaks",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Not jailbroken? Get it for TrollStore",
+          "action": "https://asjrx.github.io/trollstore",
           "openExternal": true
         },
         {
@@ -162,6 +180,18 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.1.5"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<ul><li><b>A launch crash, if you had both halves installed.</b> A jailbroken device that also has the sideloaded build ends up with the tweak in the process twice, and the second copy crashed TikTok before it drew anything. It stands down now instead. This was not new to 1.1.4 - it has been there since the tweak grew its row inside TikTok's own Settings; it just took having both to hit it.</li><li>The bulk-save summary stays as long as it needs to - about three and a half seconds for one line, up to nine for three. A flat eight was too long for &ldquo;Saved 12&rdquo; and a flat three and a half cut off a tester reading <i>641 saved / 368 expired / 1 failed</i> after a thousand stories. A tap still closes it early.</li><li>Leaving the Stories folder takes the summary with it, instead of leaving it over the feed.</li></ul>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.1.4"

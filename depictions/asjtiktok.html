@@ -88,12 +88,26 @@
 
   <h2>Notes</h2>
   <ul>
-    <li>Built against TikTok 46.3.0, and checked against 46.4.0 — every part it hooks is present in both</li>
+    <li>Built and checked against TikTok 46.4.0 — every class and method it hooks was confirmed present in that build</li>
     <li>Not jailbroken? A dylib you can inject yourself is on the
         <a href="https://github.com/asjrx/asjrx.github.io/releases" style="color:#7aa2f7">releases page</a>.</li>
   </ul>
 
   <h2>Changelog</h2>
+  <h3>1.1.4</h3>
+  <ul>
+    <li><b>Photo stories are saved.</b> They never were — a photo story arrives in a different format than a video, and the check that keeps broken downloads out was rejecting every single one. A profile whose stories are photos saved nothing at all; a mixed one saved only its videos. Measured on a real folder: 15 of 15 photo stories had a live link and no file, and all of them have their file now.</li>
+    <li><b>Stories the app never got round to are picked up on the next launch.</b> Anything collected but not downloaded before TikTok closed used to sit there until its link expired — 38 of 61 entries on one folder.</li>
+    <li><b>The save button saves the story you are looking at.</b> On some pages it was still holding the previous one, so it could save a story from the account you were viewing before.</li>
+    <li><b>Save all now gathers a whole account.</b> Stories were grouped by the name on screen, which is not the same text everywhere TikTok reports it — so one account could split into several groups and offer a fraction of what was there, while two people sharing a name merged into one.</li>
+    <li><b>Expired is no longer reported as failed.</b> A photo story carries its expiry differently from a video, and every dead photo link was being counted as a failure.</li>
+    <li>The folder only lists stories that can actually be saved — a row left with no media and no link is dropped rather than kept as something that can only fail.</li>
+    <li>The summary after a bulk save closes on its own, and on a tap. It used to stay put.</li>
+    <li><b>Dark mode.</b> The settings, the Stories folder and the button in the Inbox follow TikTok's own Light/Dark switch. They were fixed to the light colours, so the panel stayed white with the app dark and the Inbox button disappeared into the bar.</li>
+    <li><b>Arabic reaches everything</b> — every message, alert and button, the Stories folder included.</li>
+    <li>&ldquo;Reopen TikTok to apply this change&rdquo; now offers <b>Later</b> or <b>Relaunch</b>.</li>
+    <li>A Telegram row in the panel, next to X and Ko-fi.</li>
+  </ul>
   <h3>1.1.3</h3>
   <ul>
     <li>Fixed a crash that could hit while the Stories screen was open — stories arriving in the background were being added from a different thread than the one drawing the screen. This one was present in every earlier version.</li>

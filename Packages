@@ -10,13 +10,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.1.6
-Installed-Size: 1780
-Filename: debs/ASJTikTok-1.1.6_46.5.0-rootful.deb
-Size: 426168
-MD5sum: 874648dece5ee7e7445a9056149e936d
-SHA1: 40fb609bd83acccb1b84d3a15691848af0ae561a
-SHA256: c14043351152350166cb55b234669977fbd06fa2bdc3a6f85507ca362a36c2e3
+Version: 1.1.7
+Installed-Size: 2036
+Filename: debs/ASJTikTok-1.1.7_46.5.0-rootful.deb
+Size: 578532
+MD5sum: d1543d205b795f8acd4ec73e7ca16186
+SHA1: f9108b429381698c6021a5dcedec72fd519fcc17
+SHA256: 23a7190cdd437648aaa684008623310d0495e30c0fef43802fc9ff41fe7c5f8f
 
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTikTok (roothide)
@@ -32,13 +32,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.1.6
-Installed-Size: 1780
-Filename: debs/ASJTikTok-1.1.6_46.5.0-roothide.deb
-Size: 424894
-MD5sum: fece62a0018a1b21f96c942bc7bf9e8c
-SHA1: 4d7a00f1457c6f9c87c13016c3917ef307485455
-SHA256: fb4f8d93b4b97358b3aa732c4eb08ee245a20f34ddf9424ec868ec0172e2cdfe
+Version: 1.1.7
+Installed-Size: 2036
+Filename: debs/ASJTikTok-1.1.7_46.5.0-roothide.deb
+Size: 576128
+MD5sum: c0f134acb8714691729e12545bad77de
+SHA1: 358abc5c80b976794482a49b9618a8310a05489c
+SHA256: daf54af1c1292672b28cd249d2eabd35c3d2529ec1262d9b68a4a49d94ed43e5
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -52,10 +52,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.1.6
-Installed-Size: 1780
-Filename: debs/ASJTikTok-1.1.6_46.5.0-rootless.deb
-Size: 425078
-MD5sum: e4bc436b996d7e64720257f2deca9b5e
-SHA1: e2dccda4c86faa15f0767433ef72b373f7aeca17
-SHA256: a1c78ec213159c579785728748644ba6cf3ac4da1359b6bbe0553699f87bd300
+Version: 1.1.7
+Installed-Size: 2036
+Filename: debs/ASJTikTok-1.1.7_46.5.0-rootless.deb
+Size: 578736
+MD5sum: 79f244f374400af66a51a1bdd4aa8029
+SHA1: 4c506faa87ca6d0738353a9c6f6f1b275744ac18
+SHA256: a9ab1ee8042777214f5626116e05b4d36c1060bcf6ad60bbcd4d8e58d608239e

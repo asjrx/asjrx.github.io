@@ -1,3 +1,23 @@
+Package: com.ahmad.asjtiktok
+Name: ASJTikTok
+Description: Privacy, download and playback options for TikTok
+Depiction: https://asjrx.github.io/depictions/asjtiktok.html
+SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
+Icon: https://asjrx.github.io/depictions/icon.png
+Author: ASJRX <289467706+asjrx@users.noreply.github.com>
+Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
+Section: Tweaks
+Tag: role::enduser
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 1.1.6
+Installed-Size: 1780
+Filename: debs/ASJTikTok-1.1.6_46.5.0-rootful.deb
+Size: 425324
+MD5sum: aecf3785572128dfd831282dd2d13da8
+SHA1: 5704fa72ce8c3150c95a3e0aa7ada31c159f599c
+SHA256: 95c339f26af8599d9e77b1a4f987529ddf53bdaf2378d63fef9a7b77c31d6ea5
+
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTikTok (roothide)
 Description: Privacy, download and playback options for TikTok
@@ -12,33 +32,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.1.5
-Installed-Size: 1616
-Filename: debs/com.ahmad.asjtiktok.roothide_1.1.5_iphoneos-arm64e.deb
-Size: 384586
-MD5sum: 8119d4b144616dcd0e3a54ca8c2c85cd
-SHA1: 743615834e0ae540848562e381f3c542fd17f0e6
-SHA256: b6830a700b35b794abe88e17619ae6c58b42cc5649ebd056e11075af54acbdaa
-
-Package: com.ahmad.asjtiktok
-Name: ASJTikTok
-Description: Privacy, download and playback options for TikTok
-Depiction: https://asjrx.github.io/depictions/asjtiktok.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
-Icon: https://asjrx.github.io/depictions/icon.png
-Author: ASJRX <289467706+asjrx@users.noreply.github.com>
-Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
-Section: Tweaks
-Tag: role::enduser
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Version: 1.1.5
-Installed-Size: 1616
-Filename: debs/com.ahmad.asjtiktok_1.1.5_iphoneos-arm.deb
-Size: 384282
-MD5sum: bb4ac459e889d7482ccc00f4b9b48948
-SHA1: 227665dca9094041f11edb67bd05cad5aaab489b
-SHA256: 73a5ad35744c8290ccddfeeed8324c60d658a25b89737ab5c81cace351c4e8d0
+Version: 1.1.6
+Installed-Size: 1780
+Filename: debs/ASJTikTok-1.1.6_46.5.0-roothide.deb
+Size: 425746
+MD5sum: 9cc8f0fd2c7d71447cc954335e37c901
+SHA1: 8b402cab2af91764a765985df5ca8c6f65b3e9c1
+SHA256: b5a092dc655d3f9762a1dfe3b027b1bd2cdb9681e4536692cdd0f1ea2f65dc41
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -52,10 +52,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.1.5
-Installed-Size: 1616
-Filename: debs/com.ahmad.asjtiktok_1.1.5_iphoneos-arm64.deb
-Size: 384366
-MD5sum: 04df48bfb7621542cd6684f7be18264f
-SHA1: f95f0d344d0d9ec750ee072d261745951b368888
-SHA256: 60d2c02fa32e978b328d609c5534f40f84d02d1e1d8ac9be70cad9971cb9d884
+Version: 1.1.6
+Installed-Size: 1780
+Filename: debs/ASJTikTok-1.1.6_46.5.0-rootless.deb
+Size: 425990
+MD5sum: 6e7bec5c24ee7a761558a822ade3726a
+SHA1: ecc671b815647fb1e86924dbb0d7c79453f40ad2
+SHA256: 304b9a31e79b7b58eda8376f54c57e923b55ccf8e2d3d8bb0bf37f3398387c8f

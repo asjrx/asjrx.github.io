@@ -9,6 +9,18 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "What's new in 1.1.6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useRawFormat": true,
+          "markdown": "<ul><li><b>Keep deleted messages now keeps the media too</b> &mdash; photos, videos and voice messages are saved as they arrive.</li><li><b>Save and Open chat media</b> from the long-press menu.</li><li><b>Send an audio file</b> as your voice message.</li><li><b>Confirm before liking or following</b>, and before liking a comment.</li><li><b>Copy music link.</b></li><li>General improvements and fixes.</li></ul>"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "What's new in 1.1.5"
         },
         {

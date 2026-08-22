@@ -1,2 +1,5 @@
 .DS_Store
-make-index.py
+# A loose dylib at the root is always a stale copy of something: nothing on this site links
+# to one, and the real download is a release asset on GitHub, named for its version. One got
+# committed by accident carrying v1.1.3 while 1.1.7 was being published.
+/ASJTikTok*.dylib

@@ -52,7 +52,7 @@
                 background:var(--accent); color:var(--accent-fg); cursor:pointer; }
   button.copy:active { opacity:.8; }
 
-  .managers { display:flex; justify-content:center; gap:1rem; margin-top:1rem; }
+  .managers { display:flex; justify-content:center; flex-wrap:wrap; gap:1rem; margin-top:1rem; }
   .managers a { display:block; border-radius:14px; line-height:0;
                 transition:transform .15s, box-shadow .15s; box-shadow:var(--shadow); }
   .managers img { width:56px; height:56px; border-radius:14px; display:block; }
@@ -116,9 +116,8 @@
       <button class="copy" id="copy" type="button">Copy</button>
     </div>
     <!-- One tap per package manager: each href is that app's own scheme for adding a repository,
-         so on an iPhone the source is added without anyone typing a URL. Sileo and Zebra carry
-         their marks; Cydia and Installer are words underneath because their icons are not mine to
-         ship and neither is installed on any device here to take one from. -->
+         so on an iPhone the source is added without anyone typing a URL. All four marks are held
+         here rather than fetched, so the page still asks nothing of any other server. -->
     <div class="managers">
       <a href="sileo://source/https://asjrx.github.io/" aria-label="Add the source in Sileo" title="Sileo">
         <img src="icons/sileo.png" alt="Sileo" width="56" height="56">
@@ -126,11 +125,13 @@
       <a href="zbra://sources/add/https://asjrx.github.io/" aria-label="Add the source in Zebra" title="Zebra">
         <img src="icons/zebra.png" alt="Zebra" width="56" height="56">
       </a>
+      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://asjrx.github.io/" aria-label="Add the source in Cydia" title="Cydia">
+        <img src="icons/cydia.png" alt="Cydia" width="56" height="56">
+      </a>
+      <a href="installer://add/https://asjrx.github.io/" aria-label="Add the source in Installer" title="Installer">
+        <img src="icons/installer.png" alt="Installer" width="56" height="56">
+      </a>
     </div>
-    <p class="hint">Also
-      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://asjrx.github.io/">Cydia</a>
-      and
-      <a href="installer://add/https://asjrx.github.io/">Installer</a>.</p>
   </div>
 
   <h2>Tweaks</h2>

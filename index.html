@@ -52,6 +52,16 @@
                 background:var(--accent); color:var(--accent-fg); cursor:pointer; }
   button.copy:active { opacity:.8; }
 
+  .managers { display:flex; justify-content:center; gap:1rem; margin-top:1rem; }
+  .managers a { display:block; border-radius:14px; line-height:0;
+                transition:transform .15s, box-shadow .15s; box-shadow:var(--shadow); }
+  .managers img { width:56px; height:56px; border-radius:14px; display:block; }
+  .managers a:hover, .managers a:focus-visible { transform:translateY(-2px); }
+  .managers a:active { transform:scale(.95); }
+  .hint a { color:var(--accent); text-decoration:underline; text-underline-offset:3px;
+            text-decoration-thickness:1px; font-weight:600; }
+  .card .hint { text-align:center; }
+  .card.dl .hint { text-align:left; }
   .apps { display:grid; grid-template-columns:repeat(auto-fit,minmax(8rem,1fr)); gap:.6rem; margin-top:.8rem; }
   .apps a { text-align:center; text-decoration:none; color:var(--fg); background:var(--code);
             border:1px solid var(--line); border-radius:12px; padding:.68rem .5rem; font-weight:600;
@@ -105,14 +115,22 @@
       <code id="url">https://asjrx.github.io</code>
       <button class="copy" id="copy" type="button">Copy</button>
     </div>
-    <!-- One tap per package manager. Every one of these is that app's own scheme for adding a
-         repository, so on an iPhone the source is added without anyone typing a URL. -->
-    <div class="apps">
-      <a href="sileo://source/https://asjrx.github.io/">Sileo</a>
-      <a href="zbra://sources/add/https://asjrx.github.io/">Zebra</a>
-      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://asjrx.github.io/">Cydia</a>
-      <a href="installer://add/https://asjrx.github.io/">Installer</a>
+    <!-- One tap per package manager: each href is that app's own scheme for adding a repository,
+         so on an iPhone the source is added without anyone typing a URL. Sileo and Zebra carry
+         their marks; Cydia and Installer are words underneath because their icons are not mine to
+         ship and neither is installed on any device here to take one from. -->
+    <div class="managers">
+      <a href="sileo://source/https://asjrx.github.io/" aria-label="Add the source in Sileo" title="Sileo">
+        <img src="icons/sileo.png" alt="Sileo" width="56" height="56">
+      </a>
+      <a href="zbra://sources/add/https://asjrx.github.io/" aria-label="Add the source in Zebra" title="Zebra">
+        <img src="icons/zebra.png" alt="Zebra" width="56" height="56">
+      </a>
     </div>
+    <p class="hint">Also
+      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://asjrx.github.io/">Cydia</a>
+      and
+      <a href="installer://add/https://asjrx.github.io/">Installer</a>.</p>
   </div>
 
   <h2>Tweaks</h2>

@@ -64,6 +64,10 @@
   .links a { color:var(--accent); text-decoration:none; font-size:.9rem; font-weight:600; }
   .links span { color:var(--line); margin:0 .45rem; }
 
+  .hint { color:var(--dim); font-size:.88rem; margin:.85rem 0 0; }
+  .hint b { color:var(--fg); font-weight:600; }
+  .card.dl { margin-top:.6rem; }
+  .card.dl .hint { margin:0; }
   .note { color:var(--dim); font-size:.95rem; }
   .note + .note { margin-top:.9rem; }
   .note b { color:var(--fg); font-weight:600; }
@@ -95,6 +99,9 @@
       <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://asjrx.github.io/">Cydia</a>
       <a href="installer://add/https://asjrx.github.io/">Installer</a>
     </div>
+    <p class="hint">On <b>roothide</b> the package is listed separately, as
+      <b>ASJTikTok (roothide)</b> — it is a different architecture and a different identifier, so
+      it cannot share the entry with the others.</p>
   </div>
 
   <h2>Tweaks</h2>
@@ -102,11 +109,21 @@
     <img src="depictions/icon.png" alt="">
     <div>
       <h3>ASJTikTok</h3>
-      <p>Privacy, downloads and playback options for TikTok, in 53 languages.
-         A roothide build is listed separately in the source.</p>
+      <p>Privacy, downloads and playback options for TikTok, in 53 languages.</p>
       <div class="links">
         <a href="depictions/asjtiktok.html">What it does</a><span>·</span><a href="https://github.com/asjrx/ASJTikTok">GitHub</a><span>·</span><a href="trollstore/tiktok">TrollStore</a>
       </div>
+    </div>
+  </div>
+
+  <!-- Named without a version on purpose: these are GitHub's releases/latest/download links, so
+       each one always hands over the newest build and never has to be edited here again. -->
+  <div class="card dl">
+    <p class="hint">Or download the package directly — always the newest build:</p>
+    <div class="apps">
+      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-rootless.deb">Rootless</a>
+      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-rootful.deb">Rootful</a>
+      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-roothide.deb">roothide</a>
     </div>
   </div>
 

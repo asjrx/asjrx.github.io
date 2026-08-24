@@ -10,13 +10,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.1.7
-Installed-Size: 2036
-Filename: debs/ASJTikTok-1.1.7_46.5.0-rootful.deb
-Size: 578532
-MD5sum: d1543d205b795f8acd4ec73e7ca16186
-SHA1: f9108b429381698c6021a5dcedec72fd519fcc17
-SHA256: 23a7190cdd437648aaa684008623310d0495e30c0fef43802fc9ff41fe7c5f8f
+Version: 1.1.8
+Installed-Size: 2104
+Filename: debs/ASJTikTok-1.1.8_46.5.0-rootful.deb
+Size: 591242
+MD5sum: cc8b63de26b7bb8bb3add4382ef00273
+SHA1: 91013ab0f46f6226cc201577b5c3b3f8fdb73f36
+SHA256: 0f589b9deef384efe03f5fca53a73f7adbcbd25c2215d5c40d96a2197e538516
 
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTikTok (roothide)
@@ -32,13 +32,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.1.7
-Installed-Size: 2036
-Filename: debs/ASJTikTok-1.1.7_46.5.0-roothide.deb
-Size: 576128
-MD5sum: c0f134acb8714691729e12545bad77de
-SHA1: 358abc5c80b976794482a49b9618a8310a05489c
-SHA256: daf54af1c1292672b28cd249d2eabd35c3d2529ec1262d9b68a4a49d94ed43e5
+Version: 1.1.8
+Installed-Size: 2104
+Filename: debs/ASJTikTok-1.1.8_46.5.0-roothide.deb
+Size: 588736
+MD5sum: 12b4dd1b9c5fb680e33c58f550c0df7d
+SHA1: f67f7b8f4d19c5b9845fefc2bb5f497eeed913ce
+SHA256: de6037a311fc62d7d835aac23680263f99c8962a48ec0af5f544489682c7d5ff
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -52,10 +52,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.1.7
-Installed-Size: 2036
-Filename: debs/ASJTikTok-1.1.7_46.5.0-rootless.deb
-Size: 578736
-MD5sum: 79f244f374400af66a51a1bdd4aa8029
-SHA1: 4c506faa87ca6d0738353a9c6f6f1b275744ac18
-SHA256: a9ab1ee8042777214f5626116e05b4d36c1060bcf6ad60bbcd4d8e58d608239e
+Version: 1.1.8
+Installed-Size: 2104
+Filename: debs/ASJTikTok-1.1.8_46.5.0-rootless.deb
+Size: 591824
+MD5sum: da543eb4cc2414a733870f7047e8dbff
+SHA1: 545c4a017134ee54b6bb251435476d7047f188a7
+SHA256: f3565a9b5e833d1f63c150740d734f3892b2e0178ee72b42f8c83642b6f6edc2

@@ -1,57 +1,48 @@
 <!doctype html>
 <meta charset="utf-8">
-<title>ASJTikTok.tipa</title>
+<title>ASJ Tweaks for TrollStore</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--
-  One link, and this page decides what it means.
+  This used to BE the ASJTikTok hand-off. It is the index now, because the name was always general
+  and the link was not: one tweak per folder beside this file, each one a copy of the same page
+  with a different FILE line. Adding a tweak is copying a folder.
 
-  Two things it has to serve at once: an iPhone with TrollStore, where handing the file straight to
-  the app saves five steps, and everything else - an iPhone without it, a laptop, any browser -
-  where that would do nothing at all. So the custom scheme is only ever attempted on iOS, and the
-  plain download runs anyway a beat later unless the page has been backgrounded, which is what
-  happens when TrollStore actually takes over.
-
-  The download is the thing that always works; the scheme is a shortcut layered on top. If it fails
-  for any reason, nothing is lost - the file arrives the ordinary way.
-
-  The file lives on the release that GitHub marks latest, so this keeps pointing at the
-  newest build with nothing to update per release. The URL below is the only line that changes
-  if it ever moves off GitHub.
+  Every published link to /trollstore still lands here and still reaches the file in one more tap,
+  which is why this page was not simply repointed.
 -->
 <style>
-  :root { color-scheme: light dark; }
-  body { font: 16px/1.6 -apple-system, system-ui, sans-serif; margin: 0; min-height: 100vh;
-         display: grid; place-items: center; padding: 24px; text-align: center;
-         background: #f5f5f5; color: #000; }
-  @media (prefers-color-scheme: dark) { body { background: #000; color: #e6e6e6; } }
-  p { margin: .4rem 0; }
-  .dim { opacity: .65; font-size: .9rem; }
-  a { color: #10a2c5; }
-</style>
-<div>
-  <p><b>ASJTikTok.tipa</b></p>
-  <p class="dim" id="what">Starting&hellip;</p>
-  <p class="dim"><a id="direct" href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok.tipa">Tap here if nothing happens.</a></p>
-</div>
-<script>
-(function () {
-  var FILE = "https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok.tipa";
-  var what = document.getElementById("what");
-  function download() {
-    what.textContent = "Downloading… open it with TrollStore when it finishes.";
-    location.href = FILE;
+  :root { color-scheme: light dark; --bg:#f5f5f5; --fg:#000; --card:#fff; --dim:#6b6b6b;
+          --line:rgba(0,0,0,.08); --accent:#10a2c5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#000; --fg:#e6e6e6; --card:#141414; --dim:#8c8c8c; --line:rgba(255,255,255,.1); }
   }
-  // Anything that is not an iPhone or iPad cannot have TrollStore, so do not even try.
-  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent)
-            || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-  if (!iOS) { download(); return; }
+  * { box-sizing: border-box; }
+  body { font: 16px/1.55 -apple-system, system-ui, sans-serif; margin: 0; min-height: 100vh;
+         display: grid; place-items: center; padding: 28px; background: var(--bg); color: var(--fg); }
+  main { width: 100%; max-width: 380px; text-align: center; }
+  h1 { font-size: 1.25rem; margin: 0 0 .15rem; letter-spacing: -.01em; }
+  .tag { color: var(--dim); font-size: .92rem; margin: 0 0 1.6rem; }
+  .row { display: flex; align-items: center; gap: 12px; text-align: start; text-decoration: none;
+         color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+         padding: 14px 16px; margin-bottom: 10px; }
+  .row b { display: block; font-size: 1rem; }
+  .row span { display: block; color: var(--dim); font-size: .85rem; }
+  .row .go { margin-inline-start: auto; color: var(--accent); font-weight: 600; font-size: .9rem; }
+  .note { color: var(--dim); font-size: .82rem; margin-top: 1.4rem; }
+  .note a { color: var(--accent); }
+</style>
+<main>
+  <h1>ASJ Tweaks</h1>
+  <p class="tag">Apps made easier</p>
 
-  what.textContent = "Opening TrollStore…";
-  var handedOver = false;
-  // If TrollStore takes the link, this page goes to the background and stops being visible.
-  document.addEventListener("visibilitychange", function () {
-    if (document.hidden) handedOver = true;
-  });
-  location.href = "apple-magnifier://install?url=" + encodeURIComponent(FILE);
-  setTimeout(function () { if (!handedOver) download(); }, 1500);
-})();
-</script>
+  <a class="row" href="/trollstore/tiktok">
+    <div>
+      <b>ASJTikTok</b>
+      <span>Privacy, download and playback options for TikTok</span>
+    </div>
+    <div class="go">Install</div>
+  </a>
+
+  <p class="note">Open this on the iPhone that has TrollStore — the file is handed straight to it.<br>
+    Jailbroken instead? Add <a href="https://asjrx.github.io">asjrx.github.io</a> in Sileo.</p>
+</main>

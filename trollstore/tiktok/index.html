@@ -1,0 +1,57 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>ASJTikTok for TrollStore</title>
+<!--
+  One link, and this page decides what it means.
+
+  Two things it has to serve at once: an iPhone with TrollStore, where handing the file straight to
+  the app saves five steps, and everything else - an iPhone without it, a laptop, any browser -
+  where that would do nothing at all. So the custom scheme is only ever attempted on iOS, and the
+  plain download runs anyway a beat later unless the page has been backgrounded, which is what
+  happens when TrollStore actually takes over.
+
+  The download is the thing that always works; the scheme is a shortcut layered on top. If it fails
+  for any reason, nothing is lost - the file arrives the ordinary way.
+
+  The file lives on the release that GitHub marks latest, so this keeps pointing at the
+  newest build with nothing to update per release. The URL below is the only line that changes
+  if it ever moves off GitHub.
+-->
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, system-ui, sans-serif; margin: 0; min-height: 100vh;
+         display: grid; place-items: center; padding: 24px; text-align: center;
+         background: #f5f5f5; color: #000; }
+  @media (prefers-color-scheme: dark) { body { background: #000; color: #e6e6e6; } }
+  p { margin: .4rem 0; }
+  .dim { opacity: .65; font-size: .9rem; }
+  a { color: #10a2c5; }
+</style>
+<div>
+  <p><b>ASJTikTok.tipa</b></p>
+  <p class="dim" id="what">Starting&hellip;</p>
+  <p class="dim"><a id="direct" href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok.tipa">Tap here if nothing happens.</a></p>
+</div>
+<script>
+(function () {
+  var FILE = "https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok.tipa";
+  var what = document.getElementById("what");
+  function download() {
+    what.textContent = "Downloading… open it with TrollStore when it finishes.";
+    location.href = FILE;
+  }
+  // Anything that is not an iPhone or iPad cannot have TrollStore, so do not even try.
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent)
+            || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  if (!iOS) { download(); return; }
+
+  what.textContent = "Opening TrollStore…";
+  var handedOver = false;
+  // If TrollStore takes the link, this page goes to the background and stops being visible.
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden) handedOver = true;
+  });
+  location.href = "apple-magnifier://install?url=" + encodeURIComponent(FILE);
+  setTimeout(function () { if (!handedOver) download(); }, 1500);
+})();
+</script>

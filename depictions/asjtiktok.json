@@ -9,36 +9,34 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "What's new in 1.1.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "<ul><li><b>Hide LIVE no longer empties a profile</b> when its owner is broadcasting.</li><li>Saved files are named after the account and the date, and a saved sound after the song.</li><li>General improvements and fixes.</li></ul>"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "What's new in 1.1.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "<ul><li><b>Fifty-three languages</b> &mdash; every language TikTok itself ships in.</li><li><b>Works on any TikTok</b>, whatever its bundle id is called.</li><li><b>Save audio works again</b>, and photo posts save properly.</li></ul>"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "What's new in 1.1.6"
     },
     {
      "class": "DepictionMarkdownView",
      "useRawFormat": true,
      "markdown": "<ul><li><b>Keep deleted messages now keeps the media too</b> &mdash; photos, videos and voice messages are saved as they arrive.</li><li><b>Save and Open chat media</b> from the long-press menu.</li><li><b>Send an audio file</b> as your voice message.</li><li><b>Confirm before liking or following</b>, and before liking a comment.</li><li><b>Copy music link.</b></li><li>General improvements and fixes.</li></ul>"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionHeaderView",
-     "title": "What's new in 1.1.5"
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "<ul><li><b>Full TrollStore support</b> &mdash; a build of its own.</li><li><b>Fixes a launch crash</b> for anyone who has both the jailbreak package and the sideloaded build on one device.</li><li>The bulk-save summary now stays long enough to read, and leaves when you leave the folder.</li></ul>",
-     "useRawFormat": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionHeaderView",
-     "title": "What's new in 1.1.4"
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "<ul><li><b>Photo stories are saved</b> — they never were, in any earlier version.</li><li>Stories the app never got round to are picked up on the next launch.</li><li>The save button saves the story you are looking at, and Save all gathers the whole account.</li><li><b>Dark mode</b> — the settings, the Stories folder and the Inbox button follow TikTok's own switch.</li><li><b>Arabic reaches everything</b>, the Stories folder included.</li></ul>",
-     "useRawFormat": true
     },
     {
      "class": "DepictionSeparatorView"
@@ -107,7 +105,7 @@
     {
      "class": "DepictionTableButtonView",
      "title": "Not jailbroken? Get it for TrollStore",
-     "action": "https://asjrx.github.io/trollstore",
+     "action": "https://asjrx.github.io/trollstore/tiktok",
      "openExternal": true
     },
     {
@@ -192,6 +190,17 @@
    "class": "DepictionStackView",
    "tabname": "Changelog",
    "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.1.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "<ul><li><b>Hide LIVE no longer empties a profile</b> when its owner is broadcasting.</li><li>Saved files are named after the account and the date, and a saved sound after the song.</li><li>General improvements and fixes.</li></ul>"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionHeaderView",
      "title": "1.1.7"

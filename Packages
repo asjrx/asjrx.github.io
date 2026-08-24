@@ -1,8 +1,8 @@
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
 Description: Privacy, download and playback options for TikTok
-Depiction: https://asjrx.github.io/depictions/asjtiktok.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
+Depiction: https://asjrx.github.io/depictions/asjtiktok.html?v119
+SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json?v119
 Icon: https://asjrx.github.io/depictions/icon.png
 Author: ASJRX <asjrx@icloud.com>
 Maintainer: ASJRX <asjrx@icloud.com>
@@ -21,8 +21,8 @@ SHA256: 0f589b9deef384efe03f5fca53a73f7adbcbd25c2215d5c40d96a2197e538516
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTikTok (roothide)
 Description: Privacy, download and playback options for TikTok
-Depiction: https://asjrx.github.io/depictions/asjtiktok.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
+Depiction: https://asjrx.github.io/depictions/asjtiktok.html?v119
+SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json?v119
 Icon: https://asjrx.github.io/depictions/icon.png
 Author: ASJRX <asjrx@icloud.com>
 Maintainer: ASJRX <asjrx@icloud.com>
@@ -43,8 +43,8 @@ SHA256: de6037a311fc62d7d835aac23680263f99c8962a48ec0af5f544489682c7d5ff
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
 Description: Privacy, download and playback options for TikTok
-Depiction: https://asjrx.github.io/depictions/asjtiktok.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
+Depiction: https://asjrx.github.io/depictions/asjtiktok.html?v119
+SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json?v119
 Icon: https://asjrx.github.io/depictions/icon.png
 Author: ASJRX <asjrx@icloud.com>
 Maintainer: ASJRX <asjrx@icloud.com>

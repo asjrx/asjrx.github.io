@@ -55,7 +55,8 @@
   .apps { display:grid; grid-template-columns:repeat(auto-fit,minmax(8rem,1fr)); gap:.6rem; margin-top:.8rem; }
   .apps a { text-align:center; text-decoration:none; color:var(--fg); background:var(--code);
             border:1px solid var(--line); border-radius:12px; padding:.68rem .5rem; font-weight:600;
-            font-size:.94rem; }
+            font-size:.94rem; display:flex; flex-direction:column; justify-content:center;
+            min-height:2.9rem; }
 
   .tweak { display:flex; gap:1rem; align-items:flex-start; }
   .tweak img { width:54px; height:54px; border-radius:14px; flex:none; }
@@ -67,6 +68,11 @@
   .hint { color:var(--dim); font-size:.88rem; margin:.85rem 0 0; }
   .hint b { color:var(--fg); font-weight:600; }
   .card.dl { margin-top:.6rem; }
+  /* The version sits ABOVE the name and is filled in at load, never typed here - see the script.
+     It starts hidden so a page whose fetch fails shows three clean buttons rather than a gap. */
+  .apps a em { display:none; font-style:normal; font-size:.76rem; font-weight:600; color:var(--dim);
+               letter-spacing:.02em; margin-bottom:.1rem; }
+  .apps a em.on { display:block; }
   .card.dl .hint { margin:0; }
   .note { color:var(--dim); font-size:.95rem; }
   .note + .note { margin-top:.9rem; }
@@ -121,9 +127,12 @@
   <div class="card dl">
     <p class="hint">Or download the package directly — always the newest build:</p>
     <div class="apps">
-      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-rootless.deb">Rootless</a>
-      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-rootful.deb">Rootful</a>
-      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-roothide.deb">roothide</a>
+      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-rootless.deb"
+         data-pkg="com.ahmad.asjtiktok" data-arch="iphoneos-arm64"><em></em>Rootless</a>
+      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-rootful.deb"
+         data-pkg="com.ahmad.asjtiktok" data-arch="iphoneos-arm"><em></em>Rootful</a>
+      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok-roothide.deb"
+         data-pkg="com.ahmad.asjtiktok.roothide" data-arch="iphoneos-arm64e"><em></em>roothide</a>
     </div>
   </div>
 
@@ -163,5 +172,32 @@
       setTimeout(function () { button.textContent = "Copy"; }, 1600);
     }
   });
+})();
+
+// The version above each download button is read from the source's own Packages index at load,
+// so it can never disagree with what the source serves and never has to be edited for a release.
+// Same origin, about a kilobyte, and each button asks for its OWN package and architecture rather
+// than assuming the three move together - if one ever lags, the page says so.
+(function () {
+  var buttons = document.querySelectorAll(".apps a[data-pkg]");
+  if (!buttons.length || !window.fetch) return;
+  fetch("Packages", { cache: "no-cache" }).then(function (r) {
+    return r.ok ? r.text() : Promise.reject();
+  }).then(function (text) {
+    var blocks = text.split(/\n\s*\n/);
+    Array.prototype.forEach.call(buttons, function (button) {
+      var pkg = button.getAttribute("data-pkg"), arch = button.getAttribute("data-arch");
+      for (var i = 0; i < blocks.length; i++) {
+        var b = blocks[i];
+        if (b.indexOf("Package: " + pkg) === -1 || b.indexOf("Architecture: " + arch) === -1) continue;
+        var m = b.match(/^Version:\s*(.+)$/m);
+        if (!m) continue;
+        var tag = button.querySelector("em");
+        tag.textContent = m[1].trim();
+        tag.className = "on";
+        return;
+      }
+    });
+  }).catch(function () { /* three clean buttons, which is what they already are */ });
 })();
 </script>

@@ -77,7 +77,10 @@
   .note { color:var(--dim); font-size:.95rem; }
   .note + .note { margin-top:.9rem; }
   .note b { color:var(--fg); font-weight:600; }
-  .note a { color:var(--accent); }
+  /* Underlined on purpose: these two sit inside a sentence rather than on a button, and colour
+     alone is not enough to say a word is a download. */
+  .note a { color:var(--accent); text-decoration:underline; text-underline-offset:3px;
+            text-decoration-thickness:1px; font-weight:600; }
 
   footer { margin-top:3rem; text-align:center; color:var(--dim); font-size:.9rem; }
   .social { display:flex; justify-content:center; gap:.7rem; }
@@ -147,12 +150,12 @@
     <p class="note"><b>TrollStore</b> — ASJTikTok has a build of its own that keeps TikTok's own
       entitlements and all nine app extensions intact.
       <a href="trollstore">Pick a tweak</a>. iOS 14.0–16.6.1, and 17.0 on some devices.</p>
-    <p class="note"><b>Anything else</b> — sideload a ready-made IPA, or inject the dylib into your
-      own copy of the app with Sideloadly or eSign. Both are ASJTikTok, always the newest build:</p>
-    <div class="apps">
-      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok.ipa">IPA</a>
+    <p class="note"><b>Anything else</b> — sideload the ready-made
+      <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok.ipa">IPA</a>,
+      or inject the
       <a href="https://github.com/asjrx/ASJTikTok/releases/latest/download/ASJTikTok.dylib">dylib</a>
-    </div>
+      into your own copy of the app with Sideloadly or eSign. Either link downloads the newest
+      build.</p>
   </div>
 
   <footer>

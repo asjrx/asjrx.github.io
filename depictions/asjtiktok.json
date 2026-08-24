@@ -13,7 +13,8 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "<ul><li><b>Hide LIVE no longer empties a profile</b> when its owner is broadcasting.</li><li>Saved files are named after the account and the date, and a saved sound after the song.</li><li>General improvements and fixes.</li></ul>"
+     "markdown": "<ul><li><b>Hide LIVE no longer empties a profile</b> when its owner is broadcasting.</li><li>Saved files are named after the account and the date, and a saved sound after the song.</li><li>General improvements and fixes.</li></ul>",
+     "useRawFormat": true
     },
     {
      "class": "DepictionSeparatorView"
@@ -24,7 +25,8 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "<ul><li><b>Fifty-three languages</b> &mdash; every language TikTok itself ships in.</li><li><b>Works on any TikTok</b>, whatever its bundle id is called.</li><li><b>Save audio works again</b>, and photo posts save properly.</li></ul>"
+     "markdown": "<ul><li><b>Fifty-three languages</b> &mdash; every language TikTok itself ships in.</li><li><b>Works on any TikTok</b>, whatever its bundle id is called.</li><li><b>Save audio works again</b>, and photo posts save properly.</li></ul>",
+     "useRawFormat": true
     },
     {
      "class": "DepictionSeparatorView"
@@ -181,6 +183,19 @@
      "markdown": "<ul><li>Not jailbroken? A dylib you can inject yourself is on the releases page.</li></ul>"
     },
     {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "Contact"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "asjrx@icloud.com",
+     "action": "mailto:asjrx@icloud.com",
+     "openExternal": true
+    },
+    {
      "class": "DepictionSpacerView",
      "spacing": 20
     }
@@ -196,7 +211,8 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "<ul><li><b>Hide LIVE no longer empties a profile</b> when its owner is broadcasting.</li><li>Saved files are named after the account and the date, and a saved sound after the song.</li><li>General improvements and fixes.</li></ul>"
+     "markdown": "<ul><li><b>Hide LIVE no longer empties a profile</b> when its owner is broadcasting.</li><li>Saved files are named after the account and the date, and a saved sound after the song.</li><li>General improvements and fixes.</li></ul>",
+     "useRawFormat": true
     },
     {
      "class": "DepictionSeparatorView"
@@ -207,7 +223,8 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "<ul><li><b>Fifty-three languages</b> - every language TikTok itself ships in, and switching applies straight away, without restarting the app.</li><li><b>Works on any TikTok</b> - regional builds and re-signed copies included. It no longer matches on the bundle id, so it no longer matters what yours is called. A user found this the hard way: the tweak never loaded into his app at all.</li><li><b>Save audio works again.</b></li><li><b>Photo posts save properly</b> - picture, video and sound, with a download percentage.</li><li><b>Clear Display</b> - no flash of the top bar on launch, and the floating button stops disappearing.</li><li><b>In Arabic</b> - the floating button stays on the right tabs, Open on Following works, and the panel reads right to left.</li><li>A voice message is kept the moment its audio arrives.</li></ul>"
+     "markdown": "<ul><li><b>Fifty-three languages</b> - every language TikTok itself ships in, and switching applies straight away, without restarting the app.</li><li><b>Works on any TikTok</b> - regional builds and re-signed copies included. It no longer matches on the bundle id, so it no longer matters what yours is called. A user found this the hard way: the tweak never loaded into his app at all.</li><li><b>Save audio works again.</b></li><li><b>Photo posts save properly</b> - picture, video and sound, with a download percentage.</li><li><b>Clear Display</b> - no flash of the top bar on launch, and the floating button stops disappearing.</li><li><b>In Arabic</b> - the floating button stays on the right tabs, Open on Following works, and the panel reads right to left.</li><li>A voice message is kept the moment its audio arrives.</li></ul>",
+     "useRawFormat": true
     },
     {
      "class": "DepictionSeparatorView"
@@ -218,7 +235,8 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "<ul><li><b>Keep deleted messages now keeps the media too</b> - photos, videos and voice messages are saved as they arrive.</li><li><b>Save and Open chat media</b> from the long-press menu.</li><li><b>Send an audio file</b> as your voice message.</li><li><b>Confirm before liking or following</b>, and before liking a comment.</li><li><b>Copy music link.</b></li><li>General improvements and fixes.</li></ul>"
+     "markdown": "<ul><li><b>Keep deleted messages now keeps the media too</b> - photos, videos and voice messages are saved as they arrive.</li><li><b>Save and Open chat media</b> from the long-press menu.</li><li><b>Send an audio file</b> as your voice message.</li><li><b>Confirm before liking or following</b>, and before liking a comment.</li><li><b>Copy music link.</b></li><li>General improvements and fixes.</li></ul>",
+     "useRawFormat": true
     },
     {
      "class": "DepictionSeparatorView"

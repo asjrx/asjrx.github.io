@@ -166,17 +166,6 @@
     },
     {
      "class": "DepictionHeaderView",
-     "title": "Notes"
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "- Not jailbroken? A dylib you can inject yourself is on the releases page."
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionHeaderView",
      "title": "Contact"
     },
     {

@@ -62,6 +62,7 @@
             text-decoration-thickness:1px; font-weight:600; }
   .card .hint { text-align:center; }
   .card.dl .hint { text-align:left; }
+  .tweak .hint { text-align:left; margin:.9rem 0 0; }
   .apps { display:grid; grid-template-columns:repeat(auto-fit,minmax(8rem,1fr)); gap:.6rem; margin-top:.8rem; }
   .apps a { text-align:center; text-decoration:none; color:var(--fg); background:var(--code);
             border:1px solid var(--line); border-radius:12px; padding:.68rem .5rem; font-weight:600;
@@ -143,6 +144,15 @@
       <div class="links">
         <a href="depictions/asjtiktok.html">What it does</a><span>·</span><a href="https://github.com/asjrx/ASJTikTok">GitHub</a><span>·</span><a href="trollstore/tiktok">TrollStore</a>
       </div>
+      <p class="hint">Download the package directly — always the newest build:</p>
+      <div class="apps">
+        <a href="https://asjrx.github.io/dl/rootless"
+           data-pkg="com.ahmad.asjtiktok" data-arch="iphoneos-arm64"><em></em>Rootless</a>
+        <a href="https://asjrx.github.io/dl/rootful"
+           data-pkg="com.ahmad.asjtiktok" data-arch="iphoneos-arm"><em></em>Rootful</a>
+        <a href="https://asjrx.github.io/dl/roothide"
+           data-pkg="com.ahmad.asjtiktok.roothide" data-arch="iphoneos-arm64e"><em></em>roothide</a>
+      </div>
     </div>
   </div>
   <div class="card tweak">
@@ -153,29 +163,15 @@
       <div class="links">
         <a href="depictions/asjtube.html">What it does</a><span>·</span><a href="https://github.com/asjrx/ASJTube">GitHub</a><span>·</span><a href="trollstore/tube">TrollStore</a>
       </div>
-    </div>
-  </div>
-
-  <!-- These are OUR permanent links (dl/), regenerated from the version by make-index.py, so
-       each one always hands over the newest build and never has to be edited here again. -->
-  <div class="card dl">
-    <p class="hint">Or download the package directly — always the newest build:</p>
-    <div class="apps">
-      <a href="https://asjrx.github.io/dl/rootless"
-         data-pkg="com.ahmad.asjtiktok" data-arch="iphoneos-arm64"><em></em>Rootless</a>
-      <a href="https://asjrx.github.io/dl/rootful"
-         data-pkg="com.ahmad.asjtiktok" data-arch="iphoneos-arm"><em></em>Rootful</a>
-      <a href="https://asjrx.github.io/dl/roothide"
-         data-pkg="com.ahmad.asjtiktok.roothide" data-arch="iphoneos-arm64e"><em></em>roothide</a>
-    </div>
-    <p class="hint">ASJTube:</p>
-    <div class="apps">
-      <a href="https://asjrx.github.io/dl/tube/rootless"
-         data-pkg="com.ahmad.asjtube" data-arch="iphoneos-arm64"><em></em>Rootless</a>
-      <a href="https://asjrx.github.io/dl/tube/rootful"
-         data-pkg="com.ahmad.asjtube" data-arch="iphoneos-arm"><em></em>Rootful</a>
-      <a href="https://asjrx.github.io/dl/tube/roothide"
-         data-pkg="com.ahmad.asjtube.roothide" data-arch="iphoneos-arm64e"><em></em>roothide</a>
+      <p class="hint">Download the package directly — always the newest build:</p>
+      <div class="apps">
+        <a href="https://asjrx.github.io/dl/tube/rootless"
+           data-pkg="com.ahmad.asjtube" data-arch="iphoneos-arm64"><em></em>Rootless</a>
+        <a href="https://asjrx.github.io/dl/tube/rootful"
+           data-pkg="com.ahmad.asjtube" data-arch="iphoneos-arm"><em></em>Rootful</a>
+        <a href="https://asjrx.github.io/dl/tube/roothide"
+           data-pkg="com.ahmad.asjtube.roothide" data-arch="iphoneos-arm64e"><em></em>roothide</a>
+      </div>
     </div>
   </div>
 

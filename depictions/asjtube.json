@@ -1,0 +1,138 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://asjrx.github.io/depictions/banner-tube.png",
+  "tintColor": "#ff4d4d",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Downloads, background audio and an ad-free YouTube** — without changing how the app looks.\n\nEverything lives in one place: an **ASJTube** tab in YouTube's own bar."
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "url": "https://asjrx.github.io/screenshots/tube-library.png",
+              "accessibilityText": "My Library - everything you saved, laid out like Home"
+            },
+            {
+              "url": "https://asjrx.github.io/screenshots/tube-quality.png",
+              "accessibilityText": "Every rung the video has, with the size before you commit"
+            },
+            {
+              "url": "https://asjrx.github.io/screenshots/tube-player.png",
+              "accessibilityText": "The library's own player, with a queue"
+            },
+            {
+              "url": "https://asjrx.github.io/screenshots/tube-settings.png",
+              "accessibilityText": "The ASJTube tab in YouTube's own bar"
+            },
+            {
+              "url": "https://asjrx.github.io/screenshots/tube-shorts.png",
+              "accessibilityText": "Saving a Short"
+            },
+            {
+              "url": "https://asjrx.github.io/screenshots/tube-clear.png",
+              "accessibilityText": "Clear Mode - the interface out of the way"
+            },
+            {
+              "url": "https://asjrx.github.io/screenshots/tube-actionrow.png",
+              "accessibilityText": "The save button in the row under the video"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Downloads"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Save any video or Short** — from the player, from a long press, from the Shorts button, or from YouTube's own Download row\n- **My Library** — a feed of what you saved, laid out like Home, with its own player, playlists, Watch later and a storage bar\n- Background playback and Picture in Picture for your own files"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Playback"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Watch videos in high quality** — pinned to the best rendition the video has\n- **Background Playback** — audio keeps going when you leave the app or lock the screen\n- **Picture in Picture** — starts on its own, no button to press\n- Autoplay when a video finishes, and no suggested grid at the end\n- Progress bar in Shorts"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Ads"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Remove Ads** — feed, search, Shorts and the player alike, refused before a card is ever built\n- Non-skippable breaks are seeked past, skippable ones are skipped the moment the app allows it\n- The Premium prompts, the upsell panels and the in-app surveys are all declined"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extras"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Lyrics** for the song a video plays\n- **Spoken translation** — dub a clip into another language, on the device\n- **Copy text** from any label with a long press\n- Hide Shorts, hide the create button, open the app on Shorts\n- Require Face ID to open YouTube\n- Open links in Safari instead of the in-app browser\n- **Follows YouTube's own language** — all 79 of them"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Join ASJ Tweaks on Telegram",
+          "action": "https://t.me/ASJTweaks",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Not jailbroken? Get it for TrollStore",
+          "action": "https://asjrx.github.io/trollstore/tube",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Contact"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "asjrx@icloud.com",
+          "action": "mailto:asjrx@icloud.com",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 20
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- First release."
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 20
+        }
+      ]
+    }
+  ]
+}

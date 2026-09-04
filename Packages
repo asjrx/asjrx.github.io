@@ -59,3 +59,65 @@ Size: 662792
 MD5sum: abee65a97fa1a8811114a723ace835ce
 SHA1: 8eec54f1ce9e34757260a618c804bb997ce44bc4
 SHA256: 852cd10daebfdb864656aaacfdecbc9c9f449d9c68b964c972b2304c78dc9ea4
+
+Package: com.ahmad.asjtube
+Name: ASJTube
+Description: Ad-free playback, background audio and downloads for YouTube
+Depiction: https://asjrx.github.io/depictions/asjtube.html
+SileoDepiction: https://asjrx.github.io/depictions/asjtube.json
+Icon: https://asjrx.github.io/depictions/icon.png
+Author: ASJRX <289467706+asjrx@users.noreply.github.com>
+Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
+Section: Tweaks
+Tag: role::enduser
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 1.0
+Installed-Size: 5416
+Filename: debs/ASJTube-1.0_21.32.4-rootful.deb
+Size: 1451938
+MD5sum: cae2aaa4cb7d3c7f832bfa3b5f250cfd
+SHA1: 2757e138e885438106bc91be64eda98a998409a6
+SHA256: b2b89842f704b991a95890d652551df1ef8d80c95e836a856216839a76c1b7eb
+
+Package: com.ahmad.asjtube.roothide
+Name: ASJTube (roothide)
+Description: Ad-free playback, background audio and downloads for YouTube
+Depiction: https://asjrx.github.io/depictions/asjtube.html
+SileoDepiction: https://asjrx.github.io/depictions/asjtube.json
+Icon: https://asjrx.github.io/depictions/icon.png
+Author: ASJRX <289467706+asjrx@users.noreply.github.com>
+Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
+Section: Tweaks
+Tag: role::enduser
+Depends: mobilesubstrate
+Conflicts: com.ahmad.asjtube
+Replaces: com.ahmad.asjtube
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 5416
+Filename: debs/ASJTube-1.0_21.32.4-roothide.deb
+Size: 1450614
+MD5sum: 7b29ceae51ab5417b5ad3fcefdacf441
+SHA1: 44dfba32e221f12dc81133c3d0876756c9febd2a
+SHA256: e0a5f167cb5358bb4f6d5785e4cee455ae7cceedc5c72b3874a975e7a22e580d
+
+Package: com.ahmad.asjtube
+Name: ASJTube
+Description: Ad-free playback, background audio and downloads for YouTube
+Depiction: https://asjrx.github.io/depictions/asjtube.html
+SileoDepiction: https://asjrx.github.io/depictions/asjtube.json
+Icon: https://asjrx.github.io/depictions/icon.png
+Author: ASJRX <289467706+asjrx@users.noreply.github.com>
+Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
+Section: Tweaks
+Tag: role::enduser
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 5416
+Filename: debs/ASJTube-1.0_21.32.4-rootless.deb
+Size: 1453200
+MD5sum: c690ac7e2ece9e5a0f9d3ef9cf69fe2b
+SHA1: 36078af3d3e788c149436bd2d3a59d3255178b53
+SHA256: 5da7e872f0b9bb9d513953b18f212e8d1bb43f6846f032a6b203481aff779539

@@ -72,13 +72,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.0
-Installed-Size: 5416
-Filename: debs/ASJTube-1.0_21.32.4-rootful.deb
-Size: 1451938
-MD5sum: cae2aaa4cb7d3c7f832bfa3b5f250cfd
-SHA1: 2757e138e885438106bc91be64eda98a998409a6
-SHA256: b2b89842f704b991a95890d652551df1ef8d80c95e836a856216839a76c1b7eb
+Version: 1.1
+Installed-Size: 5512
+Filename: debs/ASJTube-1.1_21.32.4-rootful.deb
+Size: 1478702
+MD5sum: f090497016b3bffb362e67e44f632608
+SHA1: db29228aec74134d22d2af3984fc84e3ecfd834a
+SHA256: d121f8e2cffa0bb98142160244b126802d89ecdc02b95d9f4709886fb3ce2e43
 
 Package: com.ahmad.asjtube.roothide
 Name: ASJTube (roothide)
@@ -94,13 +94,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtube
 Replaces: com.ahmad.asjtube
 Architecture: iphoneos-arm64e
-Version: 1.0
-Installed-Size: 5416
-Filename: debs/ASJTube-1.0_21.32.4-roothide.deb
-Size: 1450614
-MD5sum: 7b29ceae51ab5417b5ad3fcefdacf441
-SHA1: 44dfba32e221f12dc81133c3d0876756c9febd2a
-SHA256: e0a5f167cb5358bb4f6d5785e4cee455ae7cceedc5c72b3874a975e7a22e580d
+Version: 1.1
+Installed-Size: 5512
+Filename: debs/ASJTube-1.1_21.32.4-roothide.deb
+Size: 1480230
+MD5sum: eb28fe8bd73e3098849af7ec7384b0ea
+SHA1: 2aeb26515ef7fe7f36e93b09280be44661ac7deb
+SHA256: 1e7918904688bcffa954b0de973003ce0d5ac37732a4078941a53f6185d6ee51
 
 Package: com.ahmad.asjtube
 Name: ASJTube
@@ -114,10 +114,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 5416
-Filename: debs/ASJTube-1.0_21.32.4-rootless.deb
-Size: 1453200
-MD5sum: c690ac7e2ece9e5a0f9d3ef9cf69fe2b
-SHA1: 36078af3d3e788c149436bd2d3a59d3255178b53
-SHA256: 5da7e872f0b9bb9d513953b18f212e8d1bb43f6846f032a6b203481aff779539
+Version: 1.1
+Installed-Size: 5512
+Filename: debs/ASJTube-1.1_21.32.4-rootless.deb
+Size: 1478826
+MD5sum: 8c3599d7bb8d9f44a6e47ee1391d6b95
+SHA1: 883ca4573c1aa710bf9039edcfed5371d4febb02
+SHA256: 453fa9f4fa88ff02c14cd552b3d5a8f351a31b5737fc7764a6fd175c829bff61

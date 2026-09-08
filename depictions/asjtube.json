@@ -122,6 +122,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Copy and translate inside a comment.** From the comment's own three dots, replies included — and the long press now opens YouTube's own sheet.\n- **Translate into any language, on any iOS.** The list used to come up empty on older devices.\n- **Supports older versions of YouTube**, not just the newest one.\n- **History and playlists no longer empty out** with *Remove recommended videos at the end* turned on.\n- General improvements and fixes."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0"
         },
         {

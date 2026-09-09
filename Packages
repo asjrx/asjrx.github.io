@@ -72,13 +72,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.1
-Installed-Size: 5512
-Filename: debs/ASJTube-1.1_21.32.4-rootful.deb
-Size: 1478702
-MD5sum: f090497016b3bffb362e67e44f632608
-SHA1: db29228aec74134d22d2af3984fc84e3ecfd834a
-SHA256: d121f8e2cffa0bb98142160244b126802d89ecdc02b95d9f4709886fb3ce2e43
+Version: 1.2
+Installed-Size: 5528
+Filename: debs/ASJTube-1.2_21.32.4-rootful.deb
+Size: 1486424
+MD5sum: f4e4e6b1de8ebedddd649414125204d7
+SHA1: 68c41dd7c6ca078475aa95eb924f9146f3dc07fe
+SHA256: c304de25aac9552caf34ba096c3c35605588a262e43fc3581392124352de1269
 
 Package: com.ahmad.asjtube.roothide
 Name: ASJTube (roothide)
@@ -94,13 +94,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtube
 Replaces: com.ahmad.asjtube
 Architecture: iphoneos-arm64e
-Version: 1.1
-Installed-Size: 5512
-Filename: debs/ASJTube-1.1_21.32.4-roothide.deb
-Size: 1480230
-MD5sum: eb28fe8bd73e3098849af7ec7384b0ea
-SHA1: 2aeb26515ef7fe7f36e93b09280be44661ac7deb
-SHA256: 1e7918904688bcffa954b0de973003ce0d5ac37732a4078941a53f6185d6ee51
+Version: 1.2
+Installed-Size: 5528
+Filename: debs/ASJTube-1.2_21.32.4-roothide.deb
+Size: 1483128
+MD5sum: 69e6ee33731b13a86344a69600f48f89
+SHA1: b7cc07037d74b0d4cdb3ab35833e2815bfe1873c
+SHA256: 222353998752c9ea401a6bee4517b30614853b19c1aee96cd8b37bd9bf6dad1a
 
 Package: com.ahmad.asjtube
 Name: ASJTube
@@ -114,10 +114,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.1
-Installed-Size: 5512
-Filename: debs/ASJTube-1.1_21.32.4-rootless.deb
-Size: 1478826
-MD5sum: 8c3599d7bb8d9f44a6e47ee1391d6b95
-SHA1: 883ca4573c1aa710bf9039edcfed5371d4febb02
-SHA256: 453fa9f4fa88ff02c14cd552b3d5a8f351a31b5737fc7764a6fd175c829bff61
+Version: 1.2
+Installed-Size: 5528
+Filename: debs/ASJTube-1.2_21.32.4-rootless.deb
+Size: 1486650
+MD5sum: d2215e4d10fcf01d103cddfbd894deaf
+SHA1: 1a37c16e9fce25407fcb5b1e9a68219a196c8d03
+SHA256: 89c936c9a1aa6e448781d5d203f2aff33b81e416c6f46201be06c82de5a3a6cd

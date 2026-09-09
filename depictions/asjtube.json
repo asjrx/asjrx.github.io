@@ -122,6 +122,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Playback quality fixes.**\n- **No more \"Something went wrong\" on Wi-Fi.** A weak or busy connection now steps down a quality rung instead of giving up.\n- General improvements and fixes."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.1"
         },
         {

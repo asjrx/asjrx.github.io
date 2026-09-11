@@ -122,6 +122,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.2.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Works with every YouTube version.**\n- **Picture in Picture no longer turns itself on.** YouTube's own switch is now turned off for each account you sign in with.\n- General improvements and fixes."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.2"
         },
         {

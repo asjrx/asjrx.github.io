@@ -10,13 +10,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.2
-Installed-Size: 2380
-Filename: debs/ASJTikTok-1.2_46.7.0-rootful.deb
-Size: 664496
-MD5sum: e513bf2bbf287647d93c447233f6e006
-SHA1: 63cefbf35b613eb460a8341e5d6f110dfa073a76
-SHA256: a716f5e7b2a76d112eb0464f848c56095fc634dec74b3493051c9a65b3232a2a
+Version: 1.2.1
+Installed-Size: 2444
+Filename: debs/ASJTikTok-1.2.1_46.9.0-rootful.deb
+Size: 673034
+MD5sum: a693c973310f6d87c8e6a2f0e621bcf4
+SHA1: 9e094fef3f91d9572b5944297aed070c85609497
+SHA256: e64bd3acf20765d0431ea59f8562a93fb12b053058862a674eff9fc607251f00
 
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTikTok (roothide)
@@ -32,13 +32,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.2
-Installed-Size: 2380
-Filename: debs/ASJTikTok-1.2_46.7.0-roothide.deb
-Size: 664134
-MD5sum: 0e8cf8834c1ff6bed9b7830a3b11ad4d
-SHA1: bd87518ab69b0bb20aa154abbbccace862c75d3e
-SHA256: d37804a001e9aa59ed50119f0ae8db60594a8141827577aff3df102683bffee7
+Version: 1.2.1
+Installed-Size: 2444
+Filename: debs/ASJTikTok-1.2.1_46.9.0-roothide.deb
+Size: 676216
+MD5sum: b1a8af64ca01cca481ce3ff54cf8c23a
+SHA1: b864cad5ab69add3844aacd664f54f24d82e3fa1
+SHA256: d69a9c5b126859da405d2c1d225ff04b499da8d3781ba70dd55e67c861d1bfd8
 
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
@@ -52,13 +52,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.2
-Installed-Size: 2380
-Filename: debs/ASJTikTok-1.2_46.7.0-rootless.deb
-Size: 662792
-MD5sum: abee65a97fa1a8811114a723ace835ce
-SHA1: 8eec54f1ce9e34757260a618c804bb997ce44bc4
-SHA256: 852cd10daebfdb864656aaacfdecbc9c9f449d9c68b964c972b2304c78dc9ea4
+Version: 1.2.1
+Installed-Size: 2444
+Filename: debs/ASJTikTok-1.2.1_46.9.0-rootless.deb
+Size: 672830
+MD5sum: c6dd86ac3b4b1d2f7274b94648edf660
+SHA1: baf40078eb776aeaecec759285bbeb88473f1685
+SHA256: c3ac765f2fa7932621d1f2626cbfa3099fae50e8aae251299887b3269248b56c
 
 Package: com.ahmad.asjtube
 Name: ASJTube

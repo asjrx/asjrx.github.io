@@ -122,6 +122,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.3"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Every menu, message and dialog is the app's own now.** Same look, same place, same wording as YouTube.\n- **Downloads report the way YouTube reports its own** — a notification at the bottom, and rows at the top of My library.\n- **Opening a YouTube link from Safari no longer closes the app.**\n- General improvements and fixes."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.2.1"
         },
         {

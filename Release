@@ -6,13 +6,13 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Tweaks by ASJRX
-Date: Sat, 19 Sep 2026 19:38:13 GMT
+Date: Tue, 22 Sep 2026 21:58:33 GMT
 MD5Sum:
- 666a3acdcae47b804b8e546c9489b216 4518 Packages
- 908c9189f8d320ce802eef405572ad7a 1155 Packages.gz
+ 0c0a4e28687dfd72c567458a8fde97f9 4506 Packages
+ 4aa94a936a1a33a9f9e8e62123097cae 1157 Packages.gz
 SHA1:
- 05445aec0ca6cc439b3590d06b62e955f335ac2c 4518 Packages
- 86629ec1093e565497e6113db6edda381391e3c3 1155 Packages.gz
+ ea9a971c9efb79ba311cd4a66d54be9ef8e6eb49 4506 Packages
+ 195330c590c25a04b5e5220195d31e7e4582fb59 1157 Packages.gz
 SHA256:
- c25ed0632fe8c55157befcd6dee3acf85324d03bed53269bf8a195a02dbfb0f8 4518 Packages
- 6173511a3bcaeabb1d36459bdaffe8fb71108ba8b99487a0b52435d66f5c5f16 1155 Packages.gz
+ c375c7b5159edc228808309bc9cba70989199a111668b6f9faab621a0e9748fe 4506 Packages
+ d5c71c7a750e03d52efab99378b38da2f1db753f4f248d5a9abc9e0a053413a3 1157 Packages.gz

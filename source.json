@@ -1,0 +1,137 @@
+{
+ "name": "ASJ's Repo",
+ "identifier": "com.ahmadrashed.source",
+ "subtitle": "Apps made easier",
+ "description": "ASJTube and ASJTikTok, ready to sign.",
+ "iconURL": "https://ahmadrashed.com/depictions/icon-1024.png",
+ "website": "https://ahmadrashed.com/home/",
+ "sourceURL": "https://source.ahmadrashed.com",
+ "tintColor": "0a84c4",
+ "news": [],
+ "apps": [
+  {
+   "name": "ASJTube",
+   "bundleIdentifier": "com.google.ios.youtube",
+   "developerName": "Ahmad Rashed",
+   "subtitle": "Ad-free playback, background audio and downloads for YouTube",
+   "localizedDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it.\n\nAd-free playback, background audio and downloads for YouTube",
+   "iconURL": "https://ahmadrashed.com/icons/ipa/asjtube.png",
+   "tintColor": "ff4d4d",
+   "version": "21.38.2",
+   "versionDate": "2026-09-22",
+   "size": 147874101,
+   "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+   "versions": [
+    {
+     "version": "21.38.2",
+     "buildVersion": "21.38.2",
+     "date": "2026-09-22",
+     "localizedDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it.",
+     "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+     "size": 147874101,
+     "sha256": "972ea7f1778a4c205a5d40e1aad848e38a67b01db5341fa8ab1037409bfe5075",
+     "minOSVersion": "17.0"
+    }
+   ],
+   "appPermissions": {
+    "entitlements": [
+     "application-identifier",
+     "aps-environment"
+    ],
+    "privacy": {
+     "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+     "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+     "NSCameraUsageDescription": "This lets you create videos using the app.",
+     "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+     "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+     "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+     "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+     "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+     "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+    }
+   },
+   "asjExtensions": false
+  },
+  {
+   "name": "ASJTikTok",
+   "bundleIdentifier": "com.zhiliaoapp.musically",
+   "developerName": "Ahmad Rashed",
+   "subtitle": "Privacy, download and playback options for TikTok",
+   "localizedDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it.\n\nPrivacy, download and playback options for TikTok",
+   "iconURL": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
+   "tintColor": "7aa2f7",
+   "version": "46.9.0",
+   "versionDate": "2026-09-19",
+   "size": 488066926,
+   "downloadURL": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+   "versions": [
+    {
+     "version": "46.9.0",
+     "buildVersion": "469036",
+     "date": "2026-09-19",
+     "localizedDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it.",
+     "downloadURL": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+     "size": 488066926,
+     "sha256": "d03728db2bd3cb557e3e52bb42264ba9da6325d1f94af8baccae6897470744b3",
+     "minOSVersion": "15.0"
+    }
+   ],
+   "appPermissions": {
+    "entitlements": [
+     "application-identifier",
+     "aps-environment",
+     "com.apple.developer.team-identifier"
+    ],
+    "privacy": {
+     "NSAppleMusicUsageDescription": "To select sound from your library, allow us to access your Apple Music.",
+     "NSBluetoothAlwaysUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+     "NSBluetoothPeripheralUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+     "NSCalendarsUsageDescription": "Add events to your device calendar to get reminders when events start.",
+     "NSCameraUsageDescription": "You'll be able to record video.",
+     "NSContactsUsageDescription": "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
+     "NSFaceIDUsageDescription": "We'll use this to unlock features that require added security.",
+     "NSLocalNetworkUsageDescription": "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
+     "NSLocationWhenInUseUsageDescription": "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
+     "NSMicrophoneUsageDescription": "To record audio, allow us to access your Microphone.",
+     "NSPhotoLibraryAddUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+     "NSPhotoLibraryUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+     "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
+    }
+   },
+   "asjExtensions": false
+  }
+ ],
+ "META": {
+  "repoName": "ASJ's Repo",
+  "repoIcon": "https://ahmadrashed.com/depictions/icon-1024.png"
+ },
+ "sourceName": "ASJ's Repo",
+ "sourceAuthor": "Ahmad Rashed",
+ "sourceImage": "https://ahmadrashed.com/depictions/icon-1024.png",
+ "sourceDescription": "ASJTube and ASJTikTok, ready to sign.",
+ "sourceLinkTitle": "Website",
+ "sourceLinkUrl": "https://ahmadrashed.com/home/",
+ "sourceUpdateTime": "2026-09-22T21:52:05+0000",
+ "appRepositories": [
+  {
+   "appType": "SELF_SIGN",
+   "appName": "ASJTube",
+   "appVersion": "21.38.2",
+   "appImage": "https://ahmadrashed.com/icons/ipa/asjtube.png",
+   "appPackage": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+   "appDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it. Ad-free playback, background audio and downloads for YouTube",
+   "appUpdateTime": "2026-09-22T21:52:05+0000",
+   "versionDate": "2026-09-22"
+  },
+  {
+   "appType": "SELF_SIGN",
+   "appName": "ASJTikTok",
+   "appVersion": "46.9.0",
+   "appImage": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
+   "appPackage": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+   "appDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it. Privacy, download and playback options for TikTok",
+   "appUpdateTime": "2026-09-19T20:04:19+0000",
+   "versionDate": "2026-09-19"
+  }
+ ]
+}

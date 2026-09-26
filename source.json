@@ -1,5 +1,5 @@
 {
- "name": "ASJ's Repo",
+ "name": "ASJ's Source",
  "identifier": "com.ahmadrashed.source",
  "subtitle": "Apps made easier",
  "description": "ASJTube and ASJTikTok, ready to sign.",
@@ -239,10 +239,10 @@
   }
  ],
  "META": {
-  "repoName": "ASJ's Repo",
+  "repoName": "ASJ's Source",
   "repoIcon": "https://ahmadrashed.com/depictions/icon-1024.png"
  },
- "sourceName": "ASJ's Repo",
+ "sourceName": "ASJ's Source",
  "sourceAuthor": "Ahmad Rashed",
  "sourceImage": "https://ahmadrashed.com/depictions/icon-1024.png",
  "sourceDescription": "ASJTube and ASJTikTok, ready to sign.",

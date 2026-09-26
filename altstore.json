@@ -1,5 +1,5 @@
 {
- "name": "ASJ's Repo",
+ "name": "ASJ's Source",
  "identifier": "com.ahmadrashed.altstore",
  "subtitle": "Apps made easier",
  "description": "ASJTube and ASJTikTok for AltStore and SideStore: the builds without app extensions.",
@@ -239,7 +239,7 @@
   }
  ],
  "META": {
-  "repoName": "ASJ's Repo",
+  "repoName": "ASJ's Source",
   "repoIcon": "https://ahmadrashed.com/depictions/icon-1024.png"
  }
 }

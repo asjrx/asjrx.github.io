@@ -1,11 +1,11 @@
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
 Description: Privacy, download and playback options for TikTok
-Depiction: https://asjrx.github.io/depictions/asjtiktok.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
-Icon: https://asjrx.github.io/depictions/icon.png
-Author: ASJRX <asjrx@icloud.com>
-Maintainer: ASJRX <asjrx@icloud.com>
+Depiction: https://ahmadrashed.com/depictions/asjtiktok.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjtiktok.json
+Icon: https://ahmadrashed.com/icons/apps/asjtiktok.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
 Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
@@ -21,11 +21,11 @@ SHA256: e64bd3acf20765d0431ea59f8562a93fb12b053058862a674eff9fc607251f00
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTikTok (roothide)
 Description: Privacy, download and playback options for TikTok
-Depiction: https://asjrx.github.io/depictions/asjtiktok.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
-Icon: https://asjrx.github.io/depictions/icon.png
-Author: ASJRX <asjrx@icloud.com>
-Maintainer: ASJRX <asjrx@icloud.com>
+Depiction: https://ahmadrashed.com/depictions/asjtiktok.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjtiktok.json
+Icon: https://ahmadrashed.com/icons/apps/asjtiktok.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
 Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
@@ -43,11 +43,11 @@ SHA256: d69a9c5b126859da405d2c1d225ff04b499da8d3781ba70dd55e67c861d1bfd8
 Package: com.ahmad.asjtiktok
 Name: ASJTikTok
 Description: Privacy, download and playback options for TikTok
-Depiction: https://asjrx.github.io/depictions/asjtiktok.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtiktok.json
-Icon: https://asjrx.github.io/depictions/icon.png
-Author: ASJRX <asjrx@icloud.com>
-Maintainer: ASJRX <asjrx@icloud.com>
+Depiction: https://ahmadrashed.com/depictions/asjtiktok.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjtiktok.json
+Icon: https://ahmadrashed.com/icons/apps/asjtiktok.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
 Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
@@ -63,11 +63,11 @@ SHA256: c3ac765f2fa7932621d1f2626cbfa3099fae50e8aae251299887b3269248b56c
 Package: com.ahmad.asjtube
 Name: ASJTube
 Description: Ad-free playback, background audio and downloads for YouTube
-Depiction: https://asjrx.github.io/depictions/asjtube.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtube.json
-Icon: https://asjrx.github.io/depictions/icon.png
-Author: ASJRX <289467706+asjrx@users.noreply.github.com>
-Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
+Depiction: https://ahmadrashed.com/depictions/asjtube.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjtube.json
+Icon: https://ahmadrashed.com/icons/apps/asjtube.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
 Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
@@ -83,11 +83,11 @@ SHA256: 727c4cbb2d2d09bab790f2400bfa982668f0bde31dcc432828625f9413f31ccb
 Package: com.ahmad.asjtube.roothide
 Name: ASJTube (roothide)
 Description: Ad-free playback, background audio and downloads for YouTube
-Depiction: https://asjrx.github.io/depictions/asjtube.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtube.json
-Icon: https://asjrx.github.io/depictions/icon.png
-Author: ASJRX <289467706+asjrx@users.noreply.github.com>
-Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
+Depiction: https://ahmadrashed.com/depictions/asjtube.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjtube.json
+Icon: https://ahmadrashed.com/icons/apps/asjtube.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
 Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
@@ -105,11 +105,11 @@ SHA256: a02dbe97e7c1802311944890d776c1d895e7e2a73b76e80cdd7c14ad63f701a0
 Package: com.ahmad.asjtube
 Name: ASJTube
 Description: Ad-free playback, background audio and downloads for YouTube
-Depiction: https://asjrx.github.io/depictions/asjtube.html
-SileoDepiction: https://asjrx.github.io/depictions/asjtube.json
-Icon: https://asjrx.github.io/depictions/icon.png
-Author: ASJRX <289467706+asjrx@users.noreply.github.com>
-Maintainer: ASJRX <289467706+asjrx@users.noreply.github.com>
+Depiction: https://ahmadrashed.com/depictions/asjtube.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjtube.json
+Icon: https://ahmadrashed.com/icons/apps/asjtube.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
 Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate

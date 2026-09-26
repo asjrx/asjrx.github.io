@@ -1,18 +1,18 @@
-Origin: ASJRX
-Label: ASJRX
+Origin: ASJ's Repo
+Label: ASJ's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Tweaks by ASJRX
-Date: Tue, 22 Sep 2026 21:58:33 GMT
+Description: Apps made easier.
+Date: Sat, 26 Sep 2026 05:12:12 GMT
 MD5Sum:
- 0c0a4e28687dfd72c567458a8fde97f9 4506 Packages
- 4aa94a936a1a33a9f9e8e62123097cae 1157 Packages.gz
+ 6d695378d658a94503c1b0d70b83233e 4554 Packages
+ 585f980ead715344f5f1c42ad03d159e 1124 Packages.gz
 SHA1:
- ea9a971c9efb79ba311cd4a66d54be9ef8e6eb49 4506 Packages
- 195330c590c25a04b5e5220195d31e7e4582fb59 1157 Packages.gz
+ e1d841fab6c5878ac3d8b003d76b463d36816e41 4554 Packages
+ d676b7f06f49c7a46c8be37dddf5fc7f6f798e00 1124 Packages.gz
 SHA256:
- c375c7b5159edc228808309bc9cba70989199a111668b6f9faab621a0e9748fe 4506 Packages
- d5c71c7a750e03d52efab99378b38da2f1db753f4f248d5a9abc9e0a053413a3 1157 Packages.gz
+ 104a8887af9c4ef2ef014861c48a351e6c1b81c96c4fd005664ac0250e5d5666 4554 Packages
+ 539d0ba4aec72e30155ac2f004747e43c9d113670be1d2e815f3511888619588 1124 Packages.gz

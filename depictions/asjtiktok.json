@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://asjrx.github.io/depictions/banner.png",
+  "headerImage": "https://ahmadrashed.com/depictions/banner.png",
   "tintColor": "#7aa2f7",
   "tabs": [
     {
@@ -50,47 +50,47 @@
           "itemSize": "{160, 346}",
           "screenshots": [
             {
-              "url": "https://asjrx.github.io/screenshots/entry.png",
+              "url": "https://ahmadrashed.com/screenshots/entry.png",
               "accessibilityText": "The ASJTikTok button in your profile menu"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/settings.png",
+              "url": "https://ahmadrashed.com/screenshots/settings.png",
               "accessibilityText": "The settings panel"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/feed.png",
+              "url": "https://ahmadrashed.com/screenshots/feed.png",
               "accessibilityText": "Feed options — region, ads, LIVE"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/playback.png",
+              "url": "https://ahmadrashed.com/screenshots/playback.png",
               "accessibilityText": "Playback options"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/messages.png",
+              "url": "https://ahmadrashed.com/screenshots/messages.png",
               "accessibilityText": "Message privacy options"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/profile.png",
+              "url": "https://ahmadrashed.com/screenshots/profile.png",
               "accessibilityText": "Profile options"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/stories.png",
+              "url": "https://ahmadrashed.com/screenshots/stories.png",
               "accessibilityText": "Saved stories"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/downloads.png",
+              "url": "https://ahmadrashed.com/screenshots/downloads.png",
               "accessibilityText": "The download menu"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/comments.png",
+              "url": "https://ahmadrashed.com/screenshots/comments.png",
               "accessibilityText": "Comment options"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/live.png",
+              "url": "https://ahmadrashed.com/screenshots/live.png",
               "accessibilityText": "LIVE options"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/menu.png",
+              "url": "https://ahmadrashed.com/screenshots/menu.png",
               "accessibilityText": "The in-video menu"
             }
           ]
@@ -104,7 +104,7 @@
         {
           "class": "DepictionTableButtonView",
           "title": "Not jailbroken? Get it for TrollStore",
-          "action": "https://asjrx.github.io/trollstore/tiktok",
+          "action": "https://ahmadrashed.com/trollstore/tiktok",
           "openExternal": true
         },
         {
@@ -170,8 +170,8 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "title": "asjrx@icloud.com",
-          "action": "mailto:asjrx@icloud.com",
+          "title": "support@ahmadrashed.com",
+          "action": "mailto:support@ahmadrashed.com",
           "openExternal": true
         },
         {
@@ -256,7 +256,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **Full TrollStore support.** A build of its own, with TikTok's own entitlements and all nine app extensions kept intact. [asjrx.github.io/trollstore](https://asjrx.github.io/trollstore)\n- **A launch crash, if you had both halves installed.** A jailbroken device that also has the sideloaded build ends up with the tweak in the process twice, and the second copy crashed TikTok before it drew anything. It stands down now instead. This was not new to 1.1.4 - it has been there since the tweak grew its row inside TikTok's own Settings; it just took having both to hit it.\n- The bulk-save summary stays as long as it needs to - about three and a half seconds for one line, up to nine for three. A flat eight was too long for “Saved 12” and a flat three and a half cut off a tester reading *641 saved / 368 expired / 1 failed* after a thousand stories. A tap still closes it early.\n- Leaving the Stories folder takes the summary with it, instead of leaving it over the feed."
+          "markdown": "- **Full TrollStore support.** A build of its own, with TikTok's own entitlements and all nine app extensions kept intact. [ahmadrashed.com/trollstore](https://ahmadrashed.com/trollstore)\n- **A launch crash, if you had both halves installed.** A jailbroken device that also has the sideloaded build ends up with the tweak in the process twice, and the second copy crashed TikTok before it drew anything. It stands down now instead. This was not new to 1.1.4 - it has been there since the tweak grew its row inside TikTok's own Settings; it just took having both to hit it.\n- The bulk-save summary stays as long as it needs to - about three and a half seconds for one line, up to nine for three. A flat eight was too long for “Saved 12” and a flat three and a half cut off a tester reading *641 saved / 368 expired / 1 failed* after a thousand stories. A tap still closes it early.\n- Leaving the Stories folder takes the summary with it, instead of leaving it over the feed."
         },
         {
           "class": "DepictionSeparatorView"

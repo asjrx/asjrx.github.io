@@ -2,7 +2,10 @@
 
 APT source for my tweaks — add it in Sileo, Zebra or Cydia:
 
-    https://asjrx.github.io/
+    https://apt.ahmadrashed.com/
+
+Signing apps (ESign, KSign, Feather, Scarlet): https://source.ahmadrashed.com  
+AltStore / SideStore: https://altstore.ahmadrashed.com
 
 **→ [ASJTikTok](https://github.com/asjrx/ASJTikTok)** — what it does, screenshots, and downloads.
 

@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://asjrx.github.io/depictions/banner-tube.png",
+  "headerImage": "https://ahmadrashed.com/depictions/banner-tube.png",
   "tintColor": "#ff4d4d",
   "class": "DepictionTabView",
   "tabs": [
@@ -18,31 +18,31 @@
           "itemSize": "{160, 346}",
           "screenshots": [
             {
-              "url": "https://asjrx.github.io/screenshots/tube-library.png",
+              "url": "https://ahmadrashed.com/screenshots/tube-library.png",
               "accessibilityText": "My Library - everything you saved, laid out like Home"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/tube-quality.png",
+              "url": "https://ahmadrashed.com/screenshots/tube-quality.png",
               "accessibilityText": "Every rung the video has, with the size before you commit"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/tube-player.png",
+              "url": "https://ahmadrashed.com/screenshots/tube-player.png",
               "accessibilityText": "The library's own player, with a queue"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/tube-settings.png",
+              "url": "https://ahmadrashed.com/screenshots/tube-settings.png",
               "accessibilityText": "The ASJTube tab in YouTube's own bar"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/tube-shorts.png",
+              "url": "https://ahmadrashed.com/screenshots/tube-shorts.png",
               "accessibilityText": "Saving a Short"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/tube-clear.png",
+              "url": "https://ahmadrashed.com/screenshots/tube-clear.png",
               "accessibilityText": "Clear Mode - the interface out of the way"
             },
             {
-              "url": "https://asjrx.github.io/screenshots/tube-actionrow.png",
+              "url": "https://ahmadrashed.com/screenshots/tube-actionrow.png",
               "accessibilityText": "The save button in the row under the video"
             }
           ]
@@ -94,7 +94,7 @@
         {
           "class": "DepictionTableButtonView",
           "title": "Not jailbroken? Get it for TrollStore",
-          "action": "https://asjrx.github.io/trollstore/tube",
+          "action": "https://ahmadrashed.com/trollstore/tube",
           "openExternal": true
         },
         {
@@ -106,8 +106,8 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "title": "asjrx@icloud.com",
-          "action": "mailto:asjrx@icloud.com",
+          "title": "support@ahmadrashed.com",
+          "action": "mailto:support@ahmadrashed.com",
           "openExternal": true
         },
         {

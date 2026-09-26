@@ -4,9 +4,14 @@
  "subtitle": "Apps made easier",
  "description": "ASJTube and ASJTikTok for AltStore and SideStore: the builds without app extensions.",
  "iconURL": "https://ahmadrashed.com/depictions/icon-1024.png",
- "website": "https://ahmadrashed.com/home/",
+ "website": "https://ahmadrashed.com/",
  "sourceURL": "https://altstore.ahmadrashed.com",
+ "sourceIconURL": "https://ahmadrashed.com/depictions/icon-1024.png",
  "tintColor": "0a84c4",
+ "featuredApps": [
+  "com.google.ios.youtube",
+  "com.zhiliaoapp.musically"
+ ],
  "news": [],
  "apps": [
   {
@@ -17,10 +22,63 @@
    "localizedDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it.\n\nAd-free playback, background audio and downloads for YouTube",
    "iconURL": "https://ahmadrashed.com/icons/ipa/asjtube.png",
    "tintColor": "ff4d4d",
+   "category": "photo-video",
+   "screenshots": [
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-library.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-quality.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-player.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-settings.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-shorts.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-clear.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-actionrow.png",
+     "width": 621,
+     "height": 1344
+    }
+   ],
+   "screenshotURLs": [
+    "https://ahmadrashed.com/screenshots/tube-library.png",
+    "https://ahmadrashed.com/screenshots/tube-quality.png",
+    "https://ahmadrashed.com/screenshots/tube-player.png",
+    "https://ahmadrashed.com/screenshots/tube-settings.png",
+    "https://ahmadrashed.com/screenshots/tube-shorts.png",
+    "https://ahmadrashed.com/screenshots/tube-clear.png",
+    "https://ahmadrashed.com/screenshots/tube-actionrow.png"
+   ],
    "version": "21.38.2",
    "versionDate": "2026-09-22",
+   "versionDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it.",
    "size": 147874101,
    "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+   "bundleID": "com.google.ios.youtube",
+   "down": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+   "icon": "https://ahmadrashed.com/icons/ipa/asjtube.png",
+   "fullDate": "20260922215205",
+   "id": "ASJTube",
    "versions": [
     {
      "version": "21.38.2",
@@ -50,7 +108,8 @@
      "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
     }
    },
-   "asjExtensions": false
+   "asjExtensions": false,
+   "sortId": 2
   },
   {
    "name": "ASJTikTok",
@@ -60,10 +119,87 @@
    "localizedDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it.\n\nPrivacy, download and playback options for TikTok",
    "iconURL": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
    "tintColor": "7aa2f7",
+   "category": "entertainment",
+   "screenshots": [
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/entry.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/settings.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/feed.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/playback.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/messages.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/profile.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/stories.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/downloads.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/comments.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/live.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/menu.png",
+     "width": 621,
+     "height": 1344
+    }
+   ],
+   "screenshotURLs": [
+    "https://ahmadrashed.com/screenshots/entry.png",
+    "https://ahmadrashed.com/screenshots/settings.png",
+    "https://ahmadrashed.com/screenshots/feed.png",
+    "https://ahmadrashed.com/screenshots/playback.png",
+    "https://ahmadrashed.com/screenshots/messages.png",
+    "https://ahmadrashed.com/screenshots/profile.png",
+    "https://ahmadrashed.com/screenshots/stories.png",
+    "https://ahmadrashed.com/screenshots/downloads.png",
+    "https://ahmadrashed.com/screenshots/comments.png",
+    "https://ahmadrashed.com/screenshots/live.png",
+    "https://ahmadrashed.com/screenshots/menu.png"
+   ],
    "version": "46.9.0",
    "versionDate": "2026-09-19",
+   "versionDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it.",
    "size": 488066926,
    "downloadURL": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+   "bundleID": "com.zhiliaoapp.musically",
+   "down": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+   "icon": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
+   "fullDate": "20260919200419",
+   "id": "ASJTikTok",
    "versions": [
     {
      "version": "46.9.0",
@@ -98,7 +234,12 @@
      "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
     }
    },
-   "asjExtensions": false
+   "asjExtensions": false,
+   "sortId": 1
   }
- ]
+ ],
+ "META": {
+  "repoName": "ASJ's Repo",
+  "repoIcon": "https://ahmadrashed.com/depictions/icon-1024.png"
+ }
 }

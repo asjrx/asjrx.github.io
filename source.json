@@ -19,7 +19,7 @@
    "bundleIdentifier": "com.google.ios.youtube",
    "developerName": "Ahmad Rashed",
    "subtitle": "Ad-free playback, background audio and downloads for YouTube",
-   "localizedDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it.\n\nAd-free playback, background audio and downloads for YouTube",
+   "localizedDescription": "This is the full version. It keeps YouTube's original bundle ID and all of its app extensions (widgets, share sheet, notifications and Siri). Delete the original YouTube before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTube (No Plugins).\n\nDownloads, background audio and an ad-free YouTube — without changing how the app looks.\n\nEverything lives in one place: an ASJTube tab in YouTube's own bar.\n\nRequires iOS 17.0 or later.",
    "iconURL": "https://ahmadrashed.com/icons/ipa/asjtube.png",
    "tintColor": "ff4d4d",
    "category": "photo-video",
@@ -71,21 +71,120 @@
    ],
    "version": "21.38.2",
    "versionDate": "2026-09-22",
-   "versionDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it.",
-   "size": 147874101,
-   "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+   "versionDescription": "",
+   "size": 160021829,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2-plugins.ipa",
    "bundleID": "com.google.ios.youtube",
-   "down": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2-plugins.ipa",
    "icon": "https://ahmadrashed.com/icons/ipa/asjtube.png",
-   "fullDate": "20260922215205",
+   "fullDate": "20260922215632",
+   "id": "ASJTube",
+   "versions": [
+    {
+     "version": "21.38.2",
+     "buildVersion": "21.38.2",
+     "date": "2026-09-22",
+     "localizedDescription": "This update contains the following changes:\n\n- Every menu, message and dialog is the app's own now. Same look, same place, same wording as YouTube.\n- Downloads report the way YouTube reports its own — a notification at the bottom, and rows at the top of My library.\n- Opening a YouTube link from Safari no longer closes the app.\n- General improvements and fixes.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2-plugins.ipa",
+     "size": 160021829,
+     "sha256": "a3969f5d00cc370a01d80f2daebb2f6409ca402fe84cd23705535ec0c203dea0",
+     "minOSVersion": "17.0"
+    }
+   ],
+   "appPermissions": {
+    "entitlements": [
+     "application-identifier",
+     "aps-environment",
+     "com.apple.security.application-groups",
+     "keychain-access-groups"
+    ],
+    "privacy": {
+     "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+     "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+     "NSCameraUsageDescription": "This lets you create videos using the app.",
+     "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+     "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+     "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+     "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+     "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+     "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+    }
+   },
+   "asjExtensions": true,
+   "sortId": 4
+  },
+  {
+   "name": "ASJTube (No Plugins)",
+   "bundleIdentifier": "com.google.ios.youtube",
+   "developerName": "Ahmad Rashed",
+   "subtitle": "Ad-free playback, background audio and downloads for YouTube",
+   "localizedDescription": "This is an original version, it has YouTube's original bundle ID. Delete the original YouTube before installing. It has Plugins/Extensions removed so it can be signed with any certificate, including a free Apple ID.\n\nDownloads, background audio and an ad-free YouTube — without changing how the app looks.\n\nEverything lives in one place: an ASJTube tab in YouTube's own bar.\n\nRequires iOS 17.0 or later.",
+   "iconURL": "https://ahmadrashed.com/icons/ipa/asjtube.png",
+   "tintColor": "ff4d4d",
+   "category": "photo-video",
+   "screenshots": [
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-library.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-quality.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-player.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-settings.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-shorts.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-clear.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/tube-actionrow.png",
+     "width": 621,
+     "height": 1344
+    }
+   ],
+   "screenshotURLs": [
+    "https://ahmadrashed.com/screenshots/tube-library.png",
+    "https://ahmadrashed.com/screenshots/tube-quality.png",
+    "https://ahmadrashed.com/screenshots/tube-player.png",
+    "https://ahmadrashed.com/screenshots/tube-settings.png",
+    "https://ahmadrashed.com/screenshots/tube-shorts.png",
+    "https://ahmadrashed.com/screenshots/tube-clear.png",
+    "https://ahmadrashed.com/screenshots/tube-actionrow.png"
+   ],
+   "version": "21.38.2",
+   "versionDate": "2026-09-22",
+   "versionDescription": "",
+   "size": 147874101,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2.ipa",
+   "bundleID": "com.google.ios.youtube",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2.ipa",
+   "icon": "https://ahmadrashed.com/icons/ipa/asjtube.png",
+   "fullDate": "20260922215632",
    "id": "ASJTube-NoPlugins",
    "versions": [
     {
      "version": "21.38.2",
      "buildVersion": "21.38.2",
      "date": "2026-09-22",
-     "localizedDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it.",
-     "downloadURL": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
+     "localizedDescription": "This update contains the following changes:\n\n- Every menu, message and dialog is the app's own now. Same look, same place, same wording as YouTube.\n- Downloads report the way YouTube reports its own — a notification at the bottom, and rows at the top of My library.\n- Opening a YouTube link from Safari no longer closes the app.\n- General improvements and fixes.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2.ipa",
      "size": 147874101,
      "sha256": "972ea7f1778a4c205a5d40e1aad848e38a67b01db5341fa8ab1037409bfe5075",
      "minOSVersion": "17.0"
@@ -109,14 +208,14 @@
     }
    },
    "asjExtensions": false,
-   "sortId": 2
+   "sortId": 3
   },
   {
    "name": "ASJTikTok",
    "bundleIdentifier": "com.zhiliaoapp.musically",
    "developerName": "Ahmad Rashed",
    "subtitle": "Privacy, download and playback options for TikTok",
-   "localizedDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it.\n\nPrivacy, download and playback options for TikTok",
+   "localizedDescription": "This is the full version. It keeps TikTok's original bundle ID and all of its app extensions (widgets, share sheet, notifications, iMessage, Siri, Wallet and screen broadcast). Delete the original TikTok before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTikTok (No Plugins).\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
    "iconURL": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
    "tintColor": "7aa2f7",
    "category": "entertainment",
@@ -192,21 +291,150 @@
    ],
    "version": "46.9.0",
    "versionDate": "2026-09-19",
-   "versionDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it.",
-   "size": 488066926,
-   "downloadURL": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+   "versionDescription": "",
+   "size": 503263984,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0-plugins.ipa",
    "bundleID": "com.zhiliaoapp.musically",
-   "down": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0-plugins.ipa",
    "icon": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
-   "fullDate": "20260919200419",
+   "fullDate": "20260919193922",
+   "id": "ASJTikTok",
+   "versions": [
+    {
+     "version": "46.9.0",
+     "buildVersion": "469036",
+     "date": "2026-09-19",
+     "localizedDescription": "This update contains the following changes:\n\n- ASJTikTok has its own row in the profile menu. Under ASJ tools, at the end of TikTok's own list.\n- Its options are in the long-press menu too. Save, copy and clear display, in TikTok's own sheet.\n- Clear display can leave the bottom bar alone. A new switch in Feed settings.\n- General improvements and fixes.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0-plugins.ipa",
+     "size": 503263984,
+     "sha256": "758da45e984c351cf56a42d8053b45be94d12d9f71276ecbcd2e48e7d5eddd5c",
+     "minOSVersion": "15.0"
+    }
+   ],
+   "appPermissions": {
+    "entitlements": [
+     "application-identifier",
+     "aps-environment",
+     "com.apple.developer.pass-type-identifiers",
+     "com.apple.developer.payment-pass-provisioning",
+     "com.apple.developer.team-identifier",
+     "com.apple.security.application-groups"
+    ],
+    "privacy": {
+     "NSAppleMusicUsageDescription": "To select sound from your library, allow us to access your Apple Music.",
+     "NSBluetoothAlwaysUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+     "NSBluetoothPeripheralUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+     "NSCalendarsUsageDescription": "Add events to your device calendar to get reminders when events start.",
+     "NSCameraUsageDescription": "You'll be able to record video.",
+     "NSContactsUsageDescription": "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
+     "NSFaceIDUsageDescription": "We'll use this to unlock features that require added security.",
+     "NSLocalNetworkUsageDescription": "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
+     "NSLocationWhenInUseUsageDescription": "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
+     "NSMicrophoneUsageDescription": "To record audio, allow us to access your Microphone.",
+     "NSPhotoLibraryAddUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+     "NSPhotoLibraryUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+     "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
+    }
+   },
+   "asjExtensions": true,
+   "sortId": 2
+  },
+  {
+   "name": "ASJTikTok (No Plugins)",
+   "bundleIdentifier": "com.zhiliaoapp.musically",
+   "developerName": "Ahmad Rashed",
+   "subtitle": "Privacy, download and playback options for TikTok",
+   "localizedDescription": "This is an original version, it has TikTok's original bundle ID. Delete the original TikTok before installing. It has Plugins/Extensions removed so it can be signed with any certificate, including a free Apple ID.\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
+   "iconURL": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
+   "tintColor": "7aa2f7",
+   "category": "entertainment",
+   "screenshots": [
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/entry.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/settings.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/feed.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/playback.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/messages.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/profile.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/stories.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/downloads.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/comments.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/live.png",
+     "width": 621,
+     "height": 1344
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/menu.png",
+     "width": 621,
+     "height": 1344
+    }
+   ],
+   "screenshotURLs": [
+    "https://ahmadrashed.com/screenshots/entry.png",
+    "https://ahmadrashed.com/screenshots/settings.png",
+    "https://ahmadrashed.com/screenshots/feed.png",
+    "https://ahmadrashed.com/screenshots/playback.png",
+    "https://ahmadrashed.com/screenshots/messages.png",
+    "https://ahmadrashed.com/screenshots/profile.png",
+    "https://ahmadrashed.com/screenshots/stories.png",
+    "https://ahmadrashed.com/screenshots/downloads.png",
+    "https://ahmadrashed.com/screenshots/comments.png",
+    "https://ahmadrashed.com/screenshots/live.png",
+    "https://ahmadrashed.com/screenshots/menu.png"
+   ],
+   "version": "46.9.0",
+   "versionDate": "2026-09-19",
+   "versionDescription": "",
+   "size": 488066926,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0.ipa",
+   "bundleID": "com.zhiliaoapp.musically",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0.ipa",
+   "icon": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
+   "fullDate": "20260919193922",
    "id": "ASJTikTok-NoPlugins",
    "versions": [
     {
      "version": "46.9.0",
      "buildVersion": "469036",
      "date": "2026-09-19",
-     "localizedDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it.",
-     "downloadURL": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
+     "localizedDescription": "This update contains the following changes:\n\n- ASJTikTok has its own row in the profile menu. Under ASJ tools, at the end of TikTok's own list.\n- Its options are in the long-press menu too. Save, copy and clear display, in TikTok's own sheet.\n- Clear display can leave the bottom bar alone. A new switch in Feed settings.\n- General improvements and fixes.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0.ipa",
      "size": 488066926,
      "sha256": "d03728db2bd3cb557e3e52bb42264ba9da6325d1f94af8baccae6897470744b3",
      "minOSVersion": "15.0"
@@ -248,16 +476,26 @@
  "sourceDescription": "ASJTube and ASJTikTok, ready to sign.",
  "sourceLinkTitle": "Website",
  "sourceLinkUrl": "https://ahmadrashed.com/",
- "sourceUpdateTime": "2026-09-22T21:52:05+0000",
+ "sourceUpdateTime": "2026-09-22T21:56:32+0000",
  "appRepositories": [
   {
    "appType": "SELF_SIGN",
    "appName": "ASJTube",
    "appVersion": "21.38.2",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtube.png",
-   "appPackage": "https://github.com/asjrx/ASJTube/releases/download/v1.3/ASJTube-1.3_21.38.2.ipa",
-   "appDescription": "ASJTube 1.3 built into YouTube 21.38.2. Requires iOS 17.0 or later. App extensions removed, so any certificate can sign it. Ad-free playback, background audio and downloads for YouTube",
-   "appUpdateTime": "2026-09-22T21:52:05+0000",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2-plugins.ipa",
+   "appDescription": "This is the full version. It keeps YouTube's original bundle ID and all of its app extensions (widgets, share sheet, notifications and Siri). Delete the original YouTube before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTube (No Plugins).\n\nDownloads, background audio and an ad-free YouTube — without changing how the app looks.\n\nEverything lives in one place: an ASJTube tab in YouTube's own bar.\n\nRequires iOS 17.0 or later.",
+   "appUpdateTime": "2026-09-22T21:56:32+0000",
+   "versionDate": "2026-09-22"
+  },
+  {
+   "appType": "SELF_SIGN",
+   "appName": "ASJTube (No Plugins)",
+   "appVersion": "21.38.2",
+   "appImage": "https://ahmadrashed.com/icons/ipa/asjtube.png",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.3_21.38.2.ipa",
+   "appDescription": "This is an original version, it has YouTube's original bundle ID. Delete the original YouTube before installing. It has Plugins/Extensions removed so it can be signed with any certificate, including a free Apple ID.\n\nDownloads, background audio and an ad-free YouTube — without changing how the app looks.\n\nEverything lives in one place: an ASJTube tab in YouTube's own bar.\n\nRequires iOS 17.0 or later.",
+   "appUpdateTime": "2026-09-22T21:56:32+0000",
    "versionDate": "2026-09-22"
   },
   {
@@ -265,9 +503,19 @@
    "appName": "ASJTikTok",
    "appVersion": "46.9.0",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
-   "appPackage": "https://github.com/asjrx/ASJTikTok/releases/download/v1.2.1/ASJTikTok-1.2.1_46.9.0.ipa",
-   "appDescription": "ASJTikTok 1.2.1 built into TikTok 46.9.0. Requires iOS 15.0 or later. App extensions removed, so any certificate can sign it. Privacy, download and playback options for TikTok",
-   "appUpdateTime": "2026-09-19T20:04:19+0000",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0-plugins.ipa",
+   "appDescription": "This is the full version. It keeps TikTok's original bundle ID and all of its app extensions (widgets, share sheet, notifications, iMessage, Siri, Wallet and screen broadcast). Delete the original TikTok before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTikTok (No Plugins).\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
+   "appUpdateTime": "2026-09-19T19:39:22+0000",
+   "versionDate": "2026-09-19"
+  },
+  {
+   "appType": "SELF_SIGN",
+   "appName": "ASJTikTok (No Plugins)",
+   "appVersion": "46.9.0",
+   "appImage": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0.ipa",
+   "appDescription": "This is an original version, it has TikTok's original bundle ID. Delete the original TikTok before installing. It has Plugins/Extensions removed so it can be signed with any certificate, including a free Apple ID.\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
+   "appUpdateTime": "2026-09-19T19:39:22+0000",
    "versionDate": "2026-09-19"
   }
  ]

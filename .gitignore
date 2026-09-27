@@ -3,3 +3,5 @@
 # to one, and the real download is a release asset on GitHub, named for its version. One got
 # committed by accident carrying v1.1.3 while 1.1.7 was being published.
 /ASJTikTok*.dylib
+__pycache__/
+.preview/

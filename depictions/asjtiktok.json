@@ -177,42 +177,36 @@
           "class": "DepictionButtonView",
           "text": "Telegram",
           "action": "https://t.me/ASJTweaks",
-          "openExternal": true,
           "tintColor": "#6C48E9"
         },
         {
           "class": "DepictionButtonView",
           "text": "Website",
           "action": "https://ahmadrashed.com",
-          "openExternal": true,
           "tintColor": "#963AE0"
         },
         {
           "class": "DepictionButtonView",
           "text": "Support the work",
           "action": "https://ahmadrashed.com/donate",
-          "openExternal": true,
           "tintColor": "#C02BD6"
         },
         {
           "class": "DepictionButtonView",
           "text": "Email",
           "action": "mailto:support@ahmadrashed.com",
-          "openExternal": true,
           "tintColor": "#F1478F"
         },
         {
           "class": "DepictionButtonView",
           "text": "GitHub",
           "action": "https://github.com/asjrx/ASJTikTok",
-          "openExternal": true,
           "tintColor": "#636366"
         },
         {
           "class": "DepictionButtonView",
           "text": "X",
           "action": "https://x.com/asjrxx",
-          "openExternal": true,
           "tintColor": "#3A3A3C"
         },
         {

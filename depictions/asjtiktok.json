@@ -190,7 +190,7 @@
         {
           "class": "DepictionButtonView",
           "text": "Support the work",
-          "action": "https://ko-fi.com/asjrx",
+          "action": "https://ahmadrashed.com/donate",
           "openExternal": true,
           "tintColor": "#C02BD6"
         },

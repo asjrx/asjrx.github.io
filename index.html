@@ -74,6 +74,7 @@
 
   .tweak { display:flex; gap:1rem; align-items:flex-start; }
   .tweak img { width:54px; height:54px; border-radius:14px; flex:none; }
+  .tweak picture { display:block; flex:none; }
   .tweak h3 { margin:0 0 .15rem; font-size:1.05rem; letter-spacing:-.01em; }
   .tweak p { margin:0 0 .55rem; color:var(--dim); font-size:.95rem; }
   .links a { color:var(--accent); text-decoration:none; font-size:.9rem; font-weight:600; }
@@ -140,7 +141,7 @@
 
   <h2>Tweaks</h2>
   <div class="card tweak">
-    <img src="depictions/icon.png" alt="">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="icons/apps/asjtiktok-dark.png"><img src="icons/apps/asjtiktok.png" alt=""></picture>
     <div>
       <h3>ASJTikTok</h3>
       <p>Privacy, downloads and playback options for TikTok, in 53 languages.</p>
@@ -159,7 +160,7 @@
     </div>
   </div>
   <div class="card tweak">
-    <img src="depictions/icon.png" alt="">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="icons/apps/asjtube-dark.png"><img src="icons/apps/asjtube.png" alt=""></picture>
     <div>
       <h3>ASJTube</h3>
       <p>Downloads, background audio and an ad-free YouTube, in 79 languages.</p>

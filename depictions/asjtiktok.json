@@ -9,36 +9,7 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "What's new in 1.2.1"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- **ASJTikTok has its own row in the profile menu.** Under ASJ tools, at the end of TikTok's own list.\n- **Its options are in the long-press menu too.** Save, copy and clear display, in TikTok's own sheet.\n- **Clear display can leave the bottom bar alone.** A new switch in Feed settings.\n- General improvements and fixes."
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "What's new in 1.2"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- **Saved stories have a storage screen.** Clear space by account or by age, with the size shown before you tap.\n- **Nothing you saved is deleted to make room.** The library holds 20,000.\n- **Hiding your story views is stricter.** Marking one as seen sticks too.\n- **Content country reaches more of the app.**"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "What's new in 1.1.9"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- **Now works on older TikTok versions.** The tool had no way in there; it adds its own row to TikTok's menu. Same entry while signed out.\n- **Send an audio file** works on those versions too."
-        },
-        {
-          "class": "DepictionSeparatorView"
+          "title": "Description"
         },
         {
           "class": "DepictionMarkdownView",
@@ -96,21 +67,6 @@
           ]
         },
         {
-          "class": "DepictionTableButtonView",
-          "title": "Join ASJ Tweaks on Telegram",
-          "action": "https://t.me/ASJTweaks",
-          "openExternal": true
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": "Not jailbroken? Get it for TrollStore",
-          "action": "https://ahmadrashed.com/trollstore/tiktok",
-          "openExternal": true
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
           "class": "DepictionSeparatorView"
         },
         {
@@ -166,13 +122,98 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Contact"
+          "title": "What's new in 1.2.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **ASJTikTok has its own row in the profile menu.** Under ASJ tools, at the end of TikTok's own list.\n- **Its options are in the long-press menu too.** Save, copy and clear display, in TikTok's own sheet.\n- **Clear display can leave the bottom bar alone.** A new switch in Feed settings.\n- General improvements and fixes."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.2.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Updated",
+          "text": "September 19, 2026"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Supports",
+          "text": "iOS 14.0+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Size",
+          "text": "673 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "Ahmad Rashed"
         },
         {
           "class": "DepictionTableButtonView",
-          "title": "support@ahmadrashed.com",
-          "action": "mailto:support@ahmadrashed.com",
+          "title": "Not jailbroken? Get it for TrollStore",
+          "action": "https://ahmadrashed.com/trollstore/tiktok",
           "openExternal": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Links"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Telegram",
+          "action": "https://t.me/ASJTweaks",
+          "openExternal": true,
+          "tintColor": "#6C48E9"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Website",
+          "action": "https://ahmadrashed.com",
+          "openExternal": true,
+          "tintColor": "#963AE0"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Support the work",
+          "action": "https://ko-fi.com/asjrx",
+          "openExternal": true,
+          "tintColor": "#C02BD6"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Email",
+          "action": "mailto:support@ahmadrashed.com",
+          "openExternal": true,
+          "tintColor": "#F1478F"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub",
+          "action": "https://github.com/asjrx/ASJTikTok",
+          "openExternal": true,
+          "tintColor": "#636366"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "X",
+          "action": "https://x.com/asjrxx",
+          "openExternal": true,
+          "tintColor": "#3A3A3C"
         },
         {
           "class": "DepictionSpacerView",
@@ -189,6 +230,11 @@
           "title": "1.2.1"
         },
         {
+          "class": "DepictionSubheaderView",
+          "title": "September 19, 2026",
+          "useBoldText": false
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "- **ASJTikTok has its own row in the profile menu.** Under ASJ tools, at the end of TikTok's own list.\n- **Its options are in the long-press menu too.** Save, copy and clear display, in TikTok's own sheet.\n- **Clear display can leave the bottom bar alone.** A new switch in Feed settings.\n- General improvements and fixes."
         },
@@ -198,6 +244,11 @@
         {
           "class": "DepictionHeaderView",
           "title": "1.2"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "September 4, 2026",
+          "useBoldText": false
         },
         {
           "class": "DepictionMarkdownView",
@@ -211,6 +262,11 @@
           "title": "1.1.9"
         },
         {
+          "class": "DepictionSubheaderView",
+          "title": "August 24, 2026",
+          "useBoldText": false
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "- **Now works on older TikTok versions.** The tool had no way in there; it adds its own row to TikTok's menu. Same entry while signed out.\n- **Send an audio file** works on those versions too.\n- General improvements and fixes."
         },
@@ -220,6 +276,11 @@
         {
           "class": "DepictionHeaderView",
           "title": "1.1.8"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "August 24, 2026",
+          "useBoldText": false
         },
         {
           "class": "DepictionMarkdownView",
@@ -233,6 +294,11 @@
           "title": "1.1.7"
         },
         {
+          "class": "DepictionSubheaderView",
+          "title": "August 22, 2026",
+          "useBoldText": false
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "- **Fifty-three languages** - every language TikTok itself ships in, and switching applies straight away, without restarting the app.\n- **Works on any TikTok** - regional builds and re-signed copies included. It no longer matches on the bundle id, so it no longer matters what yours is called. A user found this the hard way: the tweak never loaded into his app at all.\n- **Save audio works again.**\n- **Photo posts save properly** - picture, video and sound, with a download percentage.\n- **Clear Display** - no flash of the top bar on launch, and the floating button stops disappearing.\n- **In Arabic** - the floating button stays on the right tabs, Open on Following works, and the panel reads right to left.\n- A voice message is kept the moment its audio arrives."
         },
@@ -242,6 +308,11 @@
         {
           "class": "DepictionHeaderView",
           "title": "1.1.6"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "August 22, 2026",
+          "useBoldText": false
         },
         {
           "class": "DepictionMarkdownView",
@@ -255,6 +326,11 @@
           "title": "1.1.5"
         },
         {
+          "class": "DepictionSubheaderView",
+          "title": "August 20, 2026",
+          "useBoldText": false
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "- **Full TrollStore support.** A build of its own, with TikTok's own entitlements and all nine app extensions kept intact. [ahmadrashed.com/trollstore](https://ahmadrashed.com/trollstore)\n- **A launch crash, if you had both halves installed.** A jailbroken device that also has the sideloaded build ends up with the tweak in the process twice, and the second copy crashed TikTok before it drew anything. It stands down now instead. This was not new to 1.1.4 - it has been there since the tweak grew its row inside TikTok's own Settings; it just took having both to hit it.\n- The bulk-save summary stays as long as it needs to - about three and a half seconds for one line, up to nine for three. A flat eight was too long for “Saved 12” and a flat three and a half cut off a tester reading *641 saved / 368 expired / 1 failed* after a thousand stories. A tap still closes it early.\n- Leaving the Stories folder takes the summary with it, instead of leaving it over the feed."
         },
@@ -264,6 +340,11 @@
         {
           "class": "DepictionHeaderView",
           "title": "1.1.4"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "August 20, 2026",
+          "useBoldText": false
         },
         {
           "class": "DepictionMarkdownView",
@@ -277,6 +358,11 @@
           "title": "1.1.3"
         },
         {
+          "class": "DepictionSubheaderView",
+          "title": "August 19, 2026",
+          "useBoldText": false
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "- Fixed a crash that could hit while the Stories screen was open — stories arriving in the background were being added from a different thread than the one drawing the screen. This one was present in every earlier version.\n- A story you delete no longer comes back. One path still let a deleted story reappear the next time TikTok sent it again.\n- The ASJTikTok button no longer appears inside the story viewer, where it never belonged.\n- Text stories — the ones people write instead of posting a clip — now get the save and seen buttons like any other story.\n- Quiet stories are lifted to a normal level when you save them to Photos. TikTok raises the volume during playback, so a quietly recorded story sounded fine in the app and weak in your album. Stories already at a normal level are saved untouched.\n- Stories download at the best quality TikTok offers instead of the first one it lists.\n- The Stories grid is lighter while scrolling, and a story whose cover will not load no longer holds everything up.\n- The settings panel shows both versions together, like v1.1.3 · 46.4."
         },
@@ -286,6 +372,11 @@
         {
           "class": "DepictionHeaderView",
           "title": "1.1.2"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "August 19, 2026",
+          "useBoldText": false
         },
         {
           "class": "DepictionMarkdownView",
@@ -299,6 +390,11 @@
           "title": "1.1.1"
         },
         {
+          "class": "DepictionSubheaderView",
+          "title": "August 19, 2026",
+          "useBoldText": false
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "- Deleting a story is permanent. One deleted while it was still downloading could come back on the next launch.\n- A bulk save can be stopped part-way — tap the card while it works."
         },
@@ -308,6 +404,11 @@
         {
           "class": "DepictionHeaderView",
           "title": "1.1"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "August 19, 2026",
+          "useBoldText": false
         },
         {
           "class": "DepictionMarkdownView",
@@ -321,11 +422,13 @@
           "title": "1.0"
         },
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "- First release."
+          "class": "DepictionSubheaderView",
+          "title": "August 19, 2026",
+          "useBoldText": false
         },
         {
-          "class": "DepictionSeparatorView"
+          "class": "DepictionMarkdownView",
+          "markdown": "- First release."
         },
         {
           "class": "DepictionSpacerView",

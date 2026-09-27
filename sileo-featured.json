@@ -1,0 +1,12 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{343, 193}",
+  "itemCornerRadius": 18,
+  "banners": [
+    {
+      "url": "https://ahmadrashed.com/depictions/repo-featured.png",
+      "title": "ASJ's Repo",
+      "displayText": false
+    }
+  ]
+}

@@ -91,14 +91,14 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .top.scrolled .wrap { background: color-mix(in srgb, var(--bg) 80%, transparent); box-shadow: inset 0 1px 0 var(--rim), 0 18px 44px -20px rgba(0,0,0,.5); }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 19px; letter-spacing: -.03em; }
 .brand img { width: 30px; height: 30px; transition: transform .5s var(--ease); }
-.brand:hover img { transform: rotate(-8deg) scale(1.06); }
+@media (hover: hover) { .brand:hover img { transform: rotate(-8deg) scale(1.06); } }
 .nav { display: flex; gap: 2px; }
 .nav a { position: relative; padding: 7px 13px; border-radius: 11px; color: var(--muted); font-size: 15px; font-weight: 580; transition: color .2s, background .2s; }
-.nav a:hover { color: var(--fg); background: var(--chip); }
+@media (hover: hover) { .nav a:hover { color: var(--fg); background: var(--chip); } }
 .nav a[aria-current="page"] { color: var(--fg); background: var(--chip); }
 .tools { display: flex; align-items: center; gap: 6px; margin-inline-start: auto; }
 .icon-btn { height: 38px; min-width: 38px; padding: 0 11px; display: grid; place-items: center; border-radius: 12px; color: var(--fg-2); border: 1px solid var(--line); background: var(--chip); font-weight: 650; font-size: 14px; transition: background .2s, color .2s; }
-.icon-btn:hover { color: var(--fg); background: color-mix(in srgb, var(--fg) 9%, transparent); }
+@media (hover: hover) { .icon-btn:hover { color: var(--fg); background: color-mix(in srgb, var(--fg) 9%, transparent); } }
 .icon-btn svg { width: 17px; height: 17px; }
 .head-cta { margin-inline-start: 4px; }
 .menu-btn { display: none; }
@@ -128,7 +128,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .drawer-logo { margin-top: 2px; } .drawer-logo img { width: 46px; height: 46px; display: block; }
   .drawer-links { display: flex; flex-direction: column; align-items: stretch; gap: 4px; width: 100%; margin-top: 26px; }
   .drawer-links a { text-align: center; padding: 13px 12px; border-radius: 14px; font-size: 17px; font-weight: 600; color: var(--fg-2); }
-  .drawer-links a:hover, .drawer-links a[aria-current="page"] { color: var(--fg); background: var(--chip); }
+  .drawer-links a[aria-current="page"] { color: var(--fg); background: var(--chip); }
+@media (hover: hover) { .drawer-links a:hover { color: var(--fg); background: var(--chip); } }
 }
 @keyframes drawer-in { from { transform: translateX(-100%); } to { transform: none; } }
 :root[dir="rtl"] .drawer-panel { animation-name: drawer-in-rtl; } @keyframes drawer-in-rtl { from { transform: translateX(100%); } to { transform: none; } }
@@ -138,17 +139,17 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 9px; height: 46px; padding: 0 20px; border-radius: 14px; font-weight: 650; font-size: 15px;
        border: 1px solid var(--line-2); background: var(--card); color: var(--fg); white-space: nowrap;
        transition: transform .25s var(--ease), box-shadow .3s, border-color .2s, background .2s; }
-.btn:hover { transform: translateY(-2px); }
+@media (hover: hover) { .btn:hover { transform: translateY(-2px); } }
 /* every white button answers the pointer as the installer tiles do: lift, a magenta rim, a shadow (Ahmad, 2026-09-27) */
-.btn:not(.primary):hover { border-color: color-mix(in srgb, var(--magenta) 45%, transparent); box-shadow: var(--shadow); }
+@media (hover: hover) { .btn:not(.primary):hover { border-color: color-mix(in srgb, var(--magenta) 45%, transparent); box-shadow: var(--shadow); } }
 .btn:active { transform: translateY(0) scale(.98); }
 .btn svg { width: 18px; height: 18px; }
 .btn.primary { border-color: transparent; color: #fff; background: var(--grad); overflow: hidden; isolation: isolate;
   box-shadow: 0 16px 36px -14px rgba(192,43,214,.85), inset 0 1px 0 rgba(255,255,255,.28); }
 .btn.primary::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(110deg, transparent 25%, rgba(255,255,255,.38) 50%, transparent 75%);
   transform: translateX(-130%); transition: transform .9s var(--ease); }
-.btn.primary:hover { box-shadow: 0 22px 44px -14px rgba(192,43,214,.95), inset 0 1px 0 rgba(255,255,255,.3); }
-.btn.primary:hover::after { transform: translateX(130%); }
+@media (hover: hover) { .btn.primary:hover { box-shadow: 0 22px 44px -14px rgba(192,43,214,.95), inset 0 1px 0 rgba(255,255,255,.3); } }
+@media (hover: hover) { .btn.primary:hover::after { transform: translateX(130%); } }
 .btn.lg { height: 56px; padding: 0 28px; font-size: 16.5px; border-radius: 17px; }
 .btn.sm { height: 38px; padding: 0 14px; font-size: 14px; border-radius: 12px; }
 .btn.block { width: 100%; }
@@ -165,7 +166,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .eyebrow { display: inline-flex; align-items: center; gap: 10px; padding: 5px 14px 5px 5px; border-radius: 999px; font-size: 14px; font-weight: 600; color: var(--fg-2);
   background: var(--glass); border: 1px solid var(--line-2); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); transition: border-color .2s, transform .3s var(--ease); }
 :root[dir="rtl"] .eyebrow { padding: 5px 5px 5px 14px; }
-.eyebrow:hover { border-color: color-mix(in srgb, var(--magenta) 55%, transparent); transform: translateY(-1px); }
+@media (hover: hover) { .eyebrow:hover { border-color: color-mix(in srgb, var(--magenta) 55%, transparent); transform: translateY(-1px); } }
 .eyebrow .new { position: relative; padding: 4px 10px; border-radius: 999px; color: #fff; background: var(--grad); font-size: 12.5px; font-weight: 750; }
 .eyebrow .new::before { content: ""; position: absolute; inset: -3px; border-radius: inherit; border: 2px solid var(--magenta); opacity: 0; animation: ping 2.6s var(--ease) infinite; }
 .eyebrow .dim { color: var(--muted); font-weight: 500; }
@@ -187,7 +188,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 /* a hairline edge on every installer icon, as iOS draws one: Zebra's is white to its corners and vanished into the white card */
 .works img { width: 30px; height: 30px; border-radius: 8px; background: #fff; box-shadow: 0 0 0 1px var(--line-2); transition: transform .3s var(--ease); }
 .works .icons > * { display: block; border-radius: 8px; }
-.works img:hover { transform: translateY(-3px) scale(1.14); }
+@media (hover: hover) { .works img:hover { transform: translateY(-3px) scale(1.14); } }
 @keyframes bob { 50% { translate: 0 -14px; } }
 .scroll-cue { position: absolute; left: 50%; bottom: 28px; width: 26px; height: 42px; margin-left: -13px; border-radius: 14px; border: 2px solid var(--line-2); }
 .scroll-cue span { position: absolute; left: 50%; top: 8px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--fg-2); animation: cue 2s var(--ease) infinite; }
@@ -210,7 +211,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .tool-card { display: grid; gap: 22px; align-content: space-between; padding: 26px; border-radius: 28px; border: 1px solid var(--line); box-shadow: var(--shadow);
   background: radial-gradient(90% 80% at 0% 0%, color-mix(in srgb, var(--app-solid) 15%, transparent), transparent 60%), var(--card);
   transition: transform .35s var(--ease), box-shadow .35s; }
-.tool-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+@media (hover: hover) { .tool-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); } }
 .tc-head { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 18px; align-items: start; }
 .tc-icon { position: relative; width: 76px; height: 76px; }
 .tc-icon::before { content: ""; position: absolute; inset: 14%; z-index: -1; border-radius: 30%; background: var(--app-grad); filter: blur(18px); opacity: .65; }
@@ -280,11 +281,11 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .foot-about p { margin: 10px 0 0; color: var(--muted); font-size: 15.5px; }
 .socials { display: flex; flex-wrap: wrap; gap: 8px; }
 .socials a { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 13px; border: 1px solid var(--line); background: var(--card); color: var(--fg-2); transition: transform .25s var(--ease), color .2s, border-color .2s; }
-.socials a:hover { color: var(--accent); border-color: color-mix(in srgb, var(--magenta) 45%, transparent); transform: translateY(-3px); }
+@media (hover: hover) { .socials a:hover { color: var(--accent); border-color: color-mix(in srgb, var(--magenta) 45%, transparent); transform: translateY(-3px); } }
 .socials svg { width: 18px; height: 18px; }
 .foot-base { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13.5px; }
 .foot-links { display: flex; flex-wrap: wrap; gap: 4px 22px; }
-.foot-links a { color: var(--fg-2); font-size: 14px; font-weight: 550; transition: color .2s; } .foot-links a:hover { color: var(--accent); }
+.foot-links a { color: var(--fg-2); font-size: 14px; font-weight: 550; transition: color .2s; } @media (hover: hover) { .foot-links a:hover { color: var(--accent); } }
 /* on a phone the footer stacks in the middle: brand, line, accounts, then the links over the copyright (Ahmad, 2026-09-27) */
 @media (max-width: 560px) { .foot-top, .foot-base { flex-direction: column; align-items: center; text-align: center; }
   .foot-about { display: flex; flex-direction: column; align-items: center; } .socials, .foot-links { justify-content: center; }
@@ -322,7 +323,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .installers { display: grid; grid-template-columns: repeat(auto-fill, minmax(124px, 1fr)); gap: 10px; }
 .installer { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 15px; border: 1px solid var(--line); background: var(--card); font-weight: 650; font-size: 14.5px;
   transition: transform .25s var(--ease), border-color .2s, box-shadow .25s; }
-.installer:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--magenta) 45%, transparent); box-shadow: var(--shadow); }
+@media (hover: hover) { .installer:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--magenta) 45%, transparent); box-shadow: var(--shadow); } }
 .installer img { width: 32px; height: 32px; border-radius: 9px; background: #fff; box-shadow: 0 0 0 1px var(--line-2); }
 /* the add-source sheet: centred text, and a short row (AltStore, SideStore) sits in the middle */
 #add-source .panel { text-align: center; }
@@ -358,7 +359,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .ap-head { grid-area: head; } .ap-body { grid-area: body; padding-top: 30px; }
 .ap .ap-side { grid-area: side; position: sticky; top: 96px; }
 .back { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 15px; font-weight: 600; transition: color .2s; }
-.back:hover { color: var(--fg); } .back svg { width: 16px; height: 16px; }
+@media (hover: hover) { .back:hover { color: var(--fg); } } .back svg { width: 16px; height: 16px; }
 .ap-id { display: flex; align-items: center; gap: 24px; margin-top: 26px; }
 .ap-icon { position: relative; flex: none; width: 120px; height: 120px; }
 .ap-icon::before { content: ""; position: absolute; inset: 12%; z-index: -1; border-radius: 30%; background: var(--app-grad); filter: blur(30px); opacity: .75; }
@@ -370,7 +371,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .tabs { display: inline-flex; gap: 4px; padding: 5px; border-radius: 16px; background: var(--glass); border: 1px solid var(--line);
   backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 .tabs a { padding: 9px 18px; border-radius: 12px; color: var(--muted); font-size: 15px; font-weight: 650; transition: color .2s, background .2s, box-shadow .2s; }
-.tabs a:hover { color: var(--fg); }
+@media (hover: hover) { .tabs a:hover { color: var(--fg); } }
 .tabs a[aria-selected="true"] { color: var(--fg); background: var(--card); box-shadow: var(--shadow); }
 .panel-tab { margin-top: 28px; }
 .js .panel-tab { display: none; } .js .panel-tab.on { display: block; animation: fade .35s ease; }
@@ -430,7 +431,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .chips { display: flex; flex-wrap: wrap; gap: 4px; width: fit-content; max-width: 100%; margin-bottom: 26px; padding: 5px; border-radius: 16px; background: var(--glass); border: 1px solid var(--line);
   backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 .chip { padding: 8px 14px; border-radius: 12px; color: var(--muted); font-size: 14.5px; font-weight: 650; transition: color .2s, background .2s, box-shadow .2s; }
-.chip:hover { color: var(--fg); }
+@media (hover: hover) { .chip:hover { color: var(--fg); } }
 .chip[aria-pressed="true"] { color: var(--fg); background: var(--card); box-shadow: var(--shadow); }
 .faq-card { margin-bottom: 18px; padding: 4px 24px 6px; border-radius: 26px; background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); scroll-margin-top: 96px; }
 .faq-card header { display: flex; align-items: center; gap: 14px; padding: 20px 0 16px; }
@@ -440,7 +441,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .faq-card header p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
 .qa { border-top: 1px solid var(--line); }
 .qa summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 2px; font-weight: 650; transition: color .2s; }
-.qa summary:hover { color: var(--accent); }
+@media (hover: hover) { .qa summary:hover { color: var(--accent); } }
 .qa summary::-webkit-details-marker { display: none; }
 .qa summary svg { width: 18px; height: 18px; flex: none; color: var(--muted); transition: transform .3s var(--ease), color .3s; }
 .qa[open] summary svg { transform: rotate(180deg); color: var(--accent); }
@@ -460,7 +461,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .contact-side .side-card h3 svg { width: 20px; height: 20px; color: var(--accent); }
 .contact-side .side-card p { margin: 0 0 14px; color: var(--muted); font-size: 15px; }
 .contact-side .steps li { font-size: 14.5px; }
-a.side-card { transition: transform .3s var(--ease), box-shadow .3s; } a.side-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+a.side-card { transition: transform .3s var(--ease), box-shadow .3s; } @media (hover: hover) { a.side-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); } }
 .mailchip { display: block; padding: 11px 14px; border-radius: 12px; background: var(--chip); border: 1px solid var(--line); color: var(--accent); font: 550 14px/1.3 var(--mono); text-align: center; }
 .contact-grid .compose { margin-top: 0; }
 @media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
@@ -477,7 +478,7 @@ a.side-card { transition: transform .3s var(--ease), box-shadow .3s; } a.side-ca
 @media (max-width: 640px) { .give { grid-template-columns: 1fr; } }
 .band .principles { margin-top: 26px; text-align: center; }
 .band .principle .ic { margin-inline: auto; }
-a.principle { transition: transform .3s var(--ease), box-shadow .3s; } a.principle:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+a.principle { transition: transform .3s var(--ease), box-shadow .3s; } @media (hover: hover) { a.principle:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); } }
 .compose { margin-top: 20px; padding: 32px; border-radius: var(--r-xl); background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .compose h2 { margin: 0; font-size: 24px; letter-spacing: -.025em; } .compose > p { margin: 6px 0 22px; color: var(--muted); font-size: 15px; }
 .form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
@@ -495,7 +496,7 @@ a.principle { transition: transform .3s var(--ease), box-shadow .3s; } a.princip
 /* install */
 .paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
 .path { text-align: start; display: grid; gap: 10px; padding: 22px; border-radius: var(--r-lg); border: 1px solid var(--line-2); background: var(--card); box-shadow: var(--shadow); transition: transform .3s var(--ease), box-shadow .3s; }
-.path:hover { transform: translateY(-3px); }
+@media (hover: hover) { .path:hover { transform: translateY(-3px); } }
 .path[aria-pressed="true"] { border-color: transparent; box-shadow: 0 0 0 2px var(--magenta), 0 20px 44px -20px rgba(192,43,214,.7); }
 .path .ico { display: flex; gap: 6px; } .path .ico img { width: 34px; height: 34px; border-radius: 10px; background: #fff; box-shadow: 0 0 0 1px var(--line-2); }
 .path b { font-size: 17px; } .path span { color: var(--muted); font-size: 14px; }
@@ -527,7 +528,7 @@ a.principle { transition: transform .3s var(--ease), box-shadow .3s; } a.princip
 .legal-doc section:last-child { border-bottom: 0; }
 .legal-doc h2 { margin: 0 0 12px; font-size: 22px; letter-spacing: -.02em; }
 .pill { display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 13px; border-radius: 999px; background: var(--chip); border: 1px solid var(--line); font-size: 13.5px; font-weight: 580; color: var(--fg-2); transition: color .2s, border-color .2s; }
-a.pill:hover { color: var(--fg); border-color: var(--line-2); }
+@media (hover: hover) { a.pill:hover { color: var(--fg); border-color: var(--line-2); } }
 .toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
 
 /* ---------- motion off: everything is simply there ---------- */
@@ -542,3 +543,11 @@ a.pill:hover { color: var(--fg); border-color: var(--line-2); }
 :is(.display, .h2, .page-head h1, .ap-id h1, .tc-head h3, .finale-card h2, .band h2, .about-text .h2, .brand span) {
   font-family: var(--display); font-weight: 700; letter-spacing: -.022em; }
 .display { letter-spacing: -.035em; }
+
+
+/* On a touch screen a hover never lets go: the last thing tapped stayed lifted, as if still pressed (Ahmad, 2026-09-28).
+   Every :hover above now answers a real pointer only; a tap gets a short press instead, released with the finger. */
+@media (hover: none) {
+  .works a:active img, .works button:active img { transform: scale(.9); }
+  .installer:active, .path:active, .tool-card:active, a.side-card:active, a.principle:active, .socials a:active, .eyebrow:active { transform: scale(.97); }
+}

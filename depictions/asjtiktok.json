@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Privacy, download and playback options for TikTok** — without changing how the app looks.\n\nSettings live in two places: a button inside your profile menu, and a row inside TikTok's own Settings."
+          "markdown": "**Privacy, download and playback options for TikTok** — without changing how the app looks.\n\nOpen it from its own row in the profile menu, under ASJ tools. Its options are in the long-press menu too."
         },
         {
           "class": "DepictionScreenshotsView",

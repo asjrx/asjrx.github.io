@@ -2,7 +2,7 @@
  "name": "ASJ's Source",
  "identifier": "com.ahmadrashed.altstore",
  "subtitle": "Apps made easier",
- "description": "ASJTube and ASJTikTok for AltStore and SideStore: the builds without app extensions.",
+ "description": "ASJTube and ASJTok for AltStore and SideStore: the builds without app extensions.",
  "iconURL": "https://ahmadrashed.com/depictions/icon-1024.png",
  "website": "https://ahmadrashed.com/",
  "sourceURL": "https://altstore.ahmadrashed.com",
@@ -113,7 +113,7 @@
    "sortId": 2
   },
   {
-   "name": "ASJTikTok (No Plugins)",
+   "name": "ASJTok (No Plugins)",
    "bundleIdentifier": "com.zhiliaoapp.musically",
    "developerName": "Ahmad Rashed",
    "subtitle": "Privacy, download and playback options for TikTok",

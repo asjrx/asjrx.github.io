@@ -2,7 +2,7 @@
  "name": "ASJ's Source",
  "identifier": "com.ahmadrashed.source",
  "subtitle": "Apps made easier",
- "description": "ASJTube and ASJTikTok, ready to sign.",
+ "description": "ASJTube and ASJTok, ready to sign.",
  "iconURL": "https://ahmadrashed.com/depictions/icon-1024.png",
  "website": "https://ahmadrashed.com/",
  "sourceURL": "https://source.ahmadrashed.com",
@@ -212,11 +212,11 @@
    "sortId": 3
   },
   {
-   "name": "ASJTikTok",
+   "name": "ASJTok",
    "bundleIdentifier": "com.zhiliaoapp.musically",
    "developerName": "Ahmad Rashed",
    "subtitle": "Privacy, download and playback options for TikTok",
-   "localizedDescription": "This is the full version. It keeps TikTok's original bundle ID and all of its app extensions (widgets, share sheet, notifications, iMessage, Siri, Wallet and screen broadcast). Delete the original TikTok before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTikTok (No Plugins).\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
+   "localizedDescription": "This is the full version. It keeps TikTok's original bundle ID and all of its app extensions (widgets, share sheet, notifications, iMessage, Siri, Wallet and screen broadcast). Delete the original TikTok before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTok (No Plugins).\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
    "iconURL": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
    "tintColor": "7aa2f7",
    "category": "entertainment",
@@ -341,7 +341,7 @@
    "sortId": 2
   },
   {
-   "name": "ASJTikTok (No Plugins)",
+   "name": "ASJTok (No Plugins)",
    "bundleIdentifier": "com.zhiliaoapp.musically",
    "developerName": "Ahmad Rashed",
    "subtitle": "Privacy, download and playback options for TikTok",
@@ -474,7 +474,7 @@
  "sourceName": "ASJ's Source",
  "sourceAuthor": "Ahmad Rashed",
  "sourceImage": "https://ahmadrashed.com/depictions/icon-1024.png",
- "sourceDescription": "ASJTube and ASJTikTok, ready to sign.",
+ "sourceDescription": "ASJTube and ASJTok, ready to sign.",
  "sourceLinkTitle": "Website",
  "sourceLinkUrl": "https://ahmadrashed.com/",
  "sourceUpdateTime": "2026-09-22T21:56:32+0000",
@@ -501,17 +501,17 @@
   },
   {
    "appType": "SELF_SIGN",
-   "appName": "ASJTikTok",
+   "appName": "ASJTok",
    "appVersion": "46.9.0",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
    "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0-plugins.ipa",
-   "appDescription": "This is the full version. It keeps TikTok's original bundle ID and all of its app extensions (widgets, share sheet, notifications, iMessage, Siri, Wallet and screen broadcast). Delete the original TikTok before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTikTok (No Plugins).\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
+   "appDescription": "This is the full version. It keeps TikTok's original bundle ID and all of its app extensions (widgets, share sheet, notifications, iMessage, Siri, Wallet and screen broadcast). Delete the original TikTok before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTok (No Plugins).\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
    "appUpdateTime": "2026-09-19T19:39:22+0000",
    "versionDate": "2026-09-19"
   },
   {
    "appType": "SELF_SIGN",
-   "appName": "ASJTikTok (No Plugins)",
+   "appName": "ASJTok (No Plugins)",
    "appVersion": "46.9.0",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
    "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTikTok-1.2.1_46.9.0.ipa",

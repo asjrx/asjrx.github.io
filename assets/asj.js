@@ -51,6 +51,42 @@
     var open = nav.classList.toggle("open"); menu.setAttribute("aria-expanded", open);
   });
 
+  // /donate: the approved supporters (tools/worker/supporters.js); the block stays hidden until there is one.
+  var sup = document.querySelector("[data-supporters]");
+  if (sup && window.fetch) fetch("/api/supporters").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    if (!d || !d.supporters || !d.supporters.length) return;
+    var list = sup.querySelector("[data-supporters-list]"), person = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>';
+    d.supporters.forEach(function (s) {
+      var row = document.createElement(s.url ? "a" : "div"); row.className = "supporter";
+      if (s.url) { row.href = s.url; row.rel = "noopener"; row.target = "_blank"; }
+      var av = document.createElement("span"); av.className = "av"; av.innerHTML = person; row.appendChild(av);
+      var name = document.createElement("span"); name.className = "label"; name.textContent = s.name; row.appendChild(name);   // text, never HTML
+      if (s.url) row.insertAdjacentHTML("beforeend", '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>');
+      list.appendChild(row);
+    });
+    sup.hidden = false;
+  }).catch(function () {});
+
+  // /thanks: send a name (and an account, if chosen) to be approved.
+  var sf = document.querySelector("[data-supporter-form]");
+  if (sf) {
+    var hw = sf.querySelector("[data-handle]"), msg = sf.querySelector("[data-msg]"), via = (location.search.match(/[?&]via=(paypal|kofi)\b/) || [])[1] || "";
+    sf.net.addEventListener("change", function () { hw.hidden = !sf.net.value; });
+    sf.addEventListener("submit", function (e) {
+      e.preventDefault(); var b = sf.querySelector("button"); b.disabled = true; msg.className = "give-msg"; msg.textContent = "…";
+      fetch("/api/supporters/submit", { method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ name: sf.name.value, net: sf.net.value, handle: sf.handle.value, website: sf.website.value, via: via }) })
+        .then(function (r) { return r.json().then(function (d) { return { s: r.status, d: d }; }); })
+        .then(function (x) {
+          if (x.d.ok) { sf.reset(); hw.hidden = true; msg.className = "give-msg ok"; msg.textContent = "Thank you! Your name will show once it is approved."; return; }
+          msg.className = "give-msg err";
+          msg.textContent = x.d.error === "name" ? "Please write a name (up to 40 letters, no links)." : x.d.error === "handle" ? "That username doesn't look right for that app." : x.d.error === "later" ? "Please try again in a while." : "Something went wrong - please try again.";
+        })
+        .catch(function () { msg.className = "give-msg err"; msg.textContent = "Something went wrong - please try again."; })
+        .then(function () { b.disabled = false; });
+    });
+  }
+
   // Toast.
   var toast = document.createElement("div"); toast.className = "toast"; toast.setAttribute("role", "status"); document.body.appendChild(toast);
   function say(en, ar) { toast.textContent = root.lang === "ar" ? ar : en; toast.classList.add("show"); clearTimeout(say.t); say.t = setTimeout(function () { toast.classList.remove("show"); }, 1800); }

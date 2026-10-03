@@ -72,13 +72,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.3
-Installed-Size: 5548
-Filename: debs/ASJTube-1.3-rootful.deb
-Size: 1485114
-MD5sum: a9ca6b0d9d88bac85c666b37e0d3a85c
-SHA1: 56f1a71720a36d22f0bea3b74bc5e9ebff2cb873
-SHA256: 727c4cbb2d2d09bab790f2400bfa982668f0bde31dcc432828625f9413f31ccb
+Version: 1.4
+Installed-Size: 5920
+Filename: debs/ASJTube-1.4-rootful.deb
+Size: 1583378
+MD5sum: adcabdacd7b56b31ff7d7d6695c3d522
+SHA1: 732944e2854f03b03b96f91fa791e07ca9a4a331
+SHA256: 402aeed8b213f66be751f3ae0da6ed71f4498cee98249384c6ef9ad18f807e5d
 
 Package: com.ahmad.asjtube.roothide
 Name: ASJTube (roothide)
@@ -94,13 +94,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtube
 Replaces: com.ahmad.asjtube
 Architecture: iphoneos-arm64e
-Version: 1.3
-Installed-Size: 5548
-Filename: debs/ASJTube-1.3-roothide.deb
-Size: 1486580
-MD5sum: 883955a9d542804da5e028266f91d0ac
-SHA1: b368dbfa9756a6517a9ce2ff118e77537c831fe8
-SHA256: a02dbe97e7c1802311944890d776c1d895e7e2a73b76e80cdd7c14ad63f701a0
+Version: 1.4
+Installed-Size: 5920
+Filename: debs/ASJTube-1.4-roothide.deb
+Size: 1583328
+MD5sum: d94888d387112a61a13cd282ed99f82c
+SHA1: 2962712dd8dd314fa2480c82ef6096099d312b75
+SHA256: 2ffdc35be5b0db830c6226307afb557acfe3b60844b040825a440004808cb158
 
 Package: com.ahmad.asjtube
 Name: ASJTube
@@ -114,10 +114,10 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.3
-Installed-Size: 5548
-Filename: debs/ASJTube-1.3-rootless.deb
-Size: 1484140
-MD5sum: bd084e811c4fba5f5b31ee73d0eed4c2
-SHA1: 8ab1cf22f498b3bb72cfbe6738c12a7b04542a4d
-SHA256: 002e21d1c9156fdda6caaa9406baf930c38950a2f3100aaf507dfeaf6106a943
+Version: 1.4
+Installed-Size: 5920
+Filename: debs/ASJTube-1.4-rootless.deb
+Size: 1582918
+MD5sum: 04d5e45a1f31008a38ec1ac077e1831d
+SHA1: 9fa21f9f35c184e79d8a92ec47fa324cb451fb3d
+SHA256: 5a4ea0d9872f23bfa9707f434ec84a6ffa29be1e827f332af65a7b21308fd309

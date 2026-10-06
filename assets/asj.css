@@ -592,3 +592,14 @@ a.supporter:active { background: var(--chip); }
 .give-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 .give-msg { margin: 0; min-height: 1.2em; text-align: center; font-size: 14.5px; color: var(--muted); }
 .give-msg.ok { color: #1f9d55; } .give-msg.err { color: #d93a4a; }
+
+/* ---------- the paid sponsor's banner (site.py SPONSOR) ---------- */
+.sponsor { grid-column: 1 / -1; justify-self: center; display: grid; justify-items: center; gap: 8px; margin-top: 6px; }
+.sponsor-label { font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.sponsor a { display: block; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); line-height: 0; }
+.sponsor img { display: block; max-width: 100%; height: auto; }
+@media (hover: hover) { .sponsor a { transition: transform .25s var(--ease); } .sponsor a:hover { transform: translateY(-2px); } }
+/* the home page: under the tweaks; an app page: first in the body column, under the title on a computer and under Download on a phone */
+.home-sponsor { margin-top: 56px; }
+.ap-sponsor { justify-items: start; margin: 0 0 30px; }
+@media (max-width: 960px) { .ap-sponsor { justify-items: center; } }

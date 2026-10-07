@@ -17,52 +17,32 @@
         },
         {
           "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 8,
-          "itemSize": "{160, 346}",
+          "itemCornerRadius": 10,
+          "itemSize": "{160, 347}",
           "screenshots": [
             {
-              "url": "https://ahmadrashed.com/screenshots/entry.png",
-              "accessibilityText": "The ASJTikTok row in your profile menu, under ASJ tools"
+              "url": "https://ahmadrashed.com/screenshots/asjtok-1-privacy.jpg",
+              "accessibilityText": "Read it. They won't know. Hide views, typing and active status, and still see theirs."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/settings.png",
-              "accessibilityText": "The settings panel"
+              "url": "https://ahmadrashed.com/screenshots/asjtok-2-save.jpg",
+              "accessibilityText": "Save any video, no watermark. Video, audio, profile pictures and more, from the button on every video."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/feed.png",
-              "accessibilityText": "Feed options — region, ads, LIVE"
+              "url": "https://ahmadrashed.com/screenshots/asjtok-3-clear.jpg",
+              "accessibilityText": "Nothing but the video. Clear display hides the whole interface in one tap."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/playback.png",
-              "accessibilityText": "Playback options"
+              "url": "https://ahmadrashed.com/screenshots/asjtok-4-profile.jpg",
+              "accessibilityText": "Look around, unseen. View profiles and stories without showing up in their lists."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/messages.png",
-              "accessibilityText": "Message privacy options"
+              "url": "https://ahmadrashed.com/screenshots/asjtok-5-feed.jpg",
+              "accessibilityText": "Your feed, your rules. No ads, no suggested accounts, or another country's For You."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/profile.png",
-              "accessibilityText": "Profile options"
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/stories.png",
-              "accessibilityText": "Saved stories"
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/downloads.png",
-              "accessibilityText": "The download menu"
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/comments.png",
-              "accessibilityText": "Comment options"
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/live.png",
-              "accessibilityText": "LIVE options"
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/menu.png",
-              "accessibilityText": "The in-video menu"
+              "url": "https://ahmadrashed.com/screenshots/asjtok-6-icons.jpg",
+              "accessibilityText": "Make it yours. Four app icons, including ASJTok's own, in the IPA and TrollStore builds."
             }
           ]
         },

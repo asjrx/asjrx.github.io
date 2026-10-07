@@ -17,36 +17,32 @@
         },
         {
           "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 8,
-          "itemSize": "{160, 346}",
+          "itemCornerRadius": 10,
+          "itemSize": "{160, 347}",
           "screenshots": [
             {
-              "url": "https://ahmadrashed.com/screenshots/tube-library.png",
-              "accessibilityText": "My Library - everything you saved, laid out like Home"
+              "url": "https://ahmadrashed.com/screenshots/asjtube-1-4k.jpg",
+              "accessibilityText": "Save any video, up to 4K. Every quality it has, with the size shown before you tap."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/tube-quality.png",
-              "accessibilityText": "Every rung the video has, with the size before you commit"
+              "url": "https://ahmadrashed.com/screenshots/asjtube-2-music.jpg",
+              "accessibilityText": "YouTube Music, built in. Find any song from the library search, then play it or save it as audio."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/tube-player.png",
-              "accessibilityText": "The library's own player, with a queue"
+              "url": "https://ahmadrashed.com/screenshots/asjtube-3-playlist.jpg",
+              "accessibilityText": "Whole playlists, in one go. Paste a playlist link; videos you already have are skipped."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/tube-settings.png",
-              "accessibilityText": "The ASJTube tab in YouTube's own bar"
+              "url": "https://ahmadrashed.com/screenshots/asjtube-4-library.jpg",
+              "accessibilityText": "Your own library. What you saved, laid out like Home, with playlists, Watch later and search."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/tube-shorts.png",
-              "accessibilityText": "Saving a Short"
+              "url": "https://ahmadrashed.com/screenshots/asjtube-5-shorts.jpg",
+              "accessibilityText": "Shorts, saved your way. Video, audio or photo, from the button on every Short."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/tube-clear.png",
-              "accessibilityText": "Clear Mode - the interface out of the way"
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/tube-actionrow.png",
-              "accessibilityText": "The save button in the row under the video"
+              "url": "https://ahmadrashed.com/screenshots/asjtube-6-clear.jpg",
+              "accessibilityText": "Nothing but the video. Clear Mode hides the whole interface on a Short, in one tap."
             }
           ]
         },

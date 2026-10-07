@@ -603,3 +603,23 @@ a.supporter:active { background: var(--chip); }
 .home-sponsor { margin-top: 56px; }
 .ap-sponsor { justify-items: start; margin: 0 0 30px; }
 @media (max-width: 960px) { .ap-sponsor { justify-items: center; } }
+/* a tweak's screenshots (from its Sileo depiction): one row that swipes, as on the App Store */
+.shots-wrap { position: relative; margin: 0 0 30px; }
+.shots { list-style: none; margin: 0; padding: 4px 2px 18px; display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.shots::-webkit-scrollbar { display: none; }
+.shots li { flex: none; scroll-snap-align: start; }
+.shots img { display: block; width: 236px; height: auto; border-radius: 24px; border: 1px solid var(--line); box-shadow: var(--shadow); background: #09080D; }
+.shots-nav { position: absolute; top: calc(50% - 9px); z-index: 2; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%;
+  border: 1px solid var(--line-2); background: var(--glass); color: var(--fg); box-shadow: var(--shadow); cursor: pointer;
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); transform: translateY(-50%); transition: background .2s, transform .2s var(--ease); }
+.shots-nav svg { width: 18px; height: 18px; }
+.shots-nav.prev { left: -14px; } .shots-nav.prev svg { transform: scaleX(-1); }
+.shots-nav.next { right: -14px; }
+.shots-nav[hidden] { display: none; }
+@media (hover: hover) { .shots-nav:hover { background: var(--card); transform: translateY(-50%) scale(1.06); } }
+@media (hover: none) { .shots-nav { display: none; } }
+@media (max-width: 560px) {
+  .shots { margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); gap: 12px; }
+  .shots img { width: min(62vw, 250px); border-radius: 22px; }
+}

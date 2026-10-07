@@ -204,4 +204,23 @@
     var body = v("message") + "\n\n— " + v("name") + (v("device") ? "\n" + v("device") : "");
     location.href = "mailto:" + form.getAttribute("data-mailto") + "?subject=" + encodeURIComponent("[" + v("topic") + "] " + (v("name") || "ASJ")) + "&body=" + encodeURIComponent(body);
   });
+
+  // a tweak's screenshots: a row that swipes; with a mouse, two arrows step it one picture at a time
+  document.querySelectorAll("[data-shots]").forEach(function (row) {
+    var wrap = row.parentNode, prev = wrap.querySelector('[data-shots-nav="-1"]'), next = wrap.querySelector('[data-shots-nav="1"]');
+    var rtl = function () { return getComputedStyle(row).direction === "rtl"; };
+    function sync() {
+      var max = row.scrollWidth - row.clientWidth, at = Math.abs(row.scrollLeft);
+      prev.hidden = at < 4; next.hidden = at > max - 4;
+    }
+    [prev, next].forEach(function (b) {
+      b.addEventListener("click", function () {
+        var li = row.querySelector("li"), step = li ? li.getBoundingClientRect().width + 14 : row.clientWidth * 0.8;
+        row.scrollBy({ left: step * +b.getAttribute("data-shots-nav") * (rtl() ? -1 : 1), behavior: "smooth" });
+      });
+    });
+    row.addEventListener("scroll", sync, { passive: true });
+    window.addEventListener("resize", sync);
+    sync();
+  });
 })();

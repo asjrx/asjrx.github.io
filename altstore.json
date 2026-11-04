@@ -117,43 +117,55 @@
    "category": "entertainment",
    "screenshots": [
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-1-privacy.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-1-glass.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-2-save.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-2-clear.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-3-clear.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-3-menu.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-4-profile.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-4-details.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-5-feed.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-5-privacy.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-6-icons.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-6-feed.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-7-profile.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtok-8-comments.jpg",
      "width": 750,
      "height": 1626
     }
    ],
    "screenshotURLs": [
-    "https://ahmadrashed.com/screenshots/asjtok-1-privacy.jpg",
-    "https://ahmadrashed.com/screenshots/asjtok-2-save.jpg",
-    "https://ahmadrashed.com/screenshots/asjtok-3-clear.jpg",
-    "https://ahmadrashed.com/screenshots/asjtok-4-profile.jpg",
-    "https://ahmadrashed.com/screenshots/asjtok-5-feed.jpg",
-    "https://ahmadrashed.com/screenshots/asjtok-6-icons.jpg"
+    "https://ahmadrashed.com/screenshots/asjtok-1-glass.jpg",
+    "https://ahmadrashed.com/screenshots/asjtok-2-clear.jpg",
+    "https://ahmadrashed.com/screenshots/asjtok-3-menu.jpg",
+    "https://ahmadrashed.com/screenshots/asjtok-4-details.jpg",
+    "https://ahmadrashed.com/screenshots/asjtok-5-privacy.jpg",
+    "https://ahmadrashed.com/screenshots/asjtok-6-feed.jpg",
+    "https://ahmadrashed.com/screenshots/asjtok-7-profile.jpg",
+    "https://ahmadrashed.com/screenshots/asjtok-8-comments.jpg"
    ],
    "version": "47.0.0",
    "versionDate": "2026-09-29",

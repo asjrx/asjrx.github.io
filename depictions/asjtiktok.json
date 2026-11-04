@@ -21,28 +21,36 @@
           "itemSize": "{160, 347}",
           "screenshots": [
             {
-              "url": "https://ahmadrashed.com/screenshots/asjtok-1-privacy.jpg",
+              "url": "https://ahmadrashed.com/screenshots/asjtok-1-glass.jpg",
+              "accessibilityText": "Save it from the glass. Save and Clear display float over every video, and Save opens right out of the button."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtok-2-clear.jpg",
+              "accessibilityText": "Nothing but the video. Clear display hides everything. One tap on the glass eye brings it back."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtok-3-menu.jpg",
+              "accessibilityText": "One menu, all in glass. Save, copy, clear display and video details, from the button on every video."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtok-4-details.jpg",
+              "accessibilityText": "Every detail, one tap. Country, date, size and every count of any video."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtok-5-privacy.jpg",
               "accessibilityText": "Read it. They won't know. Hide views, typing and active status, and still see theirs."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/asjtok-2-save.jpg",
-              "accessibilityText": "Save any video, no watermark. Video, audio, profile pictures and more, from the button on every video."
+              "url": "https://ahmadrashed.com/screenshots/asjtok-6-feed.jpg",
+              "accessibilityText": "Your feed, your rules. No ads, no AI-generated posts, and exact numbers on every count."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/asjtok-3-clear.jpg",
-              "accessibilityText": "Nothing but the video. Clear display hides the whole interface in one tap."
+              "url": "https://ahmadrashed.com/screenshots/asjtok-7-profile.jpg",
+              "accessibilityText": "Look around, unseen. Visit profiles and watch stories without showing up, and see each story's views."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/asjtok-4-profile.jpg",
-              "accessibilityText": "Look around, unseen. View profiles and stories without showing up in their lists."
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/asjtok-5-feed.jpg",
-              "accessibilityText": "Your feed, your rules. No ads, no suggested accounts, or another country's For You."
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/asjtok-6-icons.jpg",
-              "accessibilityText": "Make it yours. Four app icons, including ASJTok's own, in the IPA and TrollStore builds."
+              "url": "https://ahmadrashed.com/screenshots/asjtok-8-comments.jpg",
+              "accessibilityText": "Every reply, at once. Up to 100 replies open by themselves, and photos in comments save in a tap."
             }
           ]
         },

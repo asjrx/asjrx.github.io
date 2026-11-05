@@ -10,13 +10,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.4
+Version: 1.4.1
 Installed-Size: 3224
-Filename: debs/ASJTok-1.4_47.6.0-rootful.deb
-Size: 931038
-MD5sum: f308d2c171b7f6cae23e335c9f56872a
-SHA1: 420ec4443a172e13b117fb4bcbd1a00786807878
-SHA256: 9e52daf4311811ae3fbf0a47561310e815aa061af2456f5ea01b9f36663cd480
+Filename: debs/ASJTok-1.4.1_47.6.0-rootful.deb
+Size: 934064
+MD5sum: 3f73f27ff1427e9c81fb012114cf267c
+SHA1: 61a380a661fd9a6ce4e01ac7d0531ed37a9030e9
+SHA256: aeed70fcb3a0ffbe3307a20be146ff619e16731fc9d80e3a9f7b40733e60c0f7
 
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTok (roothide)
@@ -32,13 +32,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.4
+Version: 1.4.1
 Installed-Size: 3224
-Filename: debs/ASJTok-1.4_47.6.0-roothide.deb
-Size: 930774
-MD5sum: 216a63717fec1b513ccf8ddd0b0af808
-SHA1: 0e3266eb6cf9b2e216754d755f05860643df2477
-SHA256: e9c02a33be6a9a16fc53da870fc069781fce13a5a266235cc187870249b2cbf4
+Filename: debs/ASJTok-1.4.1_47.6.0-roothide.deb
+Size: 932690
+MD5sum: 90a1aa1c9d95a8555651909842afe117
+SHA1: 5283f47b763edc217b679181da1c04ee4e269eb8
+SHA256: c7e523b84cc3d2f147e8f6521dfbe8be7c2cb05df30d50cbb4b85172dfc11f1f
 
 Package: com.ahmad.asjtiktok
 Name: ASJTok
@@ -52,13 +52,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.4
+Version: 1.4.1
 Installed-Size: 3224
-Filename: debs/ASJTok-1.4_47.6.0-rootless.deb
-Size: 930906
-MD5sum: 8d593f7ff0b8767634a09999b672c9ce
-SHA1: 402b38e84e4671568a368bf300f06a1aeecad75c
-SHA256: 265adc8927a93f91a765743ac952b908b71fcd0f3c527624db3079d7388a980e
+Filename: debs/ASJTok-1.4.1_47.6.0-rootless.deb
+Size: 933834
+MD5sum: 8c92fe86e93d2d85e3df253f72abf945
+SHA1: aed22ed157f4dd58a44afde5b9d576e45a013671
+SHA256: a6e20de03c4babab6ffbfe1880a0c711334d3cbe825d5f8493da74760b7a1afe
 
 Package: com.ahmad.asjtube
 Name: ASJTube

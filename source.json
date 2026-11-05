@@ -263,22 +263,22 @@
    "version": "47.6.0",
    "versionDate": "2026-11-05",
    "versionDescription": "",
-   "size": 533985801,
-   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0-plugins.ipa",
+   "size": 533988018,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0-plugins.ipa",
    "bundleID": "com.zhiliaoapp.musically",
-   "down": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0-plugins.ipa",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0-plugins.ipa",
    "icon": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
-   "fullDate": "20261105000325",
+   "fullDate": "20261105204708",
    "id": "ASJTikTok",
    "versions": [
     {
      "version": "47.6.0",
      "buildVersion": "476038",
      "date": "2026-11-05",
-     "localizedDescription": "This update contains the following changes:\n\n- Glass buttons on the video. Save and Clear display float over every video, and Save opens its menu right out of the button.\n- Every menu in glass. On every iOS, and TikTok's own panels too on iOS 26 and later.\n- Story views, app lock and profile backgrounds. See how many times a story was viewed, lock TikTok or only the Inbox, and set or remove a background behind your profile.\n- More than 30 new settings. Hide AI-generated posts, exact numbers, mute on launch, every reply at once, and more.\n- Fixes and improvements.",
-     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0-plugins.ipa",
-     "size": 533985801,
-     "sha256": "d9e5d381eacdb0faaf320585171cf5e603478bf4bea4fbe9092696b754070f0d",
+     "localizedDescription": "This update contains the following changes:\n\n- Comments send again. The keyboard's Send key posts your comment.\n- \"Follows you\" in Arabic. The badge shows on the new profile layout.\n- Opens on For You. TikTok no longer starts on Following, and For You no longer goes black.\n- Fixed a crash on iOS 26 and later. Opening TikTok's menus, like changing your profile background, no longer closes the app.\n- Fixes and improvements.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0-plugins.ipa",
+     "size": 533988018,
+     "sha256": "f458dfac6f8eba9bf1c96aa8a772ed29c1be6b2c829ece4b8d00060aa19f4cfb",
      "minOSVersion": "15.0"
     }
    ],
@@ -374,22 +374,22 @@
    "version": "47.6.0",
    "versionDate": "2026-11-05",
    "versionDescription": "",
-   "size": 518390789,
-   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0.ipa",
+   "size": 518393006,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0.ipa",
    "bundleID": "com.zhiliaoapp.musically",
-   "down": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0.ipa",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0.ipa",
    "icon": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
-   "fullDate": "20261105000325",
+   "fullDate": "20261105204708",
    "id": "ASJTikTok-NoPlugins",
    "versions": [
     {
      "version": "47.6.0",
      "buildVersion": "476038",
      "date": "2026-11-05",
-     "localizedDescription": "This update contains the following changes:\n\n- Glass buttons on the video. Save and Clear display float over every video, and Save opens its menu right out of the button.\n- Every menu in glass. On every iOS, and TikTok's own panels too on iOS 26 and later.\n- Story views, app lock and profile backgrounds. See how many times a story was viewed, lock TikTok or only the Inbox, and set or remove a background behind your profile.\n- More than 30 new settings. Hide AI-generated posts, exact numbers, mute on launch, every reply at once, and more.\n- Fixes and improvements.",
-     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0.ipa",
-     "size": 518390789,
-     "sha256": "26d2c0a2f7dac795dc52f9f2e7b2200e781288f04b35dafba064f5f07f81501c",
+     "localizedDescription": "This update contains the following changes:\n\n- Comments send again. The keyboard's Send key posts your comment.\n- \"Follows you\" in Arabic. The badge shows on the new profile layout.\n- Opens on For You. TikTok no longer starts on Following, and For You no longer goes black.\n- Fixed a crash on iOS 26 and later. Opening TikTok's menus, like changing your profile background, no longer closes the app.\n- Fixes and improvements.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0.ipa",
+     "size": 518393006,
+     "sha256": "cb1469662134513b9faaa8f517a4138538da807346e083b599968e8e836b9344",
      "minOSVersion": "15.0"
     }
    ],
@@ -429,7 +429,7 @@
  "sourceDescription": "ASJTube and ASJTok, ready to sign.",
  "sourceLinkTitle": "Website",
  "sourceLinkUrl": "https://ahmadrashed.com/",
- "sourceUpdateTime": "2026-11-05T00:03:25+0000",
+ "sourceUpdateTime": "2026-11-05T20:47:08+0000",
  "appRepositories": [
   {
    "appType": "SELF_SIGN",
@@ -456,9 +456,9 @@
    "appName": "ASJTok",
    "appVersion": "47.6.0",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
-   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0-plugins.ipa",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0-plugins.ipa",
    "appDescription": "This is the full version. It keeps TikTok's original bundle ID and all of its app extensions (widgets, share sheet, notifications, iMessage, Siri, Wallet and screen broadcast). Delete the original TikTok before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTok (No Plugins).\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
-   "appUpdateTime": "2026-11-05T00:03:25+0000",
+   "appUpdateTime": "2026-11-05T20:47:08+0000",
    "versionDate": "2026-11-05"
   },
   {
@@ -466,9 +466,9 @@
    "appName": "ASJTok (No Plugins)",
    "appVersion": "47.6.0",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtiktok.png",
-   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4_47.6.0.ipa",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTok-1.4.1_47.6.0.ipa",
    "appDescription": "This is an original version, it has TikTok's original bundle ID. Delete the original TikTok before installing. It has Plugins/Extensions removed so it can be signed with any certificate, including a free Apple ID.\n\nPrivacy, download and playback options for TikTok.\n\nOpen it from its own row in the profile menu, under ASJ tools at the end of TikTok's own list. Its options are in the long-press menu too. Requires iOS 15.0 or later.",
-   "appUpdateTime": "2026-11-05T00:03:25+0000",
+   "appUpdateTime": "2026-11-05T20:47:08+0000",
    "versionDate": "2026-11-05"
   }
  ]

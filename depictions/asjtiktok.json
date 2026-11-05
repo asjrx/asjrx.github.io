@@ -110,11 +110,11 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "What's new in 1.4"
+          "title": "What's new in 1.4.1"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **Glass buttons on the video.** Save and Clear display float over every video, and Save opens its menu right out of the button.\n- **Every menu in glass.** On every iOS, and TikTok's own panels too on iOS 26 and later.\n- **Story views, app lock and profile backgrounds.** See how many times a story was viewed, lock TikTok or only the Inbox, and set or remove a background behind your profile.\n- **More than 30 new settings.** Hide AI-generated posts, exact numbers, mute on launch, every reply at once, and more.\n- **Fixes and improvements.**"
+          "markdown": "- **Comments send again.** The keyboard's Send key posts your comment.\n- **\"Follows you\" in Arabic.** The badge shows on the new profile layout.\n- **Opens on For You.** TikTok no longer starts on Following, and For You no longer goes black.\n- **Fixed a crash on iOS 26 and later.** Opening TikTok's menus, like changing your profile background, no longer closes the app.\n- **Fixes and improvements.**"
         },
         {
           "class": "DepictionSeparatorView"
@@ -126,7 +126,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.4"
+          "text": "1.4.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -141,7 +141,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "931 KB"
+          "text": "934 KB"
         },
         {
           "class": "DepictionTableTextView",
@@ -207,6 +207,22 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.4.1"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "November 5, 2026",
+          "useBoldText": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Comments send again.** The keyboard's Send key posts your comment.\n- **\"Follows you\" in Arabic.** The badge shows on the new profile layout.\n- **Opens on For You.** TikTok no longer starts on Following, and For You no longer goes black.\n- **Fixed a crash on iOS 26 and later.** Opening TikTok's menus, like changing your profile background, no longer closes the app.\n- **Fixes and improvements.**"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.4"

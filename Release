@@ -6,13 +6,13 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Apps made easier.
-Date: Wed, 04 Nov 2026 23:28:20 GMT
+Date: Thu, 05 Nov 2026 19:55:34 GMT
 MD5Sum:
- 904bf58427198631e9d61b1a87a4576a 4524 Packages
- 711aac6a22186f9f8026582ebe04a04a 1124 Packages.gz
+ 18a748bef4b45999f1e25d3cc4dd7381 4536 Packages
+ 629cd3c04a926a70adcabe528b3b02df 1129 Packages.gz
 SHA1:
- c10a0cae1cfbec667d70674892f77ab44e4f39a0 4524 Packages
- dee3d19ce6aba0a44aee190a595cca897ae0462e 1124 Packages.gz
+ 4ded015473fe3fb6657248a9e1fd216905daa49a 4536 Packages
+ 5d6f8f14d84c4b4331cac5962f1ce1ae968bd03a 1129 Packages.gz
 SHA256:
- d7ae6967bc9c5c336eb9d210b93c43dcc35fb3c577fcd062ef38281f4bf2cd87 4524 Packages
- e60bcaedc82cdf03a8e4c1a90e80f38d1c6057701377e336d84fc3bfdd5ab27a 1124 Packages.gz
+ cc6b8d69383cedec7e2501ea312b07defe3e9d578e90ee4df0ac4364e0a06a45 4536 Packages
+ 102f8633e127679407558b75335cd9fd7dc96f131c03b246ab1dc92a870ee30b 1129 Packages.gz

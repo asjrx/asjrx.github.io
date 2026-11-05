@@ -10,13 +10,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 1.3
-Installed-Size: 2556
-Filename: debs/ASJTok-1.3_47.0.0-rootful.deb
-Size: 706038
-MD5sum: 98a6300910c9bdd497f2ae95d75dfe93
-SHA1: 32197730cf842372473eb6e8099ed91ddaa26bf3
-SHA256: 9c7b63164e357a9dda8d696c6aa154fd9ebff51a11a1333f47cf560a123408b8
+Version: 1.4
+Installed-Size: 3224
+Filename: debs/ASJTok-1.4_47.6.0-rootful.deb
+Size: 931038
+MD5sum: f308d2c171b7f6cae23e335c9f56872a
+SHA1: 420ec4443a172e13b117fb4bcbd1a00786807878
+SHA256: 9e52daf4311811ae3fbf0a47561310e815aa061af2456f5ea01b9f36663cd480
 
 Package: com.ahmad.asjtiktok.roothide
 Name: ASJTok (roothide)
@@ -32,13 +32,13 @@ Depends: mobilesubstrate
 Conflicts: com.ahmad.asjtiktok
 Replaces: com.ahmad.asjtiktok
 Architecture: iphoneos-arm64e
-Version: 1.3
-Installed-Size: 2556
-Filename: debs/ASJTok-1.3_47.0.0-roothide.deb
-Size: 704924
-MD5sum: e8769ddb2873af40f1192c41075d8ea7
-SHA1: 125050346cd76a116472ade083fdccad689d603d
-SHA256: 91d00400b6ed4c4de03ed5c218b406c03a35fa34292e0b569f39d3fb93450d54
+Version: 1.4
+Installed-Size: 3224
+Filename: debs/ASJTok-1.4_47.6.0-roothide.deb
+Size: 930774
+MD5sum: 216a63717fec1b513ccf8ddd0b0af808
+SHA1: 0e3266eb6cf9b2e216754d755f05860643df2477
+SHA256: e9c02a33be6a9a16fc53da870fc069781fce13a5a266235cc187870249b2cbf4
 
 Package: com.ahmad.asjtiktok
 Name: ASJTok
@@ -52,13 +52,13 @@ Section: Tweaks
 Tag: role::enduser
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.3
-Installed-Size: 2556
-Filename: debs/ASJTok-1.3_47.0.0-rootless.deb
-Size: 705522
-MD5sum: d041289a9d67c1bf527ca0b8dda2b005
-SHA1: 03cee1b1c3dfb79dfdf66bb05316bedf4cc941c5
-SHA256: d2b4069ef02516440c68f5da6185b525c936caa81ccaa6330d9232aacfad00db
+Version: 1.4
+Installed-Size: 3224
+Filename: debs/ASJTok-1.4_47.6.0-rootless.deb
+Size: 930906
+MD5sum: 8d593f7ff0b8767634a09999b672c9ce
+SHA1: 402b38e84e4671568a368bf300f06a1aeecad75c
+SHA256: 265adc8927a93f91a765743ac952b908b71fcd0f3c527624db3079d7388a980e
 
 Package: com.ahmad.asjtube
 Name: ASJTube

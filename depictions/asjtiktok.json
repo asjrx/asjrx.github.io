@@ -110,11 +110,11 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "What's new in 1.3"
+          "title": "What's new in 1.4"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **ASJTikTok is now ASJTok.** Same tweak, same settings.\n- **Change the app icon.** Four icons, including ASJTok's own — in the IPA and TrollStore builds.\n- **Opens like TikTok's own settings.** From the profile menu, with a back arrow and a swipe back.\n- **Audio files sent back to back are fixed.** The second one could go out as a microphone recording.\n- **Send the sound of a video from Photos.** Next to Files, behind the chat bar button.\n- **Marking a story as seen is instant.** The ring turns grey right away, and stories you didn't mark stay unseen.\n- **The video count is back on profiles.**\n- **Hide the ASJ button or TikTok's Tako button.** Two new switches in Feed settings.\n- General improvements and fixes."
+          "markdown": "- **Glass buttons on the video.** Save and Clear display float over every video, and Save opens its menu right out of the button.\n- **Every menu in glass.** On every iOS, and TikTok's own panels too on iOS 26 and later.\n- **Story views, app lock and profile backgrounds.** See how many times a story was viewed, lock TikTok or only the Inbox, and set or remove a background behind your profile.\n- **More than 30 new settings.** Hide AI-generated posts, exact numbers, mute on launch, every reply at once, and more.\n- **Fixes and improvements.**"
         },
         {
           "class": "DepictionSeparatorView"
@@ -126,12 +126,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.3"
+          "text": "1.4"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "September 29, 2026"
+          "text": "November 5, 2026"
         },
         {
           "class": "DepictionTableTextView",
@@ -141,7 +141,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "706 KB"
+          "text": "931 KB"
         },
         {
           "class": "DepictionTableTextView",
@@ -207,6 +207,22 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.4"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "November 5, 2026",
+          "useBoldText": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Glass buttons on the video.** Save and Clear display float over every video, and Save opens its menu right out of the button.\n- **Every menu in glass.** On every iOS, and TikTok's own panels too on iOS 26 and later.\n- **Story views, app lock and profile backgrounds.** See how many times a story was viewed, lock TikTok or only the Inbox, and set or remove a background behind your profile.\n- **More than 30 new settings.** Hide AI-generated posts, exact numbers, mute on launch, every reply at once, and more.\n- **Fixes and improvements.**"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.3"

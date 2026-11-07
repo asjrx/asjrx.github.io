@@ -26,63 +26,75 @@
    "category": "photo-video",
    "screenshots": [
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-1-4k.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-1-library.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-2-music.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-2-glass.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-3-playlist.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-3-music.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-4-library.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-4-playlist.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-5-shorts.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-5-player.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-6-clear.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-6-sleep.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-7-search.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-8-settings.jpg",
      "width": 750,
      "height": 1626
     }
    ],
    "screenshotURLs": [
-    "https://ahmadrashed.com/screenshots/asjtube-1-4k.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-2-music.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-3-playlist.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-4-library.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-5-shorts.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-6-clear.jpg"
+    "https://ahmadrashed.com/screenshots/asjtube-1-library.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-2-glass.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-3-music.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-4-playlist.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-5-player.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-6-sleep.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-7-search.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-8-settings.jpg"
    ],
-   "version": "21.39.4",
-   "versionDate": "2026-10-03",
+   "version": "21.44.4",
+   "versionDate": "2026-11-07",
    "versionDescription": "",
-   "size": 160143629,
-   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4-plugins.ipa",
+   "size": 152750691,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4-plugins.ipa",
    "bundleID": "com.google.ios.youtube",
-   "down": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4-plugins.ipa",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4-plugins.ipa",
    "icon": "https://ahmadrashed.com/icons/ipa/asjtube.png",
-   "fullDate": "20261003232134",
+   "fullDate": "20261107000004",
    "id": "ASJTube",
    "versions": [
     {
-     "version": "21.39.4",
-     "buildVersion": "21.39.4",
-     "date": "2026-10-03",
-     "localizedDescription": "This update contains the following changes:\n\n- Download a whole playlist. Paste its link in My library — videos you already have are skipped.\n- YouTube Music in the library search. Play any song, or save it as audio.\n- Also new: sleep timer, SponsorBlock, an app icon picker, and switches for the channel watermark and the still-watching prompt.\n- The ASJ tab opens ASJTube's settings again.\n- Works with the newest YouTube, 21.39.4.\n- General improvements and fixes.",
-     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4-plugins.ipa",
-     "size": 160143629,
-     "sha256": "845fcdb14faacf5fc88992d1025ee317c995f78a2cb973295fa877f13169af90",
+     "version": "21.44.4",
+     "buildVersion": "21.44.4",
+     "date": "2026-11-07",
+     "localizedDescription": "This update contains the following changes:\n\n- Works with the newest YouTube, 21.44.4.\n- iPhone Duo. YouTube's own layout for the folding iPhone, folded and open.\n- YouTube's new glass look, on by default — or a fixed tab bar along the bottom, your choice.\n- No Shorts in search results when Hide Shorts is on.\n- Download Video, Download Audio and Download Photo, side by side in every video's menu.\n- Clearer settings names, and the small player now sits above the tab bar.\n- General improvements and fixes.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4-plugins.ipa",
+     "size": 152750691,
+     "sha256": "d4b0aa3df2457bb6bffcd955cb4223204f60575183cecdd46a5605aea1eb8edc",
      "minOSVersion": "17.0"
     }
    ],
@@ -119,63 +131,75 @@
    "category": "photo-video",
    "screenshots": [
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-1-4k.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-1-library.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-2-music.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-2-glass.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-3-playlist.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-3-music.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-4-library.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-4-playlist.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-5-shorts.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-5-player.jpg",
      "width": 750,
      "height": 1626
     },
     {
-     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-6-clear.jpg",
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-6-sleep.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-7-search.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjtube-8-settings.jpg",
      "width": 750,
      "height": 1626
     }
    ],
    "screenshotURLs": [
-    "https://ahmadrashed.com/screenshots/asjtube-1-4k.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-2-music.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-3-playlist.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-4-library.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-5-shorts.jpg",
-    "https://ahmadrashed.com/screenshots/asjtube-6-clear.jpg"
+    "https://ahmadrashed.com/screenshots/asjtube-1-library.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-2-glass.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-3-music.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-4-playlist.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-5-player.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-6-sleep.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-7-search.jpg",
+    "https://ahmadrashed.com/screenshots/asjtube-8-settings.jpg"
    ],
-   "version": "21.39.4",
-   "versionDate": "2026-10-03",
+   "version": "21.44.4",
+   "versionDate": "2026-11-07",
    "versionDescription": "",
-   "size": 147923687,
-   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4.ipa",
+   "size": 144976708,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4.ipa",
    "bundleID": "com.google.ios.youtube",
-   "down": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4.ipa",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4.ipa",
    "icon": "https://ahmadrashed.com/icons/ipa/asjtube.png",
-   "fullDate": "20261003232134",
+   "fullDate": "20261107000004",
    "id": "ASJTube-NoPlugins",
    "versions": [
     {
-     "version": "21.39.4",
-     "buildVersion": "21.39.4",
-     "date": "2026-10-03",
-     "localizedDescription": "This update contains the following changes:\n\n- Download a whole playlist. Paste its link in My library — videos you already have are skipped.\n- YouTube Music in the library search. Play any song, or save it as audio.\n- Also new: sleep timer, SponsorBlock, an app icon picker, and switches for the channel watermark and the still-watching prompt.\n- The ASJ tab opens ASJTube's settings again.\n- Works with the newest YouTube, 21.39.4.\n- General improvements and fixes.",
-     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4.ipa",
-     "size": 147923687,
-     "sha256": "1e74171f858fd587b4b9fdc3f25a05330de29e796ea2fa2593fcbc853116e6da",
+     "version": "21.44.4",
+     "buildVersion": "21.44.4",
+     "date": "2026-11-07",
+     "localizedDescription": "This update contains the following changes:\n\n- Works with the newest YouTube, 21.44.4.\n- iPhone Duo. YouTube's own layout for the folding iPhone, folded and open.\n- YouTube's new glass look, on by default — or a fixed tab bar along the bottom, your choice.\n- No Shorts in search results when Hide Shorts is on.\n- Download Video, Download Audio and Download Photo, side by side in every video's menu.\n- Clearer settings names, and the small player now sits above the tab bar.\n- General improvements and fixes.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4.ipa",
+     "size": 144976708,
+     "sha256": "a42e0413f97f3bf5826dec46771875f847489f4547ca4422b7437bf183ec9824",
      "minOSVersion": "17.0"
     }
    ],
@@ -429,27 +453,27 @@
  "sourceDescription": "ASJTube and ASJTok, ready to sign.",
  "sourceLinkTitle": "Website",
  "sourceLinkUrl": "https://ahmadrashed.com/",
- "sourceUpdateTime": "2026-11-05T20:47:08+0000",
+ "sourceUpdateTime": "2026-11-07T00:00:04+0000",
  "appRepositories": [
   {
    "appType": "SELF_SIGN",
    "appName": "ASJTube",
-   "appVersion": "21.39.4",
+   "appVersion": "21.44.4",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtube.png",
-   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4-plugins.ipa",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4-plugins.ipa",
    "appDescription": "This is the full version. It keeps YouTube's original bundle ID and all of its app extensions (widgets, share sheet, notifications and Siri). Delete the original YouTube before installing. Your certificate has to be able to sign app extensions; if the install fails, use ASJTube (No Plugins).\n\nDownloads, background audio and an ad-free YouTube — without changing how the app looks.\n\nEverything lives in one place: an ASJTube tab in YouTube's own bar.\n\nRequires iOS 17.0 or later.",
-   "appUpdateTime": "2026-10-03T23:21:34+0000",
-   "versionDate": "2026-10-03"
+   "appUpdateTime": "2026-11-07T00:00:04+0000",
+   "versionDate": "2026-11-07"
   },
   {
    "appType": "SELF_SIGN",
    "appName": "ASJTube (No Plugins)",
-   "appVersion": "21.39.4",
+   "appVersion": "21.44.4",
    "appImage": "https://ahmadrashed.com/icons/ipa/asjtube.png",
-   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.4_21.39.4.ipa",
+   "appPackage": "https://cdn.ahmadrashed.com/ipa/ASJTube-1.5_21.44.4.ipa",
    "appDescription": "This is an original version, it has YouTube's original bundle ID. Delete the original YouTube before installing. It has Plugins/Extensions removed so it can be signed with any certificate, including a free Apple ID.\n\nDownloads, background audio and an ad-free YouTube — without changing how the app looks.\n\nEverything lives in one place: an ASJTube tab in YouTube's own bar.\n\nRequires iOS 17.0 or later.",
-   "appUpdateTime": "2026-10-03T23:21:34+0000",
-   "versionDate": "2026-10-03"
+   "appUpdateTime": "2026-11-07T00:00:04+0000",
+   "versionDate": "2026-11-07"
   },
   {
    "appType": "SELF_SIGN",

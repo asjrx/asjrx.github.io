@@ -21,28 +21,36 @@
           "itemSize": "{160, 347}",
           "screenshots": [
             {
-              "url": "https://ahmadrashed.com/screenshots/asjtube-1-4k.jpg",
-              "accessibilityText": "Save any video, up to 4K. Every quality it has, with the size shown before you tap."
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/asjtube-2-music.jpg",
-              "accessibilityText": "YouTube Music, built in. Find any song from the library search, then play it or save it as audio."
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/asjtube-3-playlist.jpg",
-              "accessibilityText": "Whole playlists, in one go. Paste a playlist link; videos you already have are skipped."
-            },
-            {
-              "url": "https://ahmadrashed.com/screenshots/asjtube-4-library.jpg",
+              "url": "https://ahmadrashed.com/screenshots/asjtube-1-library.jpg",
               "accessibilityText": "Your own library. What you saved, laid out like Home, with playlists, Watch later and search."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/asjtube-5-shorts.jpg",
-              "accessibilityText": "Shorts, saved your way. Video, audio or photo, from the button on every Short."
+              "url": "https://ahmadrashed.com/screenshots/asjtube-2-glass.jpg",
+              "accessibilityText": "The new glass look. YouTube's Liquid Glass design, switched on, with downloads in its own menus."
             },
             {
-              "url": "https://ahmadrashed.com/screenshots/asjtube-6-clear.jpg",
-              "accessibilityText": "Nothing but the video. Clear Mode hides the whole interface on a Short, in one tap."
+              "url": "https://ahmadrashed.com/screenshots/asjtube-3-music.jpg",
+              "accessibilityText": "YouTube Music, built in. Find any song from the library search. Play it, or save it as audio."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtube-4-playlist.jpg",
+              "accessibilityText": "Whole playlists, in one go. Paste a playlist link. Videos you already have are skipped."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtube-5-player.jpg",
+              "accessibilityText": "Keeps playing, screen off. Background audio for everything you saved, with a queue to play next."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtube-6-sleep.jpg",
+              "accessibilityText": "Fall asleep to it. A sleep timer from 10 minutes to an hour, or to the end of the video."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtube-7-search.jpg",
+              "accessibilityText": "Search, no Shorts. Only real videos in your results, with no Shorts shelf in between."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjtube-8-settings.jpg",
+              "accessibilityText": "All in one tab. Liquid Glass, a fixed bar, Face ID and more, in YouTube's own style."
             }
           ]
         },
@@ -86,11 +94,11 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "What's new in 1.4"
+          "title": "What's new in 1.5"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **Download a whole playlist.** Paste its link in My library — videos you already have are skipped.\n- **YouTube Music in the library search.** Play any song, or save it as audio.\n- **Also new:** sleep timer, SponsorBlock, an app icon picker, and switches for the channel watermark and the still-watching prompt.\n- **The ASJ tab opens ASJTube's settings again.**\n- **Works with the newest YouTube, 21.39.4.**\n- **General improvements and fixes.**"
+          "markdown": "- **Works with the newest YouTube, 21.44.4.**\n- **iPhone Duo.** YouTube's own layout for the folding iPhone, folded and open.\n- **YouTube's new glass look, on by default** — or a fixed tab bar along the bottom, your choice.\n- **No Shorts in search results** when Hide Shorts is on.\n- **Download Video, Download Audio and Download Photo**, side by side in every video's menu.\n- **Clearer settings names**, and the small player now sits above the tab bar.\n- **General improvements and fixes.**"
         },
         {
           "class": "DepictionSeparatorView"
@@ -102,12 +110,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.4"
+          "text": "1.5"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "October 3, 2026"
+          "text": "November 7, 2026"
         },
         {
           "class": "DepictionTableTextView",
@@ -183,6 +191,22 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.5"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "November 7, 2026",
+          "useBoldText": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Works with the newest YouTube, 21.44.4.**\n- **iPhone Duo.** YouTube's own layout for the folding iPhone, folded and open.\n- **YouTube's new glass look, on by default** — or a fixed tab bar along the bottom, your choice.\n- **No Shorts in search results** when Hide Shorts is on.\n- **Download Video, Download Audio and Download Photo**, side by side in every video's menu.\n- **Clearer settings names**, and the small player now sits above the tab bar.\n- **General improvements and fixes.**"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.4"

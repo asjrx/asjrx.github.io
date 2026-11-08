@@ -624,3 +624,21 @@ a.supporter:active { background: var(--chip); }
   .shots { margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); gap: 12px; }
   .shots img { width: min(62vw, 250px); border-radius: 22px; }
 }
+
+/* the ASJWhats linking guide (/help/asjwhats-notifications/): the install page's pick-your-way, two ways; each step's card
+   holds its text and, beside it, the screens it talks about - drawn as the app pages' pictures are (.shots img) */
+.paths.two { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 640px; margin-inline: auto; }
+.paths.two .path { align-content: start; }   /* the two titles on one line, whatever the line under each */
+.path .ico svg { width: 34px; height: 34px; padding: 7px; border-radius: 10px; color: #fff; background: var(--grad); }
+.route.guide.on { grid-template-columns: minmax(0, 1fr); max-width: 1000px; margin-inline: auto; }
+.gstep { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 36px; align-items: center; }
+.snaps { display: flex; gap: 14px; }
+.snaps img { display: block; width: 220px; height: auto; border-radius: 22px; border: 1px solid var(--line); box-shadow: var(--shadow); background: #09080D; }
+.gnote { max-width: 1000px; margin: 26px auto 0; }
+@media (max-width: 860px) {
+  .gstep { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .snaps { justify-content: center; }
+  .snaps img { width: calc(50% - 7px); max-width: 240px; border-radius: 20px; }
+}
+@media (max-width: 560px) { .path .ico svg { width: 28px; height: 28px; padding: 5px; border-radius: 8px; } }
+@media (max-width: 340px) { .paths.two { grid-template-columns: 1fr; } }

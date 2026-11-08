@@ -46,5 +46,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Brand icons (Telegram, X, GitHub, Ko-fi, PayPal, YouTube, TikTok): Simple Icons 16.32.0, CC0-1.0.
+Brand icons (Telegram, X, GitHub, Ko-fi, PayPal, YouTube, TikTok, WhatsApp): Simple Icons 16.32.0, CC0-1.0.
 Each brand icon is a trademark of its owner and is used only to link to or name that service.

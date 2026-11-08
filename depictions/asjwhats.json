@@ -1,0 +1,247 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://ahmadrashed.com/depictions/banner-whatsapp.png",
+  "tintColor": "#1DAA61",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Privacy, statuses, backup and chat options for WhatsApp** — without changing how the app looks.\n\nOpen it from its own **ASJWhats** row in WhatsApp's Settings, right under your profile."
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 10,
+          "itemSize": "{160, 347}",
+          "screenshots": [
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-1-privacy.jpg",
+              "accessibilityText": "Seen only when you choose. Freeze your last seen, hide typing and recording, and hold back blue ticks."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-2-deleted.jpg",
+              "accessibilityText": "Deleted messages stay. Keep what others delete, and see what an edited message first said."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-3-status.jpg",
+              "accessibilityText": "Watch statuses, unseen. Send the view only when you want to, and keep the statuses you like."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-4-updates.jpg",
+              "accessibilityText": "See what changed, as it happens. New profile pictures, statuses, About and group changes, kept in one timeline."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-5-online.jpg",
+              "accessibilityText": "Know when they're online. Alerts when a contact comes online, goes offline or starts typing, if they share their last seen."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-6-plus.jpg",
+              "accessibilityText": "Icons, themes and Liquid Glass. WhatsApp Plus's icons and themes, and WhatsApp's new glass design."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-7-backup.jpg",
+              "accessibilityText": "Your chats, backed up privately. Encrypted with your own password and kept on your phone. No iCloud, no Google."
+            },
+            {
+              "url": "https://ahmadrashed.com/screenshots/asjwhats-8-notifications.jpg",
+              "accessibilityText": "Messages that always arrive. Keeps a sideloaded WhatsApp running so new messages still come in. Uses more battery."
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Privacy"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Freeze last seen** — contacts never see you active\n- **No blue ticks** — send them when you reply, when you type, or with a Read button\n- Hide typing and recording, and turn off delivery receipts\n- **View once, kept** — replay it, and screenshot or record it without alerting\n- Privacy per contact, quick privacy controls, and a switch that cuts WhatsApp off the network"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Messages and calls"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Keep deleted messages** — marked with an icon\n- **See what an edited message first said**\n- Forward to 20 chats, without the Forwarded label\n- Pin up to 20 chats, and keep archived chats in the archive\n- Message any number without saving it\n- Block incoming calls from everyone or from the contacts you choose, and **record calls** on your phone only\n- Confirm before calling, hide the call buttons, send with Return, tap to record voice notes"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Statuses and updates"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Watch statuses unseen** — send the view only when you want to\n- Save any status, and keep the ones that get deleted\n- **Updates timeline** — new profile pictures, statuses, About and group changes, as they happen\n- Every status you post kept, with its viewers\n- Statuses at the top of Chats, and long videos split into parts for your status"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Contact alerts"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Know when they're online** — an alert when a contact comes online, goes offline or starts typing\n- **Contact tracking** — when they came online, when they left and how long they stayed\n- Online dots in chats, and last seen in the chat list\n- Every alert in one log\n- For contacts who share their last seen"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Media"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Always send HD** photos and videos\n- Pick unlimited photos, and select all in a chat's media\n- Save profile pictures, and export voice messages\n- Longer GIFs, and a forward button in the media viewer\n- **More in the + menu** — a screenshot of the whole chat, images and GIFs from the web, photos sent as documents"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Look"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **WhatsApp Plus** — 14 app icons, accent colours for the app and chats, and call ringtones\n- **Liquid Glass** — WhatsApp's new glass design\n- Small titles, no status bar, portrait only\n- Hide tab badges, the Meta AI button and more\n- Seconds on every time, and normal-size emoji"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Security and backup"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **App lock** with Face ID, Touch ID or passcode — for WhatsApp, archived chats and starred messages\n- Lock any chat, and cover WhatsApp in the app switcher\n- **Encrypted chat backup** — with your own password, kept on your phone. No iCloud, no Google"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extras"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Private notifications** — hide who wrote and what they wrote\n- **Messages that always arrive** on a sideloaded WhatsApp\n- **Fake location** — share any place you pick on the map\n- Show a name and photo you choose for specific numbers, on your phone only\n- **Search every option**, in English or Arabic\n- English and Arabic — follows WhatsApp's own language"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "What's new in 1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **First release.** Privacy, statuses, backup and chat options for WhatsApp, in English and Arabic.\n- **Ready for WhatsApp updates.** An option a new WhatsApp no longer has is left out instead of crashing it, and three crashes in a row start WhatsApp in safe mode."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Updated",
+          "text": "November 8, 2026"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Supports",
+          "text": "iOS 15.1+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Size",
+          "text": "910 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "Ahmad Rashed"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Not jailbroken? Get it for TrollStore",
+          "action": "https://ahmadrashed.com/trollstore/whatsapp",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Links"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Telegram",
+          "action": "https://t.me/ASJTweaks",
+          "tintColor": "#6C48E9"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Website",
+          "action": "https://ahmadrashed.com",
+          "tintColor": "#963AE0"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Support the work",
+          "action": "https://ahmadrashed.com/donate",
+          "tintColor": "#C02BD6"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Email",
+          "action": "mailto:support@ahmadrashed.com",
+          "tintColor": "#F1478F"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "GitHub",
+          "action": "https://github.com/asjrx/ASJWhats",
+          "tintColor": "#636366"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "X",
+          "action": "https://x.com/asjrxx",
+          "tintColor": "#3A3A3C"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 20
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "November 8, 2026",
+          "useBoldText": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **First release.** Privacy, statuses, backup and chat options for WhatsApp, in English and Arabic.\n- **Ready for WhatsApp updates.** An option a new WhatsApp no longer has is left out instead of crashing it, and three crashes in a row start WhatsApp in safe mode."
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 20
+        }
+      ]
+    }
+  ],
+  "class": "DepictionTabView"
+}

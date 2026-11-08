@@ -121,3 +121,65 @@ Size: 1594168
 MD5sum: 8f8a04faa2e9c1a0fe30a1e03ea51cc0
 SHA1: 16284c53d4a86b9c0077aa6bb20da0e299b53d6a
 SHA256: d99f84675a6b731821a7699b5ac180cfbb25bd53553c0dc48d35210560c6b68a
+
+Package: com.ahmad.asjwa
+Name: ASJWhats
+Description: Privacy, statuses, backup and chat options for WhatsApp
+Depiction: https://ahmadrashed.com/depictions/asjwhats.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjwhats.json
+Icon: https://ahmadrashed.com/icons/apps/asjwhats.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
+Section: Tweaks
+Tag: role::enduser
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 1.0
+Installed-Size: 3956
+Filename: debs/ASJWhats-1.0_26.43.75-rootful.deb
+Size: 914112
+MD5sum: 5c0f486f5227676cbbf5802e41da1097
+SHA1: de7c6128af53020d7b5c51754bb2d63474a6cafa
+SHA256: 0cb1b688463fc09462989eab9fb544b454dc4db0081665575b345a78dd924a14
+
+Package: com.ahmad.asjwa.roothide
+Name: ASJWhats (roothide)
+Description: Privacy, statuses, backup and chat options for WhatsApp
+Depiction: https://ahmadrashed.com/depictions/asjwhats.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjwhats.json
+Icon: https://ahmadrashed.com/icons/apps/asjwhats.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
+Section: Tweaks
+Tag: role::enduser
+Depends: mobilesubstrate
+Conflicts: com.ahmad.asjwa
+Replaces: com.ahmad.asjwa
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 3956
+Filename: debs/ASJWhats-1.0_26.43.75-roothide.deb
+Size: 909002
+MD5sum: eee68eb5f1027fed14ea44ff9eed1c06
+SHA1: ac76b53df3b953a7943d7d55314fa4ee0ff5a31c
+SHA256: 29b6d7439ba566a73abbc21a1bcdf23aec0b32abd23c05ee1ea2851112814f1f
+
+Package: com.ahmad.asjwa
+Name: ASJWhats
+Description: Privacy, statuses, backup and chat options for WhatsApp
+Depiction: https://ahmadrashed.com/depictions/asjwhats.html
+SileoDepiction: https://ahmadrashed.com/depictions/asjwhats.json
+Icon: https://ahmadrashed.com/icons/apps/asjwhats.png
+Author: Ahmad Rashed <support@ahmadrashed.com>
+Maintainer: Ahmad Rashed <support@ahmadrashed.com>
+Section: Tweaks
+Tag: role::enduser
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 3956
+Filename: debs/ASJWhats-1.0_26.43.75-rootless.deb
+Size: 910276
+MD5sum: 4bd9a8b84dabafe6512d2785a7c46996
+SHA1: e75dab1bab8b75402a286067d6d320d0f4fa7e79
+SHA256: b923047be84fef131057806104cf11d299da8b5b7acc0aad4578587ebeff235f

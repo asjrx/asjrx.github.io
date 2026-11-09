@@ -117,7 +117,7 @@
     }
    },
    "asjExtensions": false,
-   "sortId": 3
+   "sortId": 4
   },
   {
    "name": "ASJTok (No Plugins)",
@@ -225,10 +225,10 @@
     }
    },
    "asjExtensions": false,
-   "sortId": 2
+   "sortId": 3
   },
   {
-   "name": "ASJWhats (No Plugins)",
+   "name": "ASJWhats",
    "bundleIdentifier": "net.whatsapp.WhatsApp",
    "developerName": "Ahmad Rashed",
    "subtitle": "Privacy, statuses, backup and chat options for WhatsApp",
@@ -337,6 +337,119 @@
     }
    },
    "asjExtensions": false,
+   "sortId": 2
+  },
+  {
+   "name": "ASJWhats (Duplicate)",
+   "bundleIdentifier": "com.ahmadrashed.asj",
+   "developerName": "Ahmad Rashed",
+   "subtitle": "Privacy, statuses, backup and chat options for WhatsApp",
+   "localizedDescription": "This is a duplicate version, with its own bundle ID (com.ahmadrashed.asj), so it installs next to the original WhatsApp - there is no need to delete it. It has Plugins/Extensions removed so it can be signed with any certificate, including a free Apple ID.\n\nPrivacy, statuses, backup and chat options for WhatsApp.\n\nOpen it from its own ASJWhats row in WhatsApp's Settings, right under your profile. Requires iOS 15.1 or later.",
+   "iconURL": "https://ahmadrashed.com/icons/ipa/asjwhats.png",
+   "tintColor": "1DAA61",
+   "category": "social",
+   "screenshots": [
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-1-privacy.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-2-deleted.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-3-status.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-4-updates.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-5-online.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-6-plus.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-7-backup.jpg",
+     "width": 750,
+     "height": 1626
+    },
+    {
+     "imageURL": "https://ahmadrashed.com/screenshots/asjwhats-8-notifications.jpg",
+     "width": 750,
+     "height": 1626
+    }
+   ],
+   "screenshotURLs": [
+    "https://ahmadrashed.com/screenshots/asjwhats-1-privacy.jpg",
+    "https://ahmadrashed.com/screenshots/asjwhats-2-deleted.jpg",
+    "https://ahmadrashed.com/screenshots/asjwhats-3-status.jpg",
+    "https://ahmadrashed.com/screenshots/asjwhats-4-updates.jpg",
+    "https://ahmadrashed.com/screenshots/asjwhats-5-online.jpg",
+    "https://ahmadrashed.com/screenshots/asjwhats-6-plus.jpg",
+    "https://ahmadrashed.com/screenshots/asjwhats-7-backup.jpg",
+    "https://ahmadrashed.com/screenshots/asjwhats-8-notifications.jpg"
+   ],
+   "version": "26.43.75",
+   "versionDate": "2026-11-08",
+   "versionDescription": "",
+   "size": 165479386,
+   "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJWhats-1.0_26.43.75-duplicate.ipa",
+   "bundleID": "com.ahmadrashed.asj",
+   "down": "https://cdn.ahmadrashed.com/ipa/ASJWhats-1.0_26.43.75-duplicate.ipa",
+   "icon": "https://ahmadrashed.com/icons/ipa/asjwhats.png",
+   "fullDate": "20261108015101",
+   "id": "ASJWhats-Duplicate",
+   "versions": [
+    {
+     "version": "26.43.75",
+     "buildVersion": "1104102848",
+     "date": "2026-11-08",
+     "localizedDescription": "This update contains the following changes:\n\n- First release. Privacy, statuses, backup and chat options for WhatsApp, in English and Arabic.\n- Ready for WhatsApp updates. An option a new WhatsApp no longer has is left out instead of crashing it, and three crashes in a row start WhatsApp in safe mode.",
+     "downloadURL": "https://cdn.ahmadrashed.com/ipa/ASJWhats-1.0_26.43.75-duplicate.ipa",
+     "size": 165479386,
+     "sha256": "a339699d0db8d33ebf16e53ef18935ac174ac9b545067fcba5f4f83c1dcc1373",
+     "minOSVersion": "15.1"
+    }
+   ],
+   "appPermissions": {
+    "entitlements": [
+     "aps-environment",
+     "get-task-allow"
+    ],
+    "privacy": {
+     "NSBluetoothAlwaysUsageDescription": "This lets you connect to supported Bluetooth devices",
+     "NSBluetoothPeripheralUsageDescription": "This lets you connect to supported Bluetooth devices",
+     "NSCalendarsUsageDescription": "‎This lets you create events on your calendar.",
+     "NSCameraUsageDescription": "‎This lets you make video calls, take photos, and record videos.",
+     "NSContactsUsageDescription": "‎Upload your contacts to WhatsApp's servers to help you quickly get in touch with your friends and help us provide a better experience.",
+     "NSFaceIDUsageDescription": "‎Use Face ID to authenticate on WhatsApp.",
+     "NSLocalNetworkUsageDescription": "‎This will let you use WhatsApp to place and receive calls through devices that are on the same Wi-Fi or local access networks.",
+     "NSLocationAlwaysAndWhenInUseUsageDescription": "‎If you always allow access to your location, you can choose to share your live location, and it will update even when you're not using the app. If you only allow access while using the app, you can only send your current location or a nearby place.",
+     "NSLocationAlwaysUsageDescription": "‎If you always allow access to your location, you can choose to share your live location, and it will update even when you're not using the app. This also lets you send your current location or a nearby place.",
+     "NSLocationTemporaryUsageDescriptionDictionary": "‎You'll be able to see your precise location and share it to the chat",
+     "NSLocationUsageDescription": "‎This lets you send your current location or nearby places in chats.",
+     "NSLocationWhenInUseUsageDescription": "‎This lets you send your current location or nearby places in chats.",
+     "NSMicrophoneUsageDescription": "‎This lets you make calls, send voice messages, and record videos with sound.",
+     "NSPhotoLibraryAddUsageDescription": "‎This lets you save photos and videos to your library.",
+     "NSPhotoLibraryUsageDescription": "‎This lets you send photos and videos from your library and save the ones you capture.",
+     "NSRemindersUsageDescription": "‎This lets you set reminders to call your friends back.",
+     "NSSiriUsageDescription": "‎This lets you use Siri to quickly send and read messages and make calls.",
+     "NSSpeechRecognitionUsageDescription": "WhatsApp does on-device recognition for Voice Messages. In this mode, no voice data is sent to Apple despite this alert, which is unexpected. Select \"Don't Allow\" and report to WhatsApp."
+    }
+   },
+   "asjExtensions": false,
+   "asjDuplicateOf": "net.whatsapp.WhatsApp",
    "sortId": 1
   }
  ],
